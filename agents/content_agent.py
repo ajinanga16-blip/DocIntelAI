@@ -8,22 +8,26 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-def generate_documentation(feature_description, document_type):
+
+def generate_documentation(
+    feature_description,
+    document_type
+):
 
     prompt = f"""
 You are an expert Technical Writer.
 
-Create a professional {document_type}.
+Follow the instructions exactly.
 
-Feature Description:
+Use the required structure and headings exactly as provided.
+
+Do not rename headings.
+
+Do not omit sections.
+
+Generate markdown output.
 
 {feature_description}
-
-Requirements:
-- Clear structure
-- End-user focused
-- Professional tone
-- Markdown format
 """
 
     response = client.chat.completions.create(

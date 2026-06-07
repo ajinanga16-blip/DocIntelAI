@@ -1,4 +1,14 @@
 from agents.content_agent import generate_documentation
+
+from agents.jira_agent import fetch_jira_ticket
+
+from agents.jira_intelligence_agent import (
+    build_structured_requirements
+)
+
+from agents.documentation_agent import (
+    generate_documentation_from_requirements
+)
 import streamlit as st
 
 st.set_page_config(
@@ -42,9 +52,12 @@ elif page == "Generate Docs":
 
     st.title("📝 Generate Documentation")
 
-    feature_description = st.text_area(
-        "Feature Description",
-        height=200
+    source_type = st.radio(
+        "Source Type",
+        [
+            "Manual Input",
+            "JIRA Ticket"
+        ]
     )
 
     document_type = st.selectbox(
@@ -53,20 +66,109 @@ elif page == "Generate Docs":
             "User Guide",
             "FAQ",
             "Release Notes",
-            "Knowledge Base"
+            "Knowledge Base",
+            "Quick Start Guide",
+            "Video Script",
+            "Solution Article",
+            "API Guide"
         ]
     )
 
-    if st.button("Generate"):
+    # -------------------------
+    # Manual Input
+    # -------------------------
 
-        with st.spinner("Generating documentation..."):
+    if source_type == "Manual Input":
 
-            result = generate_documentation(
-                feature_description,
-                document_type
-            )
+        feature_description = st.text_area(
+            "Feature Description",
+            height=200
+        )
 
-            st.markdown(result)
+        if st.button(
+            "Generate Documentation"
+        ):
+
+            with st.spinner(
+                "Generating documentation..."
+            ):
+
+                result = (
+                    generate_documentation(
+                        feature_description,
+                        document_type
+                    )
+                )
+
+                st.markdown(result)
+
+    # -------------------------
+    # JIRA Ticket
+    # -------------------------
+
+    else:
+
+        ticket_id = st.text_input(
+            "JIRA Ticket ID",
+            placeholder="SCRUM-5"
+        )
+
+        if st.button(
+            "Generate From JIRA"
+        ):
+
+            if not ticket_id:
+
+                st.error(
+                    "Please enter a JIRA Ticket ID."
+                )
+
+            else:
+
+                try:
+
+                    with st.spinner(
+                        "Fetching JIRA ticket..."
+                    ):
+
+                        ticket_data = (
+                            fetch_jira_ticket(
+                                ticket_id
+                            )
+                        )
+
+                    with st.spinner(
+                        "Analyzing requirements..."
+                    ):
+
+                        structured_requirements = (
+                            build_structured_requirements(
+                                ticket_data
+                            )
+                        )
+
+                    with st.spinner(
+                        "Generating documentation..."
+                    ):
+
+                        result = (
+                            generate_documentation_from_requirements(
+                                structured_requirements,
+                                document_type
+                            )
+                        )
+
+                    st.success(
+                        "Documentation generated successfully."
+                    )
+
+                    st.markdown(result)
+
+                except Exception as e:
+
+                    st.error(
+                        f"Error: {str(e)}"
+                    )
 # Gap Analysis
 elif page == "Gap Analysis":
 
