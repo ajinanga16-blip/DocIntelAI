@@ -9,6 +9,27 @@ JIRA_EMAIL = os.getenv("JIRA_EMAIL")
 JIRA_TOKEN = os.getenv("JIRA_TOKEN")
 
 
+def extract_text_from_adf(node):
+
+    text = ""
+
+    if isinstance(node, dict):
+
+        if node.get("type") == "text":
+            text += node.get("text", "")
+
+        if "content" in node:
+            for child in node["content"]:
+                text += extract_text_from_adf(child)
+
+    elif isinstance(node, list):
+
+        for item in node:
+            text += extract_text_from_adf(item)
+
+    return text
+
+
 def fetch_jira_ticket(ticket_id):
 
     url = f"{JIRA_URL}/rest/api/3/issue/{ticket_id}"
@@ -28,25 +49,64 @@ def fetch_jira_ticket(ticket_id):
 
     data = response.json()
 
-    summary = data["fields"]["summary"]
+    fields = data["fields"]
 
+    summary = fields.get("summary", "")
+
+    # Description
     description = ""
 
-    adf = data["fields"].get("description")
+    adf = fields.get("description")
 
-    if adf and "content" in adf:
+    if adf:
+        description = extract_text_from_adf(adf)
 
-        for block in adf["content"]:
+    # Comments
+    comments = []
 
-            if "content" in block:
+    comment_data = fields.get("comment", {})
 
-                for item in block["content"]:
+    for comment in comment_data.get("comments", []):
 
-                    if item.get("type") == "text":
+        comment_text = extract_text_from_adf(
+            comment.get("body", {})
+        )
 
-                        description += item.get("text", "") + "\n"
+        if comment_text.strip():
+            comments.append(comment_text)
+
+    # Linked Tickets
+    linked_tickets = []
+
+    for link in fields.get("issuelinks", []):
+
+        if "inwardIssue" in link:
+
+            linked_tickets.append({
+                "key": link["inwardIssue"]["key"],
+                "summary": link["inwardIssue"]["fields"]["summary"]
+            })
+
+        elif "outwardIssue" in link:
+
+            linked_tickets.append({
+                "key": link["outwardIssue"]["key"],
+                "summary": link["outwardIssue"]["fields"]["summary"]
+            })
+
+    # Attachments
+    attachments = []
+
+    for attachment in fields.get("attachment", []):
+
+        attachments.append(
+            attachment.get("filename")
+        )
 
     return {
         "summary": summary,
-        "description": description
+        "description": description,
+        "comments": comments,
+        "linked_tickets": linked_tickets,
+        "attachments": attachments
     }
