@@ -1,3 +1,4 @@
+from styles.style_loader import get_style_profile
 from agents.content_agent import generate_documentation
 
 
@@ -477,7 +478,8 @@ Do not omit sections.
 
 def generate_documentation_from_requirements(
     structured_requirements,
-    document_type
+    document_type,
+    style_guide
 ):
     """
     Generate documentation from
@@ -493,6 +495,11 @@ def generate_documentation_from_requirements(
     document_template = get_document_template(
         document_type
     )
+
+    style_profile = get_style_profile(
+    style_guide
+)
+    
 
     if document_type in [
         "Release Notes",
@@ -513,6 +520,15 @@ DOCUMENT STRUCTURE
 {base_sections}
 
 {document_template}
+
+STYLE GUIDE
+
+Style Name:
+{style_profile['name']}
+
+STYLE KNOWLEDGE BASE
+
+{style_profile['knowledge_base']}
 
 IMPORTANT:
 

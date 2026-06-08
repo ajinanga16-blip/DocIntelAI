@@ -74,6 +74,16 @@ elif page == "Generate Docs":
         ]
     )
 
+    style_guide = st.selectbox(
+    "Style Guide",
+    [
+        "Microsoft Technical Writing",
+        "Google Developer Documentation",
+        "IBM Technical Documentation",
+        "Chicago Editorial Style"
+    ]
+)
+
     # -------------------------
     # Manual Input
     # -------------------------
@@ -154,7 +164,8 @@ elif page == "Generate Docs":
                         result = (
                             generate_documentation_from_requirements(
                                 structured_requirements,
-                                document_type
+                                document_type,
+                                style_guide
                             )
                         )
 
