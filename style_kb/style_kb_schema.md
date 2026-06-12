@@ -75,3 +75,17 @@
 ## Examples
 
 ## Exceptions
+
+## Review Metadata
+
+### Source
+
+### Generated Date
+
+### Reviewer Notes
+
+### Approved Rules
+
+### Rejected Rules
+
+### Revision History
