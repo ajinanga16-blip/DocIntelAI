@@ -1,0 +1,9 @@
+{
+    "style_name": "Microsoft Test",
+    "source_type": "custom",
+    "source_file": "",
+    "kb_file": "microsoft_test.md",
+    "rule_count": 39,
+    "created_at": "2026-06-13T15:28:27.648601",
+    "status": "active"
+}

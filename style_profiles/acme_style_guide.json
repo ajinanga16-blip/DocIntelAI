@@ -1,0 +1,9 @@
+{
+    "style_name": "Acme Style Guide",
+    "source_type": "custom",
+    "source_file": "",
+    "kb_file": "acme_style.md",
+    "rule_count": 2,
+    "created_at": "2026-06-13T14:46:48.895447",
+    "status": "active"
+}
