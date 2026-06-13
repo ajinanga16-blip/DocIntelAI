@@ -9,7 +9,17 @@ from agents.jira_intelligence_agent import (
 from agents.documentation_agent import (
     generate_documentation_from_requirements
 )
+
+from style_intelligence.document_compliance_service import (
+    DocumentComplianceService
+)
+
+from style_intelligence.style_selector import (
+    StyleSelector
+)
+
 import streamlit as st
+
 
 st.set_page_config(
     page_title="DocIntel AI",
@@ -17,7 +27,10 @@ st.set_page_config(
     layout="wide"
 )
 
+# --------------------------------------------------
 # Sidebar
+# --------------------------------------------------
+
 st.sidebar.title("📚 DocIntel AI")
 
 page = st.sidebar.radio(
@@ -32,7 +45,10 @@ page = st.sidebar.radio(
     ]
 )
 
+# --------------------------------------------------
 # Dashboard
+# --------------------------------------------------
+
 if page == "Dashboard":
 
     st.title("📚 Dashboard")
@@ -42,15 +58,26 @@ if page == "Dashboard":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.metric("Generated Articles", "124")
+        st.metric(
+            "Generated Articles",
+            "124"
+        )
 
     with col2:
-        st.metric("Documentation Gaps Found", "18")
+        st.metric(
+            "Documentation Gaps Found",
+            "18"
+        )
 
+# --------------------------------------------------
 # Generate Docs
+# --------------------------------------------------
+
 elif page == "Generate Docs":
 
-    st.title("📝 Generate Documentation")
+    st.title(
+        "📝 Generate Documentation"
+    )
 
     source_type = st.radio(
         "Source Type",
@@ -74,19 +101,40 @@ elif page == "Generate Docs":
         ]
     )
 
-    style_guide = st.selectbox(
-    "Style Guide",
-    [
-        "Microsoft Technical Writing",
-        "Google Developer Documentation",
-        "IBM Technical Documentation",
-        "Chicago Editorial Style"
-    ]
-)
+    selector = StyleSelector()
 
-    # -------------------------
+    builtin_styles = (
+        selector.get_builtin_styles()
+    )
+
+    custom_styles = (
+        selector.get_custom_styles()
+    )
+
+    style_source = st.radio(
+        "Style Source",
+        [
+            "Built-in",
+            "Custom"
+        ]
+    )
+
+    if style_source == "Built-in":
+        style_guide = st.selectbox(
+        "Built-in Style Guide",
+        builtin_styles
+    )
+        
+    else:
+
+        style_guide = st.selectbox(
+            "Custom Style Guide",
+            custom_styles
+        )
+
+    # ------------------------------------------
     # Manual Input
-    # -------------------------
+    # ------------------------------------------
 
     if source_type == "Manual Input":
 
@@ -110,11 +158,15 @@ elif page == "Generate Docs":
                     )
                 )
 
-                st.markdown(result)
+            st.success(
+                "Documentation generated successfully."
+            )
 
-    # -------------------------
+            st.markdown(result)
+
+    # ------------------------------------------
     # JIRA Ticket
-    # -------------------------
+    # ------------------------------------------
 
     else:
 
@@ -175,35 +227,135 @@ elif page == "Generate Docs":
 
                     st.markdown(result)
 
+                    # ----------------------------------
+                    # Compliance Analysis
+                    # ----------------------------------
+
+                    compliance_service = (
+                        DocumentComplianceService()
+                    )
+
+                    compliance = (
+                        compliance_service.analyze(
+                            result,
+                            style_guide
+                        )
+                    )
+
+                    st.divider()
+
+                    st.subheader(
+                        "Style Compliance Analysis"
+                    )
+
+                    if (
+                        compliance.get(
+                            "score"
+                        )
+                        ==
+                        "Not Available"
+                    ):
+
+                        st.info(
+                            compliance.get(
+                                "message"
+                            )
+                        )
+
+                    else:
+
+                        st.metric(
+                            "Style Score",
+                            compliance[
+                                "score"
+                            ]
+                        )
+
+                        violations = (
+                            compliance[
+                                "violations"
+                            ]
+                        )
+
+                        st.write(
+                            f"Violations Found: {len(violations)}"
+                        )
+
+                        for violation in violations:
+
+                            with st.expander(
+                                violation[
+                                    "category"
+                                ]
+                            ):
+
+                                st.write(
+                                    f"Rule: {violation['rule']}"
+                                )
+
+                                st.write(
+                                    f"Issue: {violation['violation']}"
+                                )
+
+                                st.write(
+                                    f"Suggestion: {violation['suggestion']}"
+                                )
+
+                                st.write(
+                                    f"Severity: {violation['severity']}"
+                                )
+
                 except Exception as e:
 
                     st.error(
                         f"Error: {str(e)}"
                     )
+
+# --------------------------------------------------
 # Gap Analysis
+# --------------------------------------------------
+
 elif page == "Gap Analysis":
 
-    st.title("🔍 Knowledge Gap Analysis")
+    st.title(
+        "🔍 Knowledge Gap Analysis"
+    )
 
     st.file_uploader(
         "Upload Support Ticket CSV"
     )
 
-    st.button("Analyze")
+    st.button(
+        "Analyze"
+    )
 
+# --------------------------------------------------
 # Impact Analysis
+# --------------------------------------------------
+
 elif page == "Impact Analysis":
 
-    st.title("⚡ Impact Analysis")
+    st.title(
+        "⚡ Impact Analysis"
+    )
 
-    st.text_input("Release or Ticket ID")
+    st.text_input(
+        "Release or Ticket ID"
+    )
 
-    st.button("Run Impact Analysis")
+    st.button(
+        "Run Impact Analysis"
+    )
 
+# --------------------------------------------------
 # Publishing
+# --------------------------------------------------
+
 elif page == "Publishing":
 
-    st.title("🚀 Publishing")
+    st.title(
+        "🚀 Publishing"
+    )
 
     st.selectbox(
         "Publish Destination",
@@ -214,11 +366,20 @@ elif page == "Publishing":
         ]
     )
 
-    st.button("Publish")
+    st.button(
+        "Publish"
+    )
 
+# --------------------------------------------------
 # Settings
+# --------------------------------------------------
+
 elif page == "Settings":
 
-    st.title("⚙ Settings")
+    st.title(
+        "⚙ Settings"
+    )
 
-    st.write("Configure integrations here.")
+    st.write(
+        "Configure integrations here."
+    )

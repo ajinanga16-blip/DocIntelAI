@@ -6,6 +6,10 @@ from style_intelligence.style_profile_service import (
     StyleProfileService
 )
 
+from style_intelligence.compliance_style_mapper import (
+    ComplianceStyleMapper
+)
+
 
 class DocumentComplianceService:
 
@@ -14,6 +18,29 @@ class DocumentComplianceService:
         document_content,
         style_name
     ):
+
+        mapper = (
+            ComplianceStyleMapper()
+        )
+
+        compliance_profile = (
+            mapper.get_compliance_profile(
+                style_name
+            )
+        )
+
+        if not compliance_profile:
+
+            return {
+                "score":
+                "Not Available",
+
+                "violations":
+                [],
+
+                "message":
+                "Compliance profile not available."
+            }
 
         profile_service = (
             StyleProfileService()
@@ -25,7 +52,7 @@ class DocumentComplianceService:
 
         rules = (
             profile_service.get_rules(
-                style_name
+                compliance_profile
             )
         )
 
