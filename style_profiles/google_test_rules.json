@@ -1,0 +1,242 @@
+[
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Prioritize clarity and consistency.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use project-specific guidelines first, then this guide, and finally third-party references.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Adapt guidelines to suit the specific domain and audience needs.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use headings to organize content logically.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure headings are descriptive and concise.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Follow standard capitalization rules for headings, using title case.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use terms that are widely accepted and understood within the technical community.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Avoid jargon and terms that are not widely recognized or could be confusing.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use \"sign in\" instead of \"log in.\"",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Prefer \"select\" over \"click\" when referring to UI interactions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Prefer active voice for clarity and directness.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use second person (\"you\") to directly address the reader.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Keep sentences concise to enhance readability.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use for items that do not require a specific order.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use for sequential steps or ordered information.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Clearly define the task and its purpose.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use numbered steps for clarity and follow a logical sequence.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use the exact label text from the UI.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Refer to menu items as they appear in the interface.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Clearly describe dialog options and actions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure messages are clear and actionable.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use language that is inclusive and respectful to all users.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Avoid language that could be biased or discriminatory.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Provide descriptive alt text for images to support screen readers.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use notes to provide additional information or tips.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Clearly highlight warnings to alert users to potential issues.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure code examples are clear, correct, and relevant.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use descriptive link text that indicates the link's destination.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Provide examples to illustrate complex concepts or procedures.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Deviate from guidelines when necessary for clarity or to better suit the audience's needs, ensuring consistency throughout the document.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    }
+]

@@ -4,52 +4,86 @@ from style_intelligence.customer_style_pipeline import (
     CustomerStylePipeline
 )
 
-
 st.title(
     "Custom Style Guide Upload"
-)
-
-uploaded_file = st.file_uploader(
-    "Upload Style Guide PDF",
-    type=["pdf"]
 )
 
 style_name = st.text_input(
     "Style Guide Name"
 )
 
-if st.button(
-    "Process Style Guide"
-):
+input_type = st.radio(
+    "Style Guide Source",
+    [
+        "PDF",
+        "URL"
+    ]
+)
 
-    if uploaded_file and style_name:
+pipeline = (
+    CustomerStylePipeline()
+)
 
-        file_path = (
-            f"style_guides/{uploaded_file.name}"
-        )
+if input_type == "PDF":
 
-        with open(
-            file_path,
-            "wb"
-        ) as file:
+    uploaded_file = st.file_uploader(
+        "Upload Style Guide PDF",
+        type=["pdf"]
+    )
 
-            file.write(
-                uploaded_file.getbuffer()
+    if st.button(
+        "Process PDF"
+    ):
+
+        if uploaded_file and style_name:
+
+            file_path = (
+                f"style_guides/{uploaded_file.name}"
             )
 
-        pipeline = (
-            CustomerStylePipeline()
-        )
+            with open(
+                file_path,
+                "wb"
+            ) as file:
 
-        profile = (
-            pipeline.process_pdf(
-                style_name,
-                file_path
+                file.write(
+                    uploaded_file.getbuffer()
+                )
+
+            profile = (
+                pipeline.process_pdf(
+                    style_name,
+                    file_path
+                )
             )
-        )
 
-        st.success(
-            "Style Guide Processed"
-        )
+            st.success(
+                "Style Guide Processed"
+            )
 
-        st.json(profile)
+            st.json(profile)
+
+else:
+
+    url = st.text_input(
+        "Style Guide URL"
+    )
+
+    if st.button(
+        "Process URL"
+    ):
+
+        if url and style_name:
+
+            profile = (
+                pipeline.process_url(
+                    style_name,
+                    url
+                )
+            )
+
+            st.success(
+                "Style Guide Processed"
+            )
+
+            st.json(profile)

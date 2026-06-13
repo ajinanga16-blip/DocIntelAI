@@ -1,0 +1,9 @@
+{
+    "style_name": "Google URL Test",
+    "source_type": "custom",
+    "source_file": "",
+    "kb_file": "google_url_test.md",
+    "rule_count": 28,
+    "created_at": "2026-06-13T16:10:00.352077",
+    "status": "active"
+}
