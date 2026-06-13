@@ -6,25 +6,26 @@ rules = [
     {
         "rule":
         "Use allow list instead of whitelist"
-    },
-    {
-        "rule":
-        "Use block list instead of blacklist"
     }
 ]
 
 document = """
+# Create Forecast Variant
+
+The report was generated automatically.
+
 Users can be added to a whitelist.
 
-Blocked users are added
-to a blacklist.
+The master node controls the cluster.
+
+Even though the autumn leaves were swirling violently through the cold, darkening evening sky, he stubbornly refused to abandon his search for the lost journal, which held all the answers he desperately needed before the impending snowstorm completely buried the rugged mountain trail.
 """
 
 checker = StyleChecker()
 
-violations = checker.check_document(
+results = checker.check_document(
     document,
     rules
 )
 
-print(violations)
+print(results)

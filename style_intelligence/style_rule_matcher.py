@@ -2,8 +2,16 @@ from style_intelligence.violation_schema import (
     VIOLATION_SCHEMA
 )
 
+from style_intelligence.terminology_parser import (
+    TerminologyParser
+)
+
 
 class StyleRuleMatcher:
+
+    def __init__(self):
+
+        self.parser = TerminologyParser()
 
     def find_violations(
         self,
@@ -13,79 +21,59 @@ class StyleRuleMatcher:
 
         violations = []
 
+        document_content_lower = (
+            document_content.lower()
+        )
+
         for rule in rules:
 
             rule_text = rule.get(
                 "rule",
                 ""
-            ).lower()
+            )
 
-            if (
-                "allow list instead of whitelist"
-                in rule_text
-            ):
+            mapping = (
+                self.parser.extract_term_mapping(
+                    rule_text
+                )
+            )
 
-                if (
-                    "whitelist"
-                    in document_content.lower()
-                ):
+            if not mapping:
+                continue
 
-                    violation = (
-                        VIOLATION_SCHEMA.copy()
-                    )
+            avoid_term = (
+                mapping["avoid"]
+                .lower()
+            )
 
-                    violation["category"] = (
-                        "Terminology"
-                    )
+            preferred_term = (
+                mapping["preferred"]
+            )
 
-                    violation["rule"] = (
-                        rule["rule"]
-                    )
+            if avoid_term in document_content_lower:
 
-                    violation["violation"] = (
-                        "Document uses whitelist."
-                    )
+                violation = (
+                    VIOLATION_SCHEMA.copy()
+                )
 
-                    violation["suggestion"] = (
-                        "Replace whitelist with allow list."
-                    )
+                violation["category"] = (
+                    "Terminology"
+                )
 
-                    violations.append(
-                        violation
-                    )
+                violation["rule"] = (
+                    rule_text
+                )
 
-            if (
-                "block list instead of blacklist"
-                in rule_text
-            ):
+                violation["violation"] = (
+                    f"Document uses {avoid_term}."
+                )
 
-                if (
-                    "blacklist"
-                    in document_content.lower()
-                ):
+                violation["suggestion"] = (
+                    f"Replace {avoid_term} with {preferred_term}."
+                )
 
-                    violation = (
-                        VIOLATION_SCHEMA.copy()
-                    )
-
-                    violation["category"] = (
-                        "Terminology"
-                    )
-
-                    violation["rule"] = (
-                        rule["rule"]
-                    )
-
-                    violation["violation"] = (
-                        "Document uses blacklist."
-                    )
-
-                    violation["suggestion"] = (
-                        "Replace blacklist with block list."
-                    )
-
-                    violations.append(
-                        violation
-                    )
+                violations.append(
+                    violation
+                )
 
         return violations
