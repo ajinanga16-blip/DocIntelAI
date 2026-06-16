@@ -1,0 +1,6 @@
+{
+    "master": "primary",
+    "slave": "secondary",
+    "whitelist": "allow list",
+    "blacklist": "block list"
+}
