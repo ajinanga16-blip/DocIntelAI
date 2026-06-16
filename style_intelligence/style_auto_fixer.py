@@ -1,6 +1,10 @@
 import json
 import os
 
+from style_intelligence.gpt_style_fixer import (
+    GPTStyleFixer
+)
+
 
 class StyleAutoFixer:
 
@@ -20,6 +24,10 @@ class StyleAutoFixer:
             self.terminology_fixes = (
                 json.load(file)
             )
+
+        self.gpt_fixer = (
+            GPTStyleFixer()
+        )
 
     def fix_document(
         self,
@@ -58,6 +66,19 @@ class StyleAutoFixer:
 
                 corrected_content = (
                     self._fix_heading_style(
+                        corrected_content,
+                        violation
+                    )
+                )
+
+            elif (
+                category
+                ==
+                "Passive Voice"
+            ):
+
+                corrected_content = (
+                    self._fix_passive_voice(
                         corrected_content,
                         violation
                     )
@@ -111,4 +132,33 @@ class StyleAutoFixer:
         return content.replace(
             heading,
             sentence_case
+        )
+
+    def _fix_passive_voice(
+        self,
+        content,
+        violation
+    ):
+
+        original_text = (
+            violation.get(
+                "violation",
+                ""
+            )
+        )
+
+        if not original_text:
+
+            return content
+
+        corrected_text = (
+            self.gpt_fixer
+            .fix_passive_voice(
+                original_text
+            )
+        )
+
+        return content.replace(
+            original_text,
+            corrected_text
         )
