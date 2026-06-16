@@ -1,3 +1,6 @@
+from style_intelligence.style_auto_fixer import (
+    StyleAutoFixer
+)
 from style_intelligence.style_checker import (
     StyleChecker
 )
@@ -56,9 +59,41 @@ class DocumentComplianceService:
             )
         )
 
-        return (
+        result = (
             checker.check_document(
                 document_content,
                 rules
             )
         )
+
+        auto_fixer = (
+            StyleAutoFixer()
+        )
+
+        corrected_document = (
+            auto_fixer.fix_document(
+                document_content,
+                result["violations"]
+            )
+        )
+
+        corrected_result = (
+            checker.check_document(
+                corrected_document,
+                rules
+            )
+        )
+
+        result["corrected_document"] = (
+            corrected_document
+        )
+
+        result["corrected_score"] = (
+            corrected_result["score"]
+        )
+
+        result["corrected_violations"] = (
+            corrected_result["violations"]
+        )
+
+        return result
