@@ -1,3 +1,6 @@
+from pages.settings_page import (
+    render_settings
+)
 from pages.publishing_page import (
     render_publishing
 )
@@ -105,10 +108,4 @@ elif page == "Publishing":
 
 elif page == "Settings":
 
-    st.title(
-        "⚙ Settings"
-    )
-
-    st.write(
-        "Configure integrations here."
-    )
+    render_settings()
