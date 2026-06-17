@@ -1,3 +1,6 @@
+from pages.publishing_page import (
+    render_publishing
+)
 from pages.impact_analysis_page import (
     render_impact_analysis
 )
@@ -94,22 +97,7 @@ elif page == "Impact Analysis":
 
 elif page == "Publishing":
 
-    st.title(
-        "🚀 Publishing"
-    )
-
-    st.selectbox(
-        "Publish Destination",
-        [
-            "MkDocs",
-            "GitHub Pages",
-            "Confluence"
-        ]
-    )
-
-    st.button(
-        "Publish"
-    )
+    render_publishing()
 
 # --------------------------------------------------
 # Settings
