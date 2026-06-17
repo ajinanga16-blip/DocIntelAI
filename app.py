@@ -1,3 +1,6 @@
+from pages.gap_analysis_page import (
+    render_gap_analysis
+)
 from pages.generate_docs_page import (
     render_generate_docs
 )
@@ -73,18 +76,7 @@ elif page == "Generate Docs":
 
 elif page == "Gap Analysis":
 
-    st.title(
-        "🔍 Knowledge Gap Analysis"
-    )
-
-    st.file_uploader(
-        "Upload Support Ticket CSV"
-    )
-
-    st.button(
-        "Analyze"
-    )
-
+    render_gap_analysis()
 # --------------------------------------------------
 # Impact Analysis
 # --------------------------------------------------
