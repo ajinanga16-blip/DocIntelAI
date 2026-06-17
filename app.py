@@ -1,3 +1,6 @@
+from pages.impact_analysis_page import (
+    render_impact_analysis
+)
 from pages.gap_analysis_page import (
     render_gap_analysis
 )
@@ -83,17 +86,7 @@ elif page == "Gap Analysis":
 
 elif page == "Impact Analysis":
 
-    st.title(
-        "⚡ Impact Analysis"
-    )
-
-    st.text_input(
-        "Release or Ticket ID"
-    )
-
-    st.button(
-        "Run Impact Analysis"
-    )
+    render_impact_analysis()
 
 # --------------------------------------------------
 # Publishing
