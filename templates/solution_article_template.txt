@@ -1,0 +1,23 @@
+# Problem Statement
+
+{{problem_statement}}
+
+# Solution Overview
+
+{{solution_overview}}
+
+# Key Capabilities
+
+{{capabilities}}
+
+# Benefits
+
+{{benefits}}
+
+# Resolution Steps
+
+{{resolution_steps}}
+
+# Dependencies
+
+{{dependencies}}

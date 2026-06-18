@@ -1,0 +1,23 @@
+# Overview
+
+{{overview}}
+
+# Feature Summary
+
+{{feature_summary}}
+
+# Key Capabilities
+
+{{capabilities}}
+
+# Common Questions
+
+{{common_questions}}
+
+# Related Information
+
+{{related_information}}
+
+# Dependencies
+
+{{dependencies}}

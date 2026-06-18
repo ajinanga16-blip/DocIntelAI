@@ -1,0 +1,23 @@
+# Overview
+
+{{overview}}
+
+# Feature Description
+
+{{feature_description}}
+
+# Key Capabilities
+
+{{capabilities}}
+
+# Getting Started
+
+{{getting_started}}
+
+# Quick Steps
+
+{{quick_steps}}
+
+# Dependencies
+
+{{dependencies}}

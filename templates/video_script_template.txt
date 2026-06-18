@@ -1,0 +1,23 @@
+# Introduction
+
+{{introduction}}
+
+# Feature Overview
+
+{{feature_overview}}
+
+# Key Capabilities
+
+{{capabilities}}
+
+# Demonstration Steps
+
+{{demonstration_steps}}
+
+# Business Value
+
+{{business_value}}
+
+# Closing Summary
+
+{{closing_summary}}

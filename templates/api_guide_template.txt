@@ -1,0 +1,51 @@
+# API Overview
+
+{{api_overview}}
+
+# Purpose
+
+{{purpose}}
+
+# Authentication
+
+{{authentication}}
+
+# Endpoints
+
+{{endpoints}}
+
+# Request Parameters
+
+{{request_parameters}}
+
+# Request Example
+
+{{request_example}}
+
+# Response Details
+
+{{response_details}}
+
+# Response Example
+
+{{response_example}}
+
+# Error Codes
+
+{{error_codes}}
+
+# Rate Limits
+
+{{rate_limits}}
+
+# Dependencies
+
+{{dependencies}}
+
+# Related APIs
+
+{{related_apis}}
+
+# Known Limitations
+
+{{known_limitations}}

@@ -1,0 +1,15 @@
+# Overview
+
+{{overview}}
+
+# Frequently Asked Questions
+
+{{faq_content}}
+
+# Additional Questions
+
+{{additional_questions}}
+
+# Related Information
+
+{{related_information}}

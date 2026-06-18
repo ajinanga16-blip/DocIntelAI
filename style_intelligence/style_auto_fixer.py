@@ -84,6 +84,19 @@ class StyleAutoFixer:
                     )
                 )
 
+            elif (
+                category
+                ==
+                "Sentence Length"
+            ):
+
+                corrected_content = (
+                    self._fix_sentence_length(
+                        corrected_content,
+                        violation
+                    )
+                )
+
         return corrected_content
 
     def _fix_inclusive_language(
@@ -154,6 +167,35 @@ class StyleAutoFixer:
         corrected_text = (
             self.gpt_fixer
             .fix_passive_voice(
+                original_text
+            )
+        )
+
+        return content.replace(
+            original_text,
+            corrected_text
+        )
+
+    def _fix_sentence_length(
+        self,
+        content,
+        violation
+    ):
+
+        original_text = (
+            violation.get(
+                "violation",
+                ""
+            )
+        )
+
+        if not original_text:
+
+            return content
+
+        corrected_text = (
+            self.gpt_fixer
+            .shorten_sentence(
                 original_text
             )
         )

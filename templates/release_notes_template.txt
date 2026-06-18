@@ -1,0 +1,43 @@
+# Feature Name
+
+{{feature_name}}
+
+# Feature Description
+
+{{feature_description}}
+
+# Release Summary
+
+{{release_summary}}
+
+# Key Capabilities
+
+{{capabilities}}
+
+# Previous State
+
+{{previous_state}}
+
+# Current State
+
+{{current_state}}
+
+# Business Value
+
+{{business_value}}
+
+# Impacted Users
+
+{{impacted_users}}
+
+# Documentation Notes
+
+{{documentation_notes}}
+
+# Known Limitations
+
+{{known_limitations}}
+
+# Dependencies
+
+{{dependencies}}

@@ -1,0 +1,35 @@
+# Overview
+
+{{overview}}
+
+# Feature Description
+
+{{feature_description}}
+
+# Capabilities
+
+{{capabilities}}
+
+# User Roles
+
+{{user_roles}}
+
+# Prerequisites
+
+{{prerequisites}}
+
+# Procedure
+
+{{procedure}}
+
+# Expected Result
+
+{{expected_result}}
+
+# Dependencies
+
+{{dependencies}}
+
+# Related Information
+
+{{related_information}}
