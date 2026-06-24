@@ -1,3 +1,6 @@
+from pages.template_management_page import (
+    render_template_management
+)
 from pages.settings_page import (
     render_settings
 )
@@ -15,6 +18,9 @@ from pages.generate_docs_page import (
 )
 from pages.dashboard_page import (
     render_dashboard
+)
+from pages.screenshot_intelligence_page import (
+    show_page
 )
 from agents.content_agent import generate_documentation
 
@@ -56,6 +62,8 @@ page = st.sidebar.radio(
     [
         "Dashboard",
         "Generate Docs",
+        "Template Management",
+        "Screenshot Intelligence",
         "Gap Analysis",
         "Impact Analysis",
         "Publishing",
@@ -109,3 +117,18 @@ elif page == "Publishing":
 elif page == "Settings":
 
     render_settings()
+
+# --------------------------------------------------
+# Template Management
+# --------------------------------------------------
+elif page == "Template Management":
+
+    render_template_management()
+
+# --------------------------------------------------
+# Screenshot Intelligence
+# --------------------------------------------------
+
+elif page == "Screenshot Intelligence":
+
+    show_page()

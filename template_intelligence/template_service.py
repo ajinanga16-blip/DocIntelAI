@@ -1,3 +1,5 @@
+import os
+
 from template_intelligence.template_loader import (
     TemplateLoader
 )
@@ -41,3 +43,27 @@ class TemplateService:
                 template_name
             )
         )
+
+    def get_custom_template(
+        self,
+        template_name
+    ):
+
+        template_path = os.path.join(
+            "custom_templates",
+            f"{template_name}.txt"
+        )
+
+        if not os.path.exists(
+            template_path
+        ):
+
+            return None
+
+        with open(
+            template_path,
+            "r",
+            encoding="utf-8"
+        ) as file:
+
+            return file.read()

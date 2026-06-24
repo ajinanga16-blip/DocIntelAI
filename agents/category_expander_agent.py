@@ -1,0 +1,67 @@
+import requests
+
+from bs4 import BeautifulSoup
+
+
+def expand_category(
+    category_url
+):
+
+    try:
+
+        response = requests.get(
+            category_url,
+            timeout=20
+        )
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+
+        article_links = []
+
+        for tag in soup.find_all(
+            "a",
+            href=True
+        ):
+
+            href = tag["href"]
+
+            text = (
+                tag.get_text()
+                .strip()
+            )
+
+            if not text:
+
+                continue
+
+            if href.startswith("/"):
+
+                base_url = (
+                    category_url
+                    .split("/support")[0]
+                )
+
+                href = (
+                    base_url
+                    + href
+                )
+
+            if href.startswith(
+                "http"
+            ):
+
+                article_links.append(
+                    {
+                        "title": text,
+                        "url": href
+                    }
+                )
+
+        return article_links
+
+    except Exception:
+
+        return []

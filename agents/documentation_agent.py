@@ -124,7 +124,9 @@ Attachments:
 def generate_documentation_from_requirements(
     structured_requirements,
     document_type,
-    style_guide
+    style_guide,
+    template_source="Built-in",
+    template_name=None
 ):
 
     documentation_input = (
@@ -143,11 +145,29 @@ def generate_documentation_from_requirements(
         TemplateService()
     )
 
-    template_content = (
-        template_service.get_template(
-            document_type
+    if (
+        template_source
+        ==
+        "Custom"
+        and
+        template_name
+    ):
+
+        template_content = (
+            template_service
+            .get_custom_template(
+                template_name
+            )
         )
-    )
+
+    else:
+
+        template_content = (
+            template_service
+            .get_template(
+                document_type
+            )
+        )
 
     documentation_input += f"""
 
