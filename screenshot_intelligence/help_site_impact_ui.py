@@ -1,11 +1,15 @@
 import streamlit as st
 
-from agents.help_site_impact_agent import (
-    analyze_help_site_impact
+from workflows.discover_impacted_articles_workflow import (
+    discover_impacted_articles
 )
 
-from agents.documentation_url_fetcher import (
-    fetch_documentation_content
+from workflows.generate_documentation_impact_workflow import (
+    generate_documentation_impact
+)
+
+from ui.discovery_results_ui import (
+    render_discovery_results
 )
 
 from screenshot_intelligence.ui_helpers import (
@@ -14,6 +18,10 @@ from screenshot_intelligence.ui_helpers import (
 
 
 def render_help_site_impact():
+
+    st.subheader(
+        "Help Site Impact Analysis"
+    )
 
     screenshot_file = st.file_uploader(
         "Upload Screenshot",
@@ -33,34 +41,95 @@ def render_help_site_impact():
             use_container_width=True
         )
 
-    if screenshot_file and help_site_url:
+    #
+    # STEP 1
+    #
+
+    if (
+        screenshot_file
+        and help_site_url
+    ):
 
         if st.button(
-            "Analyze Help Site Impact"
+            "🔍 Discover Impacted Articles"
         ):
 
+            #
+            # Temporary placeholder
+            # Replace with Screenshot Change JSON
+            #
+
+            screenshot_change = {
+                "added_elements": [],
+                "removed_elements": [],
+                "navigation_changes": []
+            }
+
             with st.spinner(
-                "Fetching Help Site Content..."
+                "Discovering impacted articles..."
             ):
 
-                site_content = (
-                    fetch_documentation_content(
-                        help_site_url
+                results = (
+                    discover_impacted_articles(
+                        help_site_url,
+                        screenshot_change
                     )
                 )
 
+            st.session_state[
+                "discovered_articles"
+            ] = results.get(
+                "matched_articles",
+                []
+            )
+
+    #
+    # STEP 2
+    #
+
+    if (
+        "discovered_articles"
+        in st.session_state
+    ):
+
+        selected_articles = (
+            render_discovery_results(
+                st.session_state[
+                    "discovered_articles"
+                ]
+            )
+        )
+
+        #
+        # STEP 3
+        #
+
+        if (
+            selected_articles
+            and st.button(
+                "📝 Generate Documentation Impact"
+            )
+        ):
+
             with st.spinner(
-                "Analyzing Help Site Impact..."
+                "Generating impact..."
             ):
 
-                st.session_state[
-                    "help_site_result"
-                ] = analyze_help_site_impact(
-                    screenshot_file,
-                    site_content
+                result = (
+                    generate_documentation_impact(
+                        screenshot_file,
+                        selected_articles
+                    )
                 )
 
-    if "help_site_result" in st.session_state:
+            st.session_state[
+                "help_site_result"
+            ] = result
+
+    if (
+        "help_site_result"
+        in st.session_state
+    ):
 
         result = st.session_state[
             "help_site_result"

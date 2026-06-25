@@ -2,6 +2,10 @@ import requests
 
 from bs4 import BeautifulSoup
 
+from urllib.parse import (
+    urljoin
+)
+
 
 def expand_category(
     category_url
@@ -37,17 +41,18 @@ def expand_category(
 
                 continue
 
-            if href.startswith("/"):
+            from urllib.parse import (
+                urljoin
+            )
 
-                base_url = (
-                    category_url
-                    .split("/support")[0]
-                )
+            ...
 
-                href = (
-                    base_url
-                    + href
-                )
+            if href:
+
+             href = urljoin(
+                category_url,
+                href
+            )
 
             if href.startswith(
                 "http"

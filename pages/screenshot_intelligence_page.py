@@ -16,6 +16,10 @@ from screenshot_intelligence.help_site_impact_ui import (
     render_help_site_impact
 )
 
+from ui.screenshot_article_results import (
+    render_article_results
+)
+
 def show_page():
 
     st.title("📸 Screenshot Intelligence")
@@ -45,3 +49,4 @@ def show_page():
     elif analysis_type == "Help Site Impact":
 
         render_help_site_impact()
+
