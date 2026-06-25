@@ -1,483 +1,399 @@
 [
     {
-        "title": "Alert Management in Freshservice - An Overview",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002885-alert-management-in-freshservice-an-overview"
+        "title": "Viewing and accessing information about tickets",
+        "url": "https://support.freshservice.com/support/solutions/articles/154815-viewing-and-accessing-information-about-tickets"
     },
     {
-        "title": "Set up alert management in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003698-set-up-alert-management-in-freshservice"
+        "title": "Creating common reply templates with Canned Responses",
+        "url": "https://support.freshservice.com/support/solutions/articles/157147-creating-common-reply-templates-with-canned-responses"
     },
     {
-        "title": "Automatically create alert-based incidents using Alert Rules",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002729-automatically-create-alert-based-incidents-using-alert-rules"
+        "title": "Managing Ticket Properties",
+        "url": "https://support.freshservice.com/support/solutions/articles/155559-managing-ticket-properties"
     },
     {
-        "title": "Working with alerts in Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003697-working-with-alerts-in-freshservice-alert-management"
+        "title": "Understanding Custom Ticket Statuses",
+        "url": "https://support.freshservice.com/support/solutions/articles/155560--understanding-custom-ticket-statuses"
     },
     {
-        "title": "Learn all about Automated Grouping in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003799-learn-all-about-automated-grouping-in-freshservice"
+        "title": "Adding an existing solution as a response to a ticket",
+        "url": "https://support.freshservice.com/support/solutions/articles/155566-adding-an-existing-solution-as-a-response-to-a-ticket"
     },
     {
-        "title": "Integrate SolarWinds NPM with Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002747-integrate-solarwinds-npm-with-freshservice-alert-management"
+        "title": "Adding Time Entries to your Tickets, Problems, Changes, and Releases",
+        "url": "https://support.freshservice.com/support/solutions/articles/164867-adding-time-entries-to-your-tickets-problems-changes-and-releases"
     },
     {
-        "title": "Integrate New Relic APM with Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002803-integrate-new-relic-apm-with-freshservice-alert-management"
+        "title": "Using keyboard shortcuts in your IT service desk",
+        "url": "https://support.freshservice.com/support/solutions/articles/197569-using-keyboard-shortcuts-in-your-it-service-desk"
     },
     {
-        "title": "Integrate New Relic Synthetics with Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002838-integrate-new-relic-synthetics-with-freshservice-alert-management"
+        "title": "Adding Child Tickets to Incidents in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/208025-adding-child-tickets-to-incidents-in-freshservice"
     },
     {
-        "title": "Integrate Pingdom with Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002839-integrate-pingdom-with-freshservice-alert-management"
+        "title": "Using canned responses in ticket replies",
+        "url": "https://support.freshservice.com/support/solutions/articles/154963-using-canned-responses-in-ticket-replies"
     },
     {
-        "title": "Integrate Site 24x7 with Freshservice Alert Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002876-integrate-site-24x7-with-freshservice-alert-management"
+        "title": "Creating Supervisor Rules",
+        "url": "https://support.freshservice.com/support/solutions/articles/157136-creating-supervisor-rules"
     },
     {
-        "title": "Introducing Orchestration Center",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002961-introducing-orchestration-center"
+        "title": "Creating a new scenario automation",
+        "url": "https://support.freshservice.com/support/solutions/articles/157144-creating-a-new-scenario-automation"
     },
     {
-        "title": "Orchestration FAQs",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003144-orchestration-faqs"
+        "title": "Schedule recurring tickets using Scheduler",
+        "url": "https://support.freshservice.com/support/solutions/articles/195641-schedule-recurring-tickets-using-scheduler-"
     },
     {
-        "title": "Workflow Execution Logs",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000011551-workflow-execution-logs"
+        "title": "Executing a scenario automation on your tickets",
+        "url": "https://support.freshservice.com/support/solutions/articles/157146-executing-a-scenario-automation-on-your-tickets"
     },
     {
-        "title": "Setting up the Orchestration Server",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003259-setting-up-the-orchestration-server"
+        "title": "Supervisor rules configuration based on custom ticket status",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003164-supervisor-rules-configuration-based-on-custom-ticket-status"
     },
     {
-        "title": "How to Reset the Secret Key of an Orchestration Server",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003260-how-to-reset-the-secret-key-of-an-orchestration-server"
+        "title": "Freddy AI Copilot overview",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009429-freddy-ai-copilot-overview"
     },
     {
-        "title": "Uninstalling the Orchestration Server",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003261-uninstalling-the-orchestration-server"
+        "title": "Generate ticket summaries using Freddy AI",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000008501-generate-ticket-summaries-using-freddy-ai"
     },
     {
-        "title": "Troubleshooting Guide for Orchestration Server Issues",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003393-troubleshooting-guide-for-orchestration-server-issues"
+        "title": "Generate reply suggestions for tickets",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000008500-generate-reply-suggestions-for-tickets"
     },
     {
-        "title": "MS AD/Powershell/OSR - FAQ/L2s",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000004234-ms-ad-powershell-osr-faq-l2s"
+        "title": "Auto-suggest and fill ticket fields",
+        "url": "https://support.freshservice.com/support/solutions/articles/240431-auto-suggest-and-fill-ticket-fields"
     },
     {
-        "title": "Learn all about Freshservice On-Call Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003777-learn-all-about-freshservice-on-call-management"
+        "title": "Identify similar tickets using Similar Ticket Suggester",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009528-identify-similar-tickets-using-similar-ticket-suggester"
     },
     {
-        "title": "Using Freshservice On-Call Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003776-using-freshservice-on-call-management"
+        "title": "API actions library in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013882-api-actions-library-in-freshservice"
     },
     {
-        "title": "Configuring phone numbers correctly",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009364-configuring-phone-numbers-correctly"
+        "title": "Freddy AI Insights for Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011278-freddy-ai-insights-for-freshservice"
     },
     {
-        "title": "Create an on-call schedule",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009365-create-an-on-call-schedule"
+        "title": "Freddy AI Insights overview",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009156-freddy-ai-insights-overview"
     },
     {
-        "title": "Creating an on-call shift",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009366-creating-an-on-call-shift"
+        "title": "Root Cause Analysis (RCA) in Freddy AI Insights",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010498-root-cause-analysis-rca-in-freddy-ai-insights"
     },
     {
-        "title": "Define and monitor services using Service Health Monitoring",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000004945-define-and-monitor-services-using-service-health-monitoring"
+        "title": "Conversational Insights in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011511-conversational-insights-in-freshservice"
     },
     {
-        "title": "Setting up Service Health Monitoring",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006180-setting-up-service-health-monitoring"
+        "title": "Freddy AI Insights: Frequently Asked Questions (FAQs)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011277-freddy-ai-insights-frequently-asked-questions-faqs-"
     },
     {
-        "title": "Exploring Potential Services in Service Health Monitoring",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006181-exploring-potential-services-in-service-health-monitoring"
+        "title": "Improve Team Alignment with Team Dashboards",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002980-improve-team-alignment-with-team-dashboards"
     },
     {
-        "title": "Deleting a service in Service Health Monitoring",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006183-deleting-a-service-in-service-health-monitoring"
+        "title": "Team Dashboard is now more inclusive",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003682-team-dashboard-is-now-more-inclusive"
     },
     {
-        "title": "Service Health Monitor for IT Asset Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000014260-service-health-monitor-for-it-asset-management"
+        "title": "Enhancements in Team Dashboard access privileges (Feb'2024)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009482-enhancements-in-team-dashboard-access-privileges-feb-2024-"
     },
     {
-        "title": "Working with major incidents in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006167-working-with-major-incidents-in-freshservice"
+        "title": "Improve team performance with the Freshservice/FSBT leaderboard",
+        "url": "https://support.freshservice.com/support/solutions/articles/183566-improve-team-performance-with-the-freshservice-fsbt-leaderboard"
     },
     {
-        "title": "Preparing to work on a major incident",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006323-preparing-to-work-on-a-major-incident"
+        "title": "Understanding Due By times and SLA policies",
+        "url": "https://support.freshservice.com/support/solutions/articles/156455-understanding-due-by-times-and-sla-policies"
     },
     {
-        "title": "Setting up the Status Page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006247-setting-up-the-status-page"
+        "title": "Defining your Default SLA policy",
+        "url": "https://support.freshservice.com/support/solutions/articles/156457-defining-your-default-sla-policy"
+    },
+    {
+        "title": "Creating multiple SLA policies for specific departments and groups",
+        "url": "https://support.freshservice.com/support/solutions/articles/156459-creating-multiple-sla-policies-for-specific-departments-and-groups"
+    },
+    {
+        "title": "Manage Ticket Fields with Field Manager",
+        "url": "https://support.freshservice.com/support/solutions/articles/154126-manage-ticket-fields-with-field-manager"
+    },
+    {
+        "title": "Setting up your support email address",
+        "url": "https://support.freshservice.com/support/solutions/articles/154123-setting-up-your-support-email-address"
+    },
+    {
+        "title": "Adding a Root Cause Analysis, Impact Analysis, and Symptoms Report",
+        "url": "https://support.freshservice.com/support/solutions/articles/155569-adding-a-root-cause-analysis-impact-analysis-and-symptoms-report"
+    },
+    {
+        "title": "Linking problems to an existing or new change",
+        "url": "https://support.freshservice.com/support/solutions/articles/155575-linking-problems-to-an-existing-or-new-change"
+    },
+    {
+        "title": "Adding permanent solutions or workarounds to a problem",
+        "url": "https://support.freshservice.com/support/solutions/articles/155572-adding-permanent-solutions-or-workarounds-to-a-problem"
+    },
+    {
+        "title": "Setting up Custom Statuses for Problems",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000001050-setting-up-custom-statuses-for-problems"
+    },
+    {
+        "title": "Get started with a modern, accessible and a scalable experience for Problems",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000008440-get-started-with-a-modern-accessible-and-a-scalable-experience-for-problems"
+    },
+    {
+        "title": "Get started with change management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000000655-get-started-with-change-management"
+    },
+    {
+        "title": "Manage change advisory board",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011840-manage-change-advisory-board"
+    },
+    {
+        "title": "Specifying reason and impact before performing a change",
+        "url": "https://support.freshservice.com/support/solutions/articles/155579-specifying-reason-and-impact-before-performing-a-change"
+    },
+    {
+        "title": "Adding Rollout and Backout plans to the changes",
+        "url": "https://support.freshservice.com/support/solutions/articles/155580-adding-rollout-and-backout-plans-to-the-changes"
+    },
+    {
+        "title": "Understanding Change Approvals and CABs",
+        "url": "https://support.freshservice.com/support/solutions/articles/155582-understanding-change-approvals-and-cabs"
+    },
+    {
+        "title": "Creating an announcement before the release",
+        "url": "https://support.freshservice.com/support/solutions/articles/155589-creating-an-announcement-before-the-release"
+    },
+    {
+        "title": "Planning the release start date and end date",
+        "url": "https://support.freshservice.com/support/solutions/articles/155591-planning-the-release-start-date-and-end-date"
+    },
+    {
+        "title": "Get started with a modern, accessible and a scalable experience for Releases",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009904-get-started-with-a-modern-accessible-and-a-scalable-experience-for-releases"
+    },
+    {
+        "title": "Ticket and change approval via Email",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004955-ticket-and-change-approval-via-email"
+    },
+    {
+        "title": "Service Request Approvals Access for Requesters",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000005521-service-request-approvals-access-for-requesters"
+    },
+    {
+        "title": "Transitioning to the Enhanced Email Approval Experience",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009017-transitioning-to-the-enhanced-email-approval-experience"
+    },
+    {
+        "title": "Introducing Groups and Chains in Approvals",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010315-introducing-groups-and-chains-in-approvals"
+    },
+    {
+        "title": "New Approvals Process: Frequently Asked Questions",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011703-new-approvals-process-frequently-asked-questions"
+    },
+    {
+        "title": "Configure the Service Catalog",
+        "url": "https://support.freshservice.com/support/solutions/articles/199643-configure-the-service-catalog"
+    },
+    {
+        "title": "Requesting a Service from the Service Catalog [End User Guide]",
+        "url": "https://support.freshservice.com/support/solutions/articles/199785-requesting-a-service-from-the-service-catalog-end-user-guide-"
+    },
+    {
+        "title": "How to restrict visibility of Service Catalog Items based on User Groups",
+        "url": "https://support.freshservice.com/support/solutions/articles/200987-how-to-restrict-visibility-of-service-catalog-items-based-on-user-groups"
+    },
+    {
+        "title": "Service Requests with Additional Items",
+        "url": "https://support.freshservice.com/support/solutions/articles/221715-service-requests-with-additional-items"
+    },
+    {
+        "title": "Loaner Service Item",
+        "url": "https://support.freshservice.com/support/solutions/articles/226464-loaner-service-item"
+    },
+    {
+        "title": "Helping users to your documentation",
+        "url": "https://support.freshservice.com/support/solutions/articles/156518-helping-users-to-your-documentation"
+    },
+    {
+        "title": "Understanding the three-level solutions hierarchy",
+        "url": "https://support.freshservice.com/support/solutions/articles/156521-understanding-the-three-level-solutions-hierarchy"
+    },
+    {
+        "title": "Manage the Access and Visibility of Your Knowledge Base Solutions",
+        "url": "https://support.freshservice.com/support/solutions/articles/156540-manage-the-access-and-visibility-of-your-knowledge-base-solutions"
+    },
+    {
+        "title": "Difference between Workaround and Permanent Solution",
+        "url": "https://support.freshservice.com/support/solutions/articles/156543-difference-between-workaround-and-permanent-solution"
+    },
+    {
+        "title": "Capturing knowledge and creating drafts through emails",
+        "url": "https://support.freshservice.com/support/solutions/articles/156544-capturing-knowledge-and-creating-drafts-through-emails"
+    },
+    {
+        "title": "How to create tasks in Freshservice?",
+        "url": "https://support.freshservice.com/support/solutions/articles/157127-how-to-create-tasks-in-freshservice-"
+    },
+    {
+        "title": "Assigning tasks to members in your team",
+        "url": "https://support.freshservice.com/support/solutions/articles/157128-assigning-tasks-to-members-in-your-team"
+    },
+    {
+        "title": "Manage your Work and On-call Calendar",
+        "url": "https://support.freshservice.com/support/solutions/articles/211608-manage-your-work-and-on-call-calendar"
+    },
+    {
+        "title": "Creating a task OLA policy in your service desk",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004246-creating-a-task-ola-policy-in-your-service-desk"
+    },
+    {
+        "title": "Optimized task management with enhanced task list view",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000007401-optimized-task-management-with-enhanced-task-list-view"
+    },
+    {
+        "title": "Reopen Safely with the Return to Work App",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002730-reopen-safely-with-the-return-to-work-app"
     },
     {
         "title": "Setting up collaboration apps",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006338-setting-up-collaboration-apps"
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006016-setting-up-collaboration-apps"
     },
     {
-        "title": "Managing a Major Incident",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000006363-managing-a-major-incident"
+        "title": "Collaboration on Tickets - MS Teams",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006387-collaboration-on-tickets-ms-teams"
     },
     {
-        "title": "Setting up a Status Page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009311-setting-up-a-status-page"
+        "title": "Setting up Zoom Meetings for Incident Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006103-setting-up-zoom-meetings-for-incident-management"
     },
     {
-        "title": "Customizing your Status Page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009346-customizing-your-status-page"
+        "title": "Collaboration on Tickets - Slack",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000008586-collaboration-on-tickets-slack"
     },
     {
-        "title": "Managing subscribers of your Status Page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009347-managing-subscribers-of-your-status-page"
+        "title": "Collaboration on Tickets - MS Teams Meetings",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009659-collaboration-on-tickets-ms-teams-meetings"
     },
     {
-        "title": "Fine tuning the security settings of the status page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009912-fine-tuning-the-security-settings-of-the-status-page"
+        "title": "How to set up and trigger Surveys using Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010576-how-to-set-up-and-trigger-surveys-using-freshservice"
     },
     {
-        "title": "Deleting the Status Page",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009348-deleting-the-status-page"
+        "title": "What are the question types offered by Freshservice for surveys?",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010577-what-are-the-question-types-offered-by-freshservice-for-surveys-"
     },
     {
-        "title": "Different Types of Assets/Configuration Items in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/164410-different-types-of-assets-configuration-items-in-freshservice"
+        "title": "Optimise Ticket Assignment with Ticket Assignment Policies",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011530-optimise-ticket-assignment-with-ticket-assignment-policies"
     },
     {
-        "title": "Adding Depreciation to assets in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/196934-adding-depreciation-to-assets-in-freshservice"
+        "title": "Ticket Assignment with the New Policy Framework",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011671-ticket-assignment-with-the-new-policy-framework"
     },
     {
-        "title": "Add new assets or configuration items manually",
-        "url": "https://support.freshservice.com/support/solutions/articles/164412-add-new-assets-or-configuration-items-manually"
+        "title": "Ticket Assignment Policies Framework",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011672-ticket-assignment-policies-framework"
     },
     {
-        "title": "Importing Assets",
-        "url": "https://support.freshservice.com/support/solutions/articles/234757-importing-assets"
+        "title": "Freddy AI Feature Overview",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011728-freddy-ai-feature-overview"
     },
     {
-        "title": "Viewing Information About Configurations Items in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/164413-viewing-information-about-configurations-items-in-freshservice"
+        "title": "Creating a new custom role and its significance in Freshservice/Freshservice for Business Teams",
+        "url": "https://support.freshservice.com/support/solutions/articles/156465-creating-a-new-custom-role-and-its-significance-in-freshservice-freshservice-for-business-teams"
     },
     {
-        "title": "Basic Discovery tools and Cloud Discovery for IT asset management",
-        "url": "https://support.freshservice.com/support/solutions/articles/223633-basic-discovery-tools-and-cloud-discovery-for-it-asset-management"
+        "title": "Understanding Default Agent Roles in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/156468-understanding-default-agent-roles-in-freshservice"
     },
     {
-        "title": "Freshservice Discovery Probe",
-        "url": "https://support.freshservice.com/support/solutions/articles/158679-freshservice-discovery-probe"
+        "title": "Delegating Approvals to Your Peers",
+        "url": "https://support.freshservice.com/support/solutions/articles/235377-delegating-approvals-to-your-peers"
     },
     {
-        "title": "IT asset attributes discovered by Discovery Agent and Probe",
-        "url": "https://support.freshservice.com/support/solutions/articles/226174-it-asset-attributes-discovered-by-discovery-agent-and-probe"
+        "title": "Setting up Roles & Role-Based Access Controls",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002933-setting-up-roles-role-based-access-controls"
     },
     {
-        "title": "Managing IT assets with Discovery Hub",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000010238-managing-it-assets-with-discovery-hub"
+        "title": "Get started with multiple requester portals",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012091-get-started-with-multiple-requester-portals"
     },
     {
-        "title": "Installing Discovery Agent [Windows]",
-        "url": "https://support.freshservice.com/support/solutions/articles/223635-installing-discovery-agent-windows-"
+        "title": "Configure multiple requester portals",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013956-configure-multiple-requester-portals"
     },
     {
-        "title": "Installing Discovery Agent [Win] in a Domain [using GPO]",
-        "url": "https://support.freshservice.com/support/solutions/articles/199849-installing-discovery-agent-win-in-a-domain-using-gpo-"
+        "title": "Email notifications in multiple requester portals",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013955-email-notifications-in-multiple-requester-portals"
     },
     {
-        "title": "Freshservice Discovery Agent",
-        "url": "https://support.freshservice.com/support/solutions/articles/200393-freshservice-discovery-agent"
+        "title": "Changing account modes with multiple requester portals",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012090-changing-account-modes-with-multiple-requester-portals"
     },
     {
-        "title": "Installing Discovery Agent [Win] in a Workgroup [using PsExec]",
-        "url": "https://support.freshservice.com/support/solutions/articles/199805-installing-discovery-agent-win-in-a-workgroup-using-psexec-"
+        "title": "Requester and agent experiences in multiple requester portal accounts",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013959-requester-and-agent-experiences-in-multiple-requester-portal-accounts"
     },
     {
-        "title": "Installing Discovery Agent [Mac]",
-        "url": "https://support.freshservice.com/support/solutions/articles/205508-installing-discovery-agent-mac-"
+        "title": "Manage change risk policies in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012708-manage-change-risk-policies-in-freshservice"
     },
     {
-        "title": "Downloading and installing the Discovery Probe",
-        "url": "https://support.freshservice.com/support/solutions/articles/158680-downloading-and-installing-the-discovery-probe"
+        "title": "Change risk policies in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012709-change-risk-policies-in-freshservice"
     },
     {
-        "title": "How to integrate SCCM with your Freshservice account",
-        "url": "https://support.freshservice.com/support/solutions/articles/205230-how-to-integrate-sccm-with-your-freshservice-account"
+        "title": "Risk assessment and surveys in a change request: Agent experience",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013890-risk-assessment-and-surveys-in-a-change-request-agent-experience"
     },
     {
-        "title": "Configuring the Discovery Probe",
-        "url": "https://support.freshservice.com/support/solutions/articles/158681-configuring-the-discovery-probe"
+        "title": "Risk profile, risk survey, and overall risk score computation",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013891-risk-profile-risk-survey-and-overall-risk-score-computation"
     },
     {
-        "title": "SNMP Device Discovery",
-        "url": "https://support.freshservice.com/support/solutions/articles/221269-snmp-device-discovery-"
+        "title": "XLA Policies",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013863-xla-policies"
     },
     {
-        "title": "Managing scanned assets and scan errors",
-        "url": "https://support.freshservice.com/support/solutions/articles/158682-managing-scanned-assets-and-scan-errors"
+        "title": "Experience Level Agreements (XLAs)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000013895-experience-level-agreements-xlas-"
     },
     {
-        "title": "Freshservice Cloud Discovery - Azure Cloud",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003721-freshservice-cloud-discovery-azure-cloud"
+        "title": "Managing multiple companies",
+        "url": "https://support.freshservice.com/support/solutions/articles/191680-managing-multiple-companies-"
     },
     {
-        "title": "Freshservice Cloud Management - AWS Integration",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003723-freshservice-cloud-management-aws-integration"
+        "title": "How to switch your Freshservice Service Desk to MSP (and back)",
+        "url": "https://support.freshservice.com/support/solutions/articles/206585-how-to-switch-your-freshservice-service-desk-to-msp-and-back-"
     },
     {
-        "title": "Freshservice Cloud Discovery - VMware Vcenter",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003772-freshservice-cloud-discovery-vmware-vcenter"
+        "title": "Security settings for multi-portal set up",
+        "url": "https://support.freshservice.com/support/solutions/articles/224085-security-settings-for-multi-portal-set-up"
     },
     {
-        "title": "Introduction to Freshservice Cloud Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000004732-introduction-to-freshservice-cloud-management"
+        "title": "A Guide to the Multi-Account Freshservice Experience for MSPs",
+        "url": "https://support.freshservice.com/support/solutions/articles/240300-a-guide-to-the-multi-account-freshservice-experience-for-msps"
     },
     {
-        "title": "Get started with Freshservice Cloud Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000004733-get-started-with-freshservice-cloud-management"
-    },
-    {
-        "title": "Adding Relationships to Your Assets",
-        "url": "https://support.freshservice.com/support/solutions/articles/164417-adding-relationships-to-your-assets"
-    },
-    {
-        "title": "What are the different types of relationships in Freshservice?",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002810-what-are-the-different-types-of-relationships-in-freshservice-"
-    },
-    {
-        "title": "Visualize relationships with asset relationship maps",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003704-visualize-relationships-with-asset-relationship-maps"
-    },
-    {
-        "title": "Managing Software using Software Asset Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/232738-managing-software-using-software-asset-management"
-    },
-    {
-        "title": "Software License Management",
-        "url": "https://support.freshservice.com/support/solutions/articles/227986-software-license-management"
-    },
-    {
-        "title": "Stay on top of Software and SaaS usage with the Analytics Module",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000004105-stay-on-top-of-software-and-saas-usage-with-the-analytics-module"
-    },
-    {
-        "title": "What is SaaS Management?",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003270-what-is-saas-management-"
-    },
-    {
-        "title": "Discovering your SaaS Applications",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003280-discovering-your-saas-applications"
-    },
-    {
-        "title": "Classifying, Managing and Creating Licenses for your SaaS Applications",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003281-classifying-managing-and-creating-licenses-for-your-saas-applications"
-    },
-    {
-        "title": "Tracking insights for SaaS Applications",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003282-tracking-insights-for-saas-applications"
-    },
-    {
-        "title": "Taking Insight-driven Actions on SaaS Applications",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003283-taking-insight-driven-actions-on-saas-applications"
-    },
-    {
-        "title": "Contract Management Setup Guide",
-        "url": "https://support.freshservice.com/support/solutions/articles/204473-contract-management-setup-guide"
-    },
-    {
-        "title": "Software License Types",
-        "url": "https://support.freshservice.com/support/solutions/articles/227988-software-license-types"
-    },
-    {
-        "title": "Software License Contracts",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000001744-software-license-contracts"
-    },
-    {
-        "title": "Overview of curated contract reports in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003654-overview-of-curated-contract-reports-in-freshservice"
-    },
-    {
-        "title": "Getting Started with Purchase Orders",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002755-getting-started-with-purchase-orders"
-    },
-    {
-        "title": "Creating a Purchase Order",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002756-creating-a-purchase-order"
-    },
-    {
-        "title": "Managing Approvals for Purchase Orders",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002757-managing-approvals-for-purchase-orders"
-    },
-    {
-        "title": "Adding Associations and Attachments",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000002758-adding-associations-and-attachments"
-    },
-    {
-        "title": "Receiving Items in a Purchase Order",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003090-receiving-items-in-a-purchase-order"
-    },
-    {
-        "title": "Restricting trusted IPs",
-        "url": "https://support.freshservice.com/support/solutions/articles/191587-restricting-trusted-ips"
-    },
-    {
-        "title": "Restricting service desk access to certain domains",
-        "url": "https://support.freshservice.com/support/solutions/articles/227155-restricting-service-desk-access-to-certain-domains"
-    },
-    {
-        "title": "EUC data centre migration: Here's what you should do",
-        "url": "https://support.freshservice.com/support/solutions/articles/234149-euc-data-centre-migration-here-s-what-you-should-do-"
-    },
-    {
-        "title": "Accessing Freshservice with Freshworks Account",
-        "url": "https://support.freshservice.com/support/solutions/articles/235010-accessing-freshservice-with-freshworks-account"
-    },
-    {
-        "title": "​Access Freshservice With Freshworks Organization Account",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000001168--access-freshservice-with-freshworks-organization-account"
-    },
-    {
-        "title": "Freshservice to discontinue support of SSLv3, switch to TLS",
-        "url": "https://support.freshservice.com/support/solutions/articles/207703-freshservice-to-discontinue-support-of-sslv3-switch-to-tls"
-    },
-    {
-        "title": "Enabling TLS 1.2 in Internet Explorer",
-        "url": "https://support.freshservice.com/support/solutions/articles/223838-enabling-tls-1-2-in-internet-explorer"
-    },
-    {
-        "title": "TLS 1.1 Support Deprecation",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000001633-tls-1-1-support-deprecation"
-    },
-    {
-        "title": "TLS 1.2 Strong Cipher Suites Compatibility",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000005518-tls-1-2-strong-cipher-suites-compatibility"
-    },
-    {
-        "title": "Necessary configuration changes to ensure uninterrupted portal access.",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000010457-necessary-configuration-changes-to-ensure-uninterrupted-portal-access-"
-    },
-    {
-        "title": "GDPR and Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/233145-gdpr-and-freshservice"
-    },
-    {
-        "title": "Freshservice Cookies",
-        "url": "https://support.freshservice.com/support/solutions/articles/238944-freshservice-cookies"
-    },
-    {
-        "title": "EU Standard Contractual Clauses is added to the Freshworks Data Processing Addendum",
-        "url": "https://support.freshservice.com/support/solutions/articles/235746-eu-standard-contractual-clauses-is-added-to-the-freshworks-data-processing-addendum-"
-    },
-    {
-        "title": "Freshworks commitment towards HIPAA Compliance",
-        "url": "https://support.freshservice.com/support/solutions/articles/238705-freshworks-commitment-towards-hipaa-compliance"
-    },
-    {
-        "title": "Step-by-step guide to add SPF and DKIM email authentication in Freshservice/Freshservice for Business Teams",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003933-step-by-step-guide-to-add-spf-and-dkim-email-authentication-in-freshservice-freshservice-for-business"
-    },
-    {
-        "title": "Configure DMARC for Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003934-configure-dmarc-for-freshservice"
-    },
-    {
-        "title": "Allowlist Freshworks domains and IPs for Freshservice/Freshservice for Business Teams mail server users (US)",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003961-allowlist-freshworks-domains-and-ips-for-freshservice-freshservice-for-business-teams-mail-server-use"
-    },
-    {
-        "title": "Allowlist Freshworks domains and IPs for Freshservice mail server users (EU)",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003962-allowlist-freshworks-domains-and-ips-for-freshservice-mail-server-users-eu-"
-    },
-    {
-        "title": "Allowlist Freshworks domains and IPs for Freshservice/Freshservice for Business Teams mail server users (India)",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000003963-allowlist-freshworks-domains-and-ips-for-freshservice-freshservice-for-business-teams-mail-server-use"
-    },
-    {
-        "title": "Freddy AI Insights | Freddy AI Trust: Frequently Asked Questions (FAQs)",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000011337-freddy-ai-insights-freddy-ai-trust-frequently-asked-questions-faqs-"
-    },
-    {
-        "title": "Navigation and Dashboard",
-        "url": "https://support.freshdesk.com/support/solutions/articles/240171-navigation-and-dashboard"
-    },
-    {
-        "title": "Customising Ticket Forms",
-        "url": "https://support.freshdesk.com/support/solutions/articles/240176-customising-ticket-forms"
-    },
-    {
-        "title": "Working with the Ticket List page",
-        "url": "https://support.freshdesk.com/support/solutions/articles/240180-working-with-the-ticket-list-page"
-    },
-    {
-        "title": "Working with the Ticket Details page",
-        "url": "https://support.freshdesk.com/support/solutions/articles/240181-working-with-the-ticket-details-page"
-    },
-    {
-        "title": "Understanding Email Notifications",
-        "url": "https://support.freshdesk.com/support/solutions/articles/50000004189-understanding-email-notifications"
-    },
-    {
-        "title": "What to Do if None of Your Emails are Getting Converted into Tickets",
-        "url": "https://support.freshdesk.com/support/solutions/articles/50000004193-what-to-do-if-none-of-your-emails-are-getting-converted-into-tickets"
-    },
-    {
-        "title": "What to Do if Specific Emails are Not Getting Converted into Tickets",
-        "url": "https://support.freshdesk.com/support/solutions/articles/50000004194-what-to-do-if-specific-emails-are-not-getting-converted-into-tickets"
-    },
-    {
-        "title": "How to Send an Email Notification to an Agent when a Ticket is Created",
-        "url": "https://support.freshdesk.com/support/solutions/articles/50000004195-how-to-send-an-email-notification-to-an-agent-when-a-ticket-is-created"
-    },
-    {
-        "title": "How to Skip New Ticket Notifications for Specific Scenarios",
-        "url": "https://support.freshdesk.com/support/solutions/articles/50000004196-how-to-skip-new-ticket-notifications-for-specific-scenarios"
-    },
-    {
-        "title": "Freshservice integration with Slack",
-        "url": "https://support.freshservice.com/support/solutions/articles/219701-freshservice-integration-with-slack"
-    },
-    {
-        "title": "Freshservice integration with DocuSign",
-        "url": "https://support.freshservice.com/support/solutions/articles/219377-freshservice-integration-with-docusign"
-    },
-    {
-        "title": "Freshservice Integration with Atlassian JIRA",
-        "url": "https://support.freshservice.com/support/solutions/articles/191806-freshservice-integration-with-atlassian-jira"
-    },
-    {
-        "title": "Freshservice integration with Freshbooks",
-        "url": "https://support.freshservice.com/support/solutions/articles/190604-freshservice-integration-with-freshbooks"
-    },
-    {
-        "title": "Understanding Connector App Tasks in Freshservice",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009590-understanding-connector-app-tasks-in-freshservice"
-    },
-    {
-        "title": "Connector Apps in Freshservice/Freshservice for Business Teams - Overview",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009609-connector-apps-in-freshservice-freshservice-for-business-teams-overview"
-    },
-    {
-        "title": "Freshservice Integration with ServiceNow Connector",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009991-freshservice-integration-with-servicenow-connector"
-    },
-    {
-        "title": "Freshservice integration with ServiceDesk Plus",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000009992-freshservice-integration-with-servicedesk-plus"
-    },
-    {
-        "title": "Freshservice integration with Smartsheet",
-        "url": "https://support.freshservice.com/support/solutions/articles/50000010227-freshservice-integration-with-smartsheet"
+        "title": "Setting up Security Policies for MSP Accounts",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003372-setting-up-security-policies-for-msp-accounts"
     },
     {
         "title": "How to work with workflow automator",
@@ -614,6 +530,42 @@
     {
         "title": "Data Usage Analytics",
         "url": "https://support.freshservice.com/support/solutions/articles/50000014074-data-usage-analytics"
+    },
+    {
+        "title": "Navigation and Dashboard",
+        "url": "https://support.freshdesk.com/support/solutions/articles/240171-navigation-and-dashboard"
+    },
+    {
+        "title": "Customising Ticket Forms",
+        "url": "https://support.freshdesk.com/support/solutions/articles/240176-customising-ticket-forms"
+    },
+    {
+        "title": "Working with the Ticket List page",
+        "url": "https://support.freshdesk.com/support/solutions/articles/240180-working-with-the-ticket-list-page"
+    },
+    {
+        "title": "Working with the Ticket Details page",
+        "url": "https://support.freshdesk.com/support/solutions/articles/240181-working-with-the-ticket-details-page"
+    },
+    {
+        "title": "Understanding Email Notifications",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000004189-understanding-email-notifications"
+    },
+    {
+        "title": "What to Do if None of Your Emails are Getting Converted into Tickets",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000004193-what-to-do-if-none-of-your-emails-are-getting-converted-into-tickets"
+    },
+    {
+        "title": "What to Do if Specific Emails are Not Getting Converted into Tickets",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000004194-what-to-do-if-specific-emails-are-not-getting-converted-into-tickets"
+    },
+    {
+        "title": "How to Send an Email Notification to an Agent when a Ticket is Created",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000004195-how-to-send-an-email-notification-to-an-agent-when-a-ticket-is-created"
+    },
+    {
+        "title": "How to Skip New Ticket Notifications for Specific Scenarios",
+        "url": "https://support.freshdesk.com/support/solutions/articles/50000004196-how-to-skip-new-ticket-notifications-for-specific-scenarios"
     },
     {
         "title": "Freshservice Onboarding Flow",
@@ -836,6 +788,266 @@
         "url": "https://support.freshservice.com/support/solutions/articles/50000011150-important-points-to-note-for-approval-groups"
     },
     {
+        "title": "Different Types of Assets/Configuration Items in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/164410-different-types-of-assets-configuration-items-in-freshservice"
+    },
+    {
+        "title": "Adding Depreciation to assets in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/196934-adding-depreciation-to-assets-in-freshservice"
+    },
+    {
+        "title": "Add new assets or configuration items manually",
+        "url": "https://support.freshservice.com/support/solutions/articles/164412-add-new-assets-or-configuration-items-manually"
+    },
+    {
+        "title": "Importing Assets",
+        "url": "https://support.freshservice.com/support/solutions/articles/234757-importing-assets"
+    },
+    {
+        "title": "Viewing Information About Configurations Items in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/164413-viewing-information-about-configurations-items-in-freshservice"
+    },
+    {
+        "title": "Basic Discovery tools and Cloud Discovery for IT asset management",
+        "url": "https://support.freshservice.com/support/solutions/articles/223633-basic-discovery-tools-and-cloud-discovery-for-it-asset-management"
+    },
+    {
+        "title": "Freshservice Discovery Probe",
+        "url": "https://support.freshservice.com/support/solutions/articles/158679-freshservice-discovery-probe"
+    },
+    {
+        "title": "IT asset attributes discovered by Discovery Agent and Probe",
+        "url": "https://support.freshservice.com/support/solutions/articles/226174-it-asset-attributes-discovered-by-discovery-agent-and-probe"
+    },
+    {
+        "title": "Managing IT assets with Discovery Hub",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010238-managing-it-assets-with-discovery-hub"
+    },
+    {
+        "title": "Installing Discovery Agent [Windows]",
+        "url": "https://support.freshservice.com/support/solutions/articles/223635-installing-discovery-agent-windows-"
+    },
+    {
+        "title": "Installing Discovery Agent [Win] in a Domain [using GPO]",
+        "url": "https://support.freshservice.com/support/solutions/articles/199849-installing-discovery-agent-win-in-a-domain-using-gpo-"
+    },
+    {
+        "title": "Freshservice Discovery Agent",
+        "url": "https://support.freshservice.com/support/solutions/articles/200393-freshservice-discovery-agent"
+    },
+    {
+        "title": "Installing Discovery Agent [Win] in a Workgroup [using PsExec]",
+        "url": "https://support.freshservice.com/support/solutions/articles/199805-installing-discovery-agent-win-in-a-workgroup-using-psexec-"
+    },
+    {
+        "title": "Installing Discovery Agent [Mac]",
+        "url": "https://support.freshservice.com/support/solutions/articles/205508-installing-discovery-agent-mac-"
+    },
+    {
+        "title": "Downloading and installing the Discovery Probe",
+        "url": "https://support.freshservice.com/support/solutions/articles/158680-downloading-and-installing-the-discovery-probe"
+    },
+    {
+        "title": "How to integrate SCCM with your Freshservice account",
+        "url": "https://support.freshservice.com/support/solutions/articles/205230-how-to-integrate-sccm-with-your-freshservice-account"
+    },
+    {
+        "title": "Configuring the Discovery Probe",
+        "url": "https://support.freshservice.com/support/solutions/articles/158681-configuring-the-discovery-probe"
+    },
+    {
+        "title": "SNMP Device Discovery",
+        "url": "https://support.freshservice.com/support/solutions/articles/221269-snmp-device-discovery-"
+    },
+    {
+        "title": "Managing scanned assets and scan errors",
+        "url": "https://support.freshservice.com/support/solutions/articles/158682-managing-scanned-assets-and-scan-errors"
+    },
+    {
+        "title": "Freshservice Cloud Discovery - Azure Cloud",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003721-freshservice-cloud-discovery-azure-cloud"
+    },
+    {
+        "title": "Freshservice Cloud Management - AWS Integration",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003723-freshservice-cloud-management-aws-integration"
+    },
+    {
+        "title": "Freshservice Cloud Discovery - VMware Vcenter",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003772-freshservice-cloud-discovery-vmware-vcenter"
+    },
+    {
+        "title": "Introduction to Freshservice Cloud Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004732-introduction-to-freshservice-cloud-management"
+    },
+    {
+        "title": "Get started with Freshservice Cloud Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004733-get-started-with-freshservice-cloud-management"
+    },
+    {
+        "title": "Adding Relationships to Your Assets",
+        "url": "https://support.freshservice.com/support/solutions/articles/164417-adding-relationships-to-your-assets"
+    },
+    {
+        "title": "What are the different types of relationships in Freshservice?",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002810-what-are-the-different-types-of-relationships-in-freshservice-"
+    },
+    {
+        "title": "Visualize relationships with asset relationship maps",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003704-visualize-relationships-with-asset-relationship-maps"
+    },
+    {
+        "title": "Managing Software using Software Asset Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/232738-managing-software-using-software-asset-management"
+    },
+    {
+        "title": "Software License Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/227986-software-license-management"
+    },
+    {
+        "title": "Stay on top of Software and SaaS usage with the Analytics Module",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004105-stay-on-top-of-software-and-saas-usage-with-the-analytics-module"
+    },
+    {
+        "title": "What is SaaS Management?",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003270-what-is-saas-management-"
+    },
+    {
+        "title": "Discovering your SaaS Applications",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003280-discovering-your-saas-applications"
+    },
+    {
+        "title": "Classifying, Managing and Creating Licenses for your SaaS Applications",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003281-classifying-managing-and-creating-licenses-for-your-saas-applications"
+    },
+    {
+        "title": "Tracking insights for SaaS Applications",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003282-tracking-insights-for-saas-applications"
+    },
+    {
+        "title": "Taking Insight-driven Actions on SaaS Applications",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003283-taking-insight-driven-actions-on-saas-applications"
+    },
+    {
+        "title": "Contract Management Setup Guide",
+        "url": "https://support.freshservice.com/support/solutions/articles/204473-contract-management-setup-guide"
+    },
+    {
+        "title": "Software License Types",
+        "url": "https://support.freshservice.com/support/solutions/articles/227988-software-license-types"
+    },
+    {
+        "title": "Software License Contracts",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000001744-software-license-contracts"
+    },
+    {
+        "title": "Overview of curated contract reports in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003654-overview-of-curated-contract-reports-in-freshservice"
+    },
+    {
+        "title": "Getting Started with Purchase Orders",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002755-getting-started-with-purchase-orders"
+    },
+    {
+        "title": "Creating a Purchase Order",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002756-creating-a-purchase-order"
+    },
+    {
+        "title": "Managing Approvals for Purchase Orders",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002757-managing-approvals-for-purchase-orders"
+    },
+    {
+        "title": "Adding Associations and Attachments",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002758-adding-associations-and-attachments"
+    },
+    {
+        "title": "Receiving Items in a Purchase Order",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003090-receiving-items-in-a-purchase-order"
+    },
+    {
+        "title": "Get started with Freshservice IT Asset Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011871-get-started-with-freshservice-it-asset-management"
+    },
+    {
+        "title": "What is Freshservice IT Asset Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011872-what-is-freshservice-it-asset-management"
+    },
+    {
+        "title": "Asset Management implementation",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011873-asset-management-implementation"
+    },
+    {
+        "title": "Discovery Port Configurations",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011874-discovery-port-configurations"
+    },
+    {
+        "title": "Configure Discovery and Autodiscovery Jobs",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011879-configure-discovery-and-autodiscovery-jobs"
+    },
+    {
+        "title": "Install Agent-Based Discovery",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011886-install-agent-based-discovery"
+    },
+    {
+        "title": "Install Signed Mac Agent",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011888-install-signed-mac-agent"
+    },
+    {
+        "title": "Application Components",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011984-application-components"
+    },
+    {
+        "title": "Configure advanced routing",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012094-configure-advanced-routing"
+    },
+    {
+        "title": "Customize column views on list pages",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012097-customize-column-views-on-list-pages"
+    },
+    {
+        "title": "Configure automation rules",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012103-configure-automation-rules"
+    },
+    {
+        "title": "Configure custom fields",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000012105-configure-custom-fields"
+    },
+    {
+        "title": "Freshservice integration with Slack",
+        "url": "https://support.freshservice.com/support/solutions/articles/219701-freshservice-integration-with-slack"
+    },
+    {
+        "title": "Freshservice integration with DocuSign",
+        "url": "https://support.freshservice.com/support/solutions/articles/219377-freshservice-integration-with-docusign"
+    },
+    {
+        "title": "Freshservice Integration with Atlassian JIRA",
+        "url": "https://support.freshservice.com/support/solutions/articles/191806-freshservice-integration-with-atlassian-jira"
+    },
+    {
+        "title": "Freshservice integration with Freshbooks",
+        "url": "https://support.freshservice.com/support/solutions/articles/190604-freshservice-integration-with-freshbooks"
+    },
+    {
+        "title": "Understanding Connector App Tasks in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009590-understanding-connector-app-tasks-in-freshservice"
+    },
+    {
+        "title": "Connector Apps in Freshservice/Freshservice for Business Teams - Overview",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009609-connector-apps-in-freshservice-freshservice-for-business-teams-overview"
+    },
+    {
+        "title": "Freshservice Integration with ServiceNow Connector",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009991-freshservice-integration-with-servicenow-connector"
+    },
+    {
+        "title": "Freshservice integration with ServiceDesk Plus",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009992-freshservice-integration-with-servicedesk-plus"
+    },
+    {
+        "title": "Freshservice integration with Smartsheet",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010227-freshservice-integration-with-smartsheet"
+    },
+    {
         "title": "Get help with Employee Onboarding - Freshservice Support",
         "url": "https://support.freshservice.com/support/solutions/articles/239003-get-help-with-employee-onboarding-freshservice-support"
     },
@@ -890,6 +1102,238 @@
     {
         "title": "Docusign for e-signatures in documents",
         "url": "https://support.freshservice.com/support/solutions/articles/50000011505-docusign-for-e-signatures-in-documents"
+    },
+    {
+        "title": "Alert Management in Freshservice - An Overview",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002885-alert-management-in-freshservice-an-overview"
+    },
+    {
+        "title": "Set up alert management in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003698-set-up-alert-management-in-freshservice"
+    },
+    {
+        "title": "Automatically create alert-based incidents using Alert Rules",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002729-automatically-create-alert-based-incidents-using-alert-rules"
+    },
+    {
+        "title": "Working with alerts in Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003697-working-with-alerts-in-freshservice-alert-management"
+    },
+    {
+        "title": "Learn all about Automated Grouping in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003799-learn-all-about-automated-grouping-in-freshservice"
+    },
+    {
+        "title": "Integrate SolarWinds NPM with Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002747-integrate-solarwinds-npm-with-freshservice-alert-management"
+    },
+    {
+        "title": "Integrate New Relic APM with Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002803-integrate-new-relic-apm-with-freshservice-alert-management"
+    },
+    {
+        "title": "Integrate New Relic Synthetics with Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002838-integrate-new-relic-synthetics-with-freshservice-alert-management"
+    },
+    {
+        "title": "Integrate Pingdom with Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002839-integrate-pingdom-with-freshservice-alert-management"
+    },
+    {
+        "title": "Integrate Site 24x7 with Freshservice Alert Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002876-integrate-site-24x7-with-freshservice-alert-management"
+    },
+    {
+        "title": "Introducing Orchestration Center",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000002961-introducing-orchestration-center"
+    },
+    {
+        "title": "Orchestration FAQs",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003144-orchestration-faqs"
+    },
+    {
+        "title": "Workflow Execution Logs",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011551-workflow-execution-logs"
+    },
+    {
+        "title": "Setting up the Orchestration Server",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003259-setting-up-the-orchestration-server"
+    },
+    {
+        "title": "How to Reset the Secret Key of an Orchestration Server",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003260-how-to-reset-the-secret-key-of-an-orchestration-server"
+    },
+    {
+        "title": "Uninstalling the Orchestration Server",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003261-uninstalling-the-orchestration-server"
+    },
+    {
+        "title": "Troubleshooting Guide for Orchestration Server Issues",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003393-troubleshooting-guide-for-orchestration-server-issues"
+    },
+    {
+        "title": "MS AD/Powershell/OSR - FAQ/L2s",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004234-ms-ad-powershell-osr-faq-l2s"
+    },
+    {
+        "title": "Learn all about Freshservice On-Call Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003777-learn-all-about-freshservice-on-call-management"
+    },
+    {
+        "title": "Using Freshservice On-Call Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003776-using-freshservice-on-call-management"
+    },
+    {
+        "title": "Configuring phone numbers correctly",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009364-configuring-phone-numbers-correctly"
+    },
+    {
+        "title": "Create an on-call schedule",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009365-create-an-on-call-schedule"
+    },
+    {
+        "title": "Creating an on-call shift",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009366-creating-an-on-call-shift"
+    },
+    {
+        "title": "Define and monitor services using Service Health Monitoring",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000004945-define-and-monitor-services-using-service-health-monitoring"
+    },
+    {
+        "title": "Setting up Service Health Monitoring",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006180-setting-up-service-health-monitoring"
+    },
+    {
+        "title": "Exploring Potential Services in Service Health Monitoring",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006181-exploring-potential-services-in-service-health-monitoring"
+    },
+    {
+        "title": "Deleting a service in Service Health Monitoring",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006183-deleting-a-service-in-service-health-monitoring"
+    },
+    {
+        "title": "Service Health Monitor for IT Asset Management",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000014260-service-health-monitor-for-it-asset-management"
+    },
+    {
+        "title": "Working with major incidents in Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006167-working-with-major-incidents-in-freshservice"
+    },
+    {
+        "title": "Preparing to work on a major incident",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006323-preparing-to-work-on-a-major-incident"
+    },
+    {
+        "title": "Setting up the Status Page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006247-setting-up-the-status-page"
+    },
+    {
+        "title": "Setting up collaboration apps",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006338-setting-up-collaboration-apps"
+    },
+    {
+        "title": "Managing a Major Incident",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000006363-managing-a-major-incident"
+    },
+    {
+        "title": "Setting up a Status Page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009311-setting-up-a-status-page"
+    },
+    {
+        "title": "Customizing your Status Page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009346-customizing-your-status-page"
+    },
+    {
+        "title": "Managing subscribers of your Status Page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009347-managing-subscribers-of-your-status-page"
+    },
+    {
+        "title": "Fine tuning the security settings of the status page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009912-fine-tuning-the-security-settings-of-the-status-page"
+    },
+    {
+        "title": "Deleting the Status Page",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000009348-deleting-the-status-page"
+    },
+    {
+        "title": "Restricting trusted IPs",
+        "url": "https://support.freshservice.com/support/solutions/articles/191587-restricting-trusted-ips"
+    },
+    {
+        "title": "Restricting service desk access to certain domains",
+        "url": "https://support.freshservice.com/support/solutions/articles/227155-restricting-service-desk-access-to-certain-domains"
+    },
+    {
+        "title": "EUC data centre migration: Here's what you should do",
+        "url": "https://support.freshservice.com/support/solutions/articles/234149-euc-data-centre-migration-here-s-what-you-should-do-"
+    },
+    {
+        "title": "Accessing Freshservice with Freshworks Account",
+        "url": "https://support.freshservice.com/support/solutions/articles/235010-accessing-freshservice-with-freshworks-account"
+    },
+    {
+        "title": "​Access Freshservice With Freshworks Organization Account",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000001168--access-freshservice-with-freshworks-organization-account"
+    },
+    {
+        "title": "Freshservice to discontinue support of SSLv3, switch to TLS",
+        "url": "https://support.freshservice.com/support/solutions/articles/207703-freshservice-to-discontinue-support-of-sslv3-switch-to-tls"
+    },
+    {
+        "title": "Enabling TLS 1.2 in Internet Explorer",
+        "url": "https://support.freshservice.com/support/solutions/articles/223838-enabling-tls-1-2-in-internet-explorer"
+    },
+    {
+        "title": "TLS 1.1 Support Deprecation",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000001633-tls-1-1-support-deprecation"
+    },
+    {
+        "title": "TLS 1.2 Strong Cipher Suites Compatibility",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000005518-tls-1-2-strong-cipher-suites-compatibility"
+    },
+    {
+        "title": "Necessary configuration changes to ensure uninterrupted portal access.",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000010457-necessary-configuration-changes-to-ensure-uninterrupted-portal-access-"
+    },
+    {
+        "title": "GDPR and Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/233145-gdpr-and-freshservice"
+    },
+    {
+        "title": "Freshservice Cookies",
+        "url": "https://support.freshservice.com/support/solutions/articles/238944-freshservice-cookies"
+    },
+    {
+        "title": "EU Standard Contractual Clauses is added to the Freshworks Data Processing Addendum",
+        "url": "https://support.freshservice.com/support/solutions/articles/235746-eu-standard-contractual-clauses-is-added-to-the-freshworks-data-processing-addendum-"
+    },
+    {
+        "title": "Freshworks commitment towards HIPAA Compliance",
+        "url": "https://support.freshservice.com/support/solutions/articles/238705-freshworks-commitment-towards-hipaa-compliance"
+    },
+    {
+        "title": "Step-by-step guide to add SPF and DKIM email authentication in Freshservice/Freshservice for Business Teams",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003933-step-by-step-guide-to-add-spf-and-dkim-email-authentication-in-freshservice-freshservice-for-business"
+    },
+    {
+        "title": "Configure DMARC for Freshservice",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003934-configure-dmarc-for-freshservice"
+    },
+    {
+        "title": "Allowlist Freshworks domains and IPs for Freshservice/Freshservice for Business Teams mail server users (US)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003961-allowlist-freshworks-domains-and-ips-for-freshservice-freshservice-for-business-teams-mail-server-use"
+    },
+    {
+        "title": "Allowlist Freshworks domains and IPs for Freshservice mail server users (EU)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003962-allowlist-freshworks-domains-and-ips-for-freshservice-mail-server-users-eu-"
+    },
+    {
+        "title": "Allowlist Freshworks domains and IPs for Freshservice/Freshservice for Business Teams mail server users (India)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000003963-allowlist-freshworks-domains-and-ips-for-freshservice-freshservice-for-business-teams-mail-server-use"
+    },
+    {
+        "title": "Freddy AI Insights | Freddy AI Trust: Frequently Asked Questions (FAQs)",
+        "url": "https://support.freshservice.com/support/solutions/articles/50000011337-freddy-ai-insights-freddy-ai-trust-frequently-asked-questions-faqs-"
     },
     {
         "title": "Get started with project management",

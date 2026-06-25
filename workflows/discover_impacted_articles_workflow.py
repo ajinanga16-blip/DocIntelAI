@@ -33,4 +33,10 @@ def discover_impacted_articles(
         inventory
     )
 
-    return results
+    return {
+        "inventory": inventory,
+        "matched_articles": results.get(
+            "matched_articles",
+            []
+        )
+    }

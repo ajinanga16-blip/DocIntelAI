@@ -36,7 +36,7 @@ def discover_help_site_articles(
 
     expanded = []
 
-    for link in links[:50]:
+    for link in links:
 
         expanded.extend(
             expand_category(

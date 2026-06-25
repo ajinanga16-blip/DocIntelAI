@@ -1,66 +1,32 @@
-from agents.article_matcher_agent import (
-    match_articles
-)
-
-from agents.candidate_article_content_fetcher import (
-    fetch_candidate_content
-)
-
-from agents.article_content_matcher_agent import (
-    match_article_content
+from ranking.hybrid_ranker import (
+    rank_articles
 )
 
 
 def intelligent_match_articles(
     queries,
-    article_inventory
+    article_inventory,
+    max_results=10
 ):
+    """
+    Hybrid article matcher.
 
-    #
-    # Stage 1
-    # Title Match
-    #
+    Uses:
+    - Title matching
+    - Content matching
+    - Keyword matching
+    - Synonym expansion
 
-    title_matches = match_articles(
+    Returns the highest ranked articles.
+    """
+
+    ranked_articles = rank_articles(
         queries,
         article_inventory
     )
 
-    matched_articles = (
-        title_matches.get(
-            "matched_articles",
-            []
-        )
-    )
-
-    if not matched_articles:
-
-        return {
-            "matched_articles": []
-        }
-
-    #
-    # Stage 2
-    # Fetch Content
-    #
-
-    content_articles = (
-        fetch_candidate_content(
-            matched_articles,
-            max_articles=10
-        )
-    )
-
-    #
-    # Stage 3
-    # Content Match
-    #
-
-    final_matches = (
-        match_article_content(
-            queries,
-            content_articles
-        )
-    )
-
-    return final_matches
+    return {
+        "matched_articles": ranked_articles[
+            :max_results
+        ]
+    }

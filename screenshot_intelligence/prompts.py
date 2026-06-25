@@ -89,3 +89,34 @@ Feature Documentation:
 Procedure:
 ...
 """
+
+SCREENSHOT_DISCOVERY_PROMPT = """
+You are a Documentation Intelligence Engine.
+
+Analyze the screenshot and return ONLY valid JSON.
+
+{
+    "page_title": "",
+    "screen_name": "",
+    "breadcrumbs": [],
+    "ui_elements": [],
+    "buttons": [],
+    "labels": [],
+    "menus": [],
+    "keywords": []
+}
+
+Rules:
+
+- Identify the page title.
+- Identify breadcrumbs if visible.
+- Extract all visible feature names.
+- Extract section headings.
+- Extract button names.
+- Extract menu names.
+- Extract important labels.
+- Generate 10–20 documentation search keywords.
+- Return JSON only.
+- Do not explain.
+- Do not use markdown.
+"""
