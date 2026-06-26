@@ -2,22 +2,22 @@ import json
 import os
 
 
-INVENTORY_FILE = (
-    "data/article_inventory.json"
-)
-
-
 def save_inventory(
+    repository_folder,
     articles
 ):
+    """
+    Saves the inventory inside
+    the repository folder.
+    """
 
-    os.makedirs(
-        "data",
-        exist_ok=True
+    inventory_file = os.path.join(
+        repository_folder,
+        "inventory.json"
     )
 
     with open(
-        INVENTORY_FILE,
+        inventory_file,
         "w",
         encoding="utf-8"
     ) as file:
@@ -30,16 +30,23 @@ def save_inventory(
         )
 
 
-def load_inventory():
+def load_inventory(
+    repository_folder
+):
+
+    inventory_file = os.path.join(
+        repository_folder,
+        "inventory.json"
+    )
 
     if not os.path.exists(
-        INVENTORY_FILE
+        inventory_file
     ):
 
         return []
 
     with open(
-        INVENTORY_FILE,
+        inventory_file,
         "r",
         encoding="utf-8"
     ) as file:
@@ -49,8 +56,15 @@ def load_inventory():
         )
 
 
-def inventory_exists():
+def inventory_exists(
+    repository_folder
+):
+
+    inventory_file = os.path.join(
+        repository_folder,
+        "inventory.json"
+    )
 
     return os.path.exists(
-        INVENTORY_FILE
+        inventory_file
     )

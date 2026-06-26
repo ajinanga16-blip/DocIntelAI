@@ -1,0 +1,52 @@
+[
+    {
+        "organization_id": "local-dev",
+        "repository_id": "89fc12a0-ba79-45fe-8aa0-ebc580d927db",
+        "repository_name": "Savant",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-06-26 15:06"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "b2abbdf1-0e8e-426c-a7dc-0ed4b633a21e",
+        "repository_name": "DelTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/",
+        "folder": "data/repositories\\deltest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-26 21:48"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "35512489-8b2e-45a3-99ba-f14f48f2e36a",
+        "repository_name": "Anaplan",
+        "base_url": "https://help.anaplan.com/",
+        "folder": "data/repositories\\anaplan",
+        "status": "Building",
+        "article_count": 0,
+        "last_updated": ""
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "71fd2e15-ab58-4590-9463-45333dba31db",
+        "repository_name": "DelTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/",
+        "folder": "data/repositories\\deltest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-26 21:48"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "ba102f97-f648-4e49-b7bd-6c0428c33e8a",
+        "repository_name": "Savant",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant",
+        "status": "Building",
+        "article_count": 0,
+        "last_updated": ""
+    }
+]

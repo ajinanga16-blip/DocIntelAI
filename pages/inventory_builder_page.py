@@ -4,72 +4,73 @@ from workflows.build_inventory_v2_workflow import (
     build_inventory_workflow_v2
 )
 
-from utils.excel_exporter import (
-    export_inventory
-)
-
 
 def show_page():
 
     st.title(
-        "📚 Documentation Inventory Builder"
+        "🧭 Documentation Discovery"
     )
 
     st.write(
         """
-Build a reusable documentation inventory.
+        Build a reusable documentation repository.
 
-The inventory can later be used by:
-
-• Screenshot Intelligence
-
-• JIRA Intelligence
-
-• Knowledge Gap Analyzer
-
-• Impact Analysis
-"""
+        This is a one-time process for each documentation site.
+        Once completed, all DocIntel AI modules will use this repository.
+        """
     )
 
-    help_site_url = st.text_input(
-        "Help Site URL"
+    repository_name = st.text_input(
+        "Repository Name",
+        placeholder="Example: Savant Documentation"
+    )
+
+    documentation_url = st.text_input(
+        "Documentation URL",
+        placeholder="https://docs.company.com"
+    )
+
+    st.info(
+        """
+        **Note**
+
+        Large documentation sites (500+ articles) may take several minutes
+        to process during the initial build.
+
+        This is a one-time activity.
+
+        Future updates will use the saved repository.
+        """
     )
 
     if st.button(
-        "🚀 Build Inventory"
+        "🚀 Build Repository"
     ):
 
+        if not repository_name:
+
+            st.error(
+                "Please enter a Repository Name."
+            )
+            return
+
+        if not documentation_url:
+
+            st.error(
+                "Please enter a Documentation URL."
+            )
+            return
+
         with st.spinner(
-            "Building inventory..."
+            "Building repository..."
         ):
 
-            inventory = (
-                build_inventory_workflow_v2(
-                    help_site_url
-                )
+            inventory = build_inventory_workflow_v2(
+                repository_name,
+                documentation_url
             )
 
         st.success(
-            f"Inventory Built: {len(inventory)} articles"
-        )
-
-        excel = export_inventory(
-            inventory
-        )
-
-        st.download_button(
-
-            "⬇ Export Inventory",
-
-            excel,
-
-            file_name="inventory.xlsx",
-
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-
-        )
-
-        st.dataframe(
-            inventory,
-            use_container_width=True
+            f"Repository built successfully.\n\n"
+            f"Articles discovered: {len(inventory)}"
         )

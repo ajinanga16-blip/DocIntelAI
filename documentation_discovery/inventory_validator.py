@@ -2,7 +2,8 @@ def validate_inventory(
     inventory
 ):
     """
-    Removes duplicates and invalid entries.
+    Cleans and validates a
+    documentation inventory.
     """
 
     seen = set()
@@ -21,7 +22,7 @@ def validate_inventory(
             ""
         ).strip()
 
-        if not url or not title:
+        if not url:
             continue
 
         if url in seen:
@@ -29,6 +30,22 @@ def validate_inventory(
 
         seen.add(url)
 
-        validated.append(article)
+        validated.append({
+
+            "title": title,
+
+            "url": url,
+
+            "description": article.get(
+                "description",
+                ""
+            ),
+
+            "discovered_by": article.get(
+                "discovered_by",
+                "unknown"
+            )
+
+        })
 
     return validated

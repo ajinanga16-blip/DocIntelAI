@@ -1,28 +1,16 @@
-from inventory.inventory_crawler_v2 import (
-    crawl_help_site_v2
-)
-
-from inventory.inventory_validator import (
-    validate_inventory
+from documentation_discovery.inventory_builder import (
+    build_inventory
 )
 
 
 def build_inventory_v2(
-    help_site_url
+    documentation_url
 ):
     """
-    Inventory Builder V2
-
-    Crawls the complete documentation
-    site and validates the inventory.
+    Temporary wrapper to maintain
+    backward compatibility.
     """
 
-    inventory = crawl_help_site_v2(
-        help_site_url
+    return build_inventory(
+        documentation_url
     )
-
-    inventory = validate_inventory(
-        inventory
-    )
-
-    return inventory

@@ -1,3 +1,9 @@
+from pages.repository_dashboard_page import (
+    show_page as show_repository_dashboard
+)
+from pages.inventory_builder_page import (
+    show_page as show_inventory_builder
+)
 from pages.template_management_page import (
     render_template_management
 )
@@ -64,6 +70,8 @@ page = st.sidebar.radio(
         "Generate Docs",
         "Template Management",
         "Screenshot Intelligence",
+        "🔗 Connect Documentation",
+        "🗂 Repository Dashboard",
         "Gap Analysis",
         "Impact Analysis",
         "Publishing",
@@ -132,3 +140,19 @@ elif page == "Template Management":
 elif page == "Screenshot Intelligence":
 
     show_page()
+
+# --------------------------------------------------
+# Documentation Inventory
+# --------------------------------------------------
+
+elif page == "🔗 Connect Documentation":
+
+    show_inventory_builder()
+
+# --------------------------------------------------
+# Repository Dashboard
+# --------------------------------------------------
+
+elif page == "🗂 Repository Dashboard":
+
+    show_repository_dashboard()

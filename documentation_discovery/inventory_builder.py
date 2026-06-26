@@ -6,12 +6,16 @@ from documentation_discovery.sitemap_parser import (
     parse_sitemap
 )
 
-from inventory.inventory_crawler_v2 import (
-    crawl_help_site_v2
+from documentation_discovery.navigation_crawler import (
+    crawl_documentation
 )
 
-from inventory.inventory_validator import (
+from documentation_discovery.inventory_validator import (
     validate_inventory
+)
+
+from documentation_discovery.knowledge_index_builder import (
+    build_knowledge_index
 )
 
 
@@ -21,8 +25,8 @@ def build_inventory(
     """
     Universal Documentation Discovery Engine.
 
-    Decides the best strategy for
-    discovering documentation.
+    Automatically determines the best
+    strategy to discover documentation.
     """
 
     strategy = discover_site(
@@ -30,39 +34,57 @@ def build_inventory(
     )
 
     #
-    # Sitemap
+    # Discovery
     #
 
     if strategy["strategy"] == "sitemap":
+
+        print(
+            "Using Sitemap Discovery..."
+        )
 
         inventory = parse_sitemap(
             strategy["sitemap"]
         )
 
-    #
-    # Crawl
-    #
+        #
+        # Mark discovery source
+        #
+
+        for article in inventory:
+
+            article[
+                "discovered_by"
+            ] = "sitemap"
 
     else:
 
-        inventory = crawl_help_site_v2(
+        print(
+            "Using Navigation Crawl..."
+        )
+
+        inventory = crawl_documentation(
             documentation_url
         )
 
     #
-    # Validate
+    # Validation
     #
 
     inventory = validate_inventory(
         inventory
     )
 
-    from documentation_discovery.knowledge_index_builder import (
-        build_knowledge_index
-    )
+    #
+    # Lightweight enrichment
+    #
 
     inventory = build_knowledge_index(
         inventory
+    )
+
+    print(
+        f"Inventory Size: {len(inventory)}"
     )
 
     return inventory
