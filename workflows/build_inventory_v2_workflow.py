@@ -1,3 +1,6 @@
+from metadata_enrichment.metadata_enrichment_service import (
+    enrich_article
+)
 from notifications.email_service import (
     send_email
 )
@@ -61,6 +64,19 @@ def build_inventory_workflow_v2(
         inventory = build_inventory_v2(
             documentation_url
         )
+
+        enriched_inventory = []
+
+        for article in inventory:
+
+            enriched_inventory.append(
+                enrich_article(
+                    article,
+                    repository_name
+                )
+            )
+
+        inventory = enriched_inventory
 
         job_manager.update_progress(
             job["job_id"],
