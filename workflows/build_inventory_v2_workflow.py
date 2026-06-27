@@ -1,3 +1,9 @@
+from notifications.email_service import (
+    send_email
+)
+from notifications.notification_service import (
+    create_notification
+)
 from documentation_discovery.inventory_builder_v2 import (
     build_inventory_v2
 )
@@ -21,13 +27,16 @@ from job_engine.job_manager import (
 
 def build_inventory_workflow_v2(
     repository_name,
-    documentation_url
+    documentation_url,
+    notification_email
 ):
 
     job_manager = JobManager()
 
     job = job_manager.create_job(
-        "Repository Build"
+        job_type="Repository Build",
+        repository_name=repository_name,
+        notification_email=notification_email
     )
 
     try:
@@ -81,6 +90,25 @@ def build_inventory_workflow_v2(
             "Repository build completed successfully."
         )
 
+        create_notification(
+            title="Repository Build Completed",
+            message=f"{repository_name} has finished building successfully."
+        )
+
+        send_email(
+            job["notification_email"],
+            "Repository Build Completed",
+            f"""
+            <h2>Repository Build Completed</h2>
+
+            <p><b>Repository:</b> {repository_name}</p>
+
+            <p>Your repository has been built successfully.</p>
+
+            <p>You can now use it across all DocIntel AI modules.</p>
+            """
+        )
+
         return inventory
 
     except Exception as ex:
@@ -88,6 +116,25 @@ def build_inventory_workflow_v2(
         job_manager.fail_job(
             job["job_id"],
             str(ex)
+        )
+
+        create_notification(
+            title="Repository Build Failed",
+            message=f"{repository_name} failed to build.\n\n{str(ex)}"
+        )
+
+        send_email(
+            job["notification_email"],
+            "Repository Build Failed",
+            f"""
+            <h2>Repository Build Failed</h2>
+
+            <p><b>Repository:</b> {repository_name}</p>
+
+            <p><b>Error:</b></p>
+
+            <p>{str(ex)}</p>
+            """
         )
 
         raise

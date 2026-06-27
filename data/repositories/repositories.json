@@ -68,5 +68,55 @@
         "status": "Ready",
         "article_count": 334,
         "last_updated": "2026-06-27 15:56"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "919b7372-6c8a-4520-aba3-aed6388676c5",
+        "repository_name": "NewTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/user-guides/create-and-compare-forecast-versions/",
+        "folder": "data/repositories\\newtest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 16:46"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "68053c40-34f7-4ba8-85c3-48702b406f53",
+        "repository_name": "JobTest",
+        "base_url": "ajinanga16-blip.github.io/tech-writer-portfolio/",
+        "folder": "data/repositories\\jobtest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 16:58"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "6a2354d9-ba19-4ecb-b159-b34ba61b623a",
+        "repository_name": "ReferTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/user-guides/create-and-compare-forecast-versions/",
+        "folder": "data/repositories\\refertest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 17:15"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "9d194d61-fee5-40e7-a6e4-5cc1b87f4bac",
+        "repository_name": "NotifTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/user-guides/create-and-compare-forecast-versions/",
+        "folder": "data/repositories\\notiftest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 17:25"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "c3911bd8-63a3-417e-ae68-5d07a17f5030",
+        "repository_name": "EmailNotificationTest",
+        "base_url": "https://ajinanga16-blip.github.io/tech-writer-portfolio/user-guides/create-and-compare-forecast-versions/",
+        "folder": "data/repositories\\emailnotificationtest",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 17:59"
     }
 ]

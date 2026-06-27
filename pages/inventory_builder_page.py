@@ -4,12 +4,14 @@ from workflows.build_inventory_v2_workflow import (
     build_inventory_workflow_v2
 )
 
+from job_engine.background_runner import (
+    run_in_background
+)
+
 
 def show_page():
 
-    st.title(
-        "🧭 Documentation Discovery"
-    )
+    st.title("🧭 Documentation Discovery")
 
     st.write(
         """
@@ -30,47 +32,60 @@ def show_page():
         placeholder="https://docs.company.com"
     )
 
+    notification_email = st.text_input(
+        "Notification Email",
+        placeholder="name@company.com"
+    )
+
     st.info(
         """
         **Note**
 
-        Large documentation sites (500+ articles) may take several minutes
-        to process during the initial build.
+        Repository builds now run in the background.
 
-        This is a one-time activity.
+        You may leave this page after starting a build.
 
-        Future updates will use the saved repository.
+        Track progress in **⚙ Job Manager**.
+
+        Email notifications will be enabled in the next step.
         """
     )
 
-    if st.button(
-        "🚀 Build Repository"
-    ):
+    if st.button("🚀 Build Repository"):
 
         if not repository_name:
 
-            st.error(
-                "Please enter a Repository Name."
-            )
+            st.error("Please enter a Repository Name.")
+
             return
 
         if not documentation_url:
 
-            st.error(
-                "Please enter a Documentation URL."
-            )
+            st.error("Please enter a Documentation URL.")
+
             return
 
-        with st.spinner(
-            "Building repository..."
-        ):
+        if not notification_email:
 
-            inventory = build_inventory_workflow_v2(
-                repository_name,
-                documentation_url
-            )
+            st.error("Please enter a Notification Email.")
+
+            return
+
+        run_in_background(
+            build_inventory_workflow_v2,
+            repository_name,
+            documentation_url,
+            notification_email
+        )
 
         st.success(
-            f"Repository built successfully.\n\n"
-            f"Articles discovered: {len(inventory)}"
+            """
+Repository build started successfully.
+
+You may leave this page.
+
+Track progress in **⚙ Job Manager**.
+
+You will receive an email when the build completes.
+"""
         )

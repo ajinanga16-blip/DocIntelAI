@@ -1,0 +1,12 @@
+streamlit
+pandas
+requests
+openai
+python-dotenv
+resend
+beautifulsoup4
+lxml
+markdown
+jinja2
+python-docx
+PyPDF2

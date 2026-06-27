@@ -12,13 +12,20 @@ JOBS_FOLDER.mkdir(parents=True, exist_ok=True)
 
 class JobManager:
 
-    def create_job(self, job_type):
+    def create_job(
+        self,
+        job_type,
+        repository_name="",
+        notification_email=""
+    ):
 
         job_id = str(uuid.uuid4())
 
         job = {
             "job_id": job_id,
             "job_type": job_type,
+            "repository_name": repository_name,
+            "notification_email": notification_email,
             "status": "Queued",
             "message": "Job created",
             "progress": 0,

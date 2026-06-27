@@ -1,3 +1,6 @@
+from pages.notification_page import (
+    show_page as show_notifications
+)
 from pages.job_manager_page import (
     show_page as show_job_manager
 )
@@ -66,23 +69,31 @@ st.set_page_config(
 
 st.sidebar.title("📚 DocIntel AI")
 
+navigation_options = [
+    "Dashboard",
+    "Generate Docs",
+    "Template Management",
+    "Screenshot Intelligence",
+    "🔗 Connect Documentation",
+    "🗂 Repository Dashboard",
+    "⚙ Job Manager",
+    "🔔 Notifications",
+    "Gap Analysis",
+    "Impact Analysis",
+    "Publishing",
+    "Settings"
+]
+
+if "selected_page" not in st.session_state:
+    st.session_state.selected_page = "Dashboard"
+
 page = st.sidebar.radio(
     "Navigation",
-    [
-        "Dashboard",
-        "Generate Docs",
-        "Template Management",
-        "Screenshot Intelligence",
-        "🔗 Connect Documentation",
-        "🗂 Repository Dashboard",
-        "⚙ Job Manager",
-        "Gap Analysis",
-        "Impact Analysis",
-        "Publishing",
-        "Settings"
-    ]
+    navigation_options,
+    index=navigation_options.index(st.session_state.selected_page)
 )
 
+st.session_state.selected_page = page
 # --------------------------------------------------
 # Dashboard
 # --------------------------------------------------
@@ -107,6 +118,13 @@ elif page == "⚙ Job Manager":
 
     show_job_manager()
     
+# --------------------------------------------------
+# Notifications
+# --------------------------------------------------
+
+elif page == "🔔 Notifications":
+
+    show_notifications()
 # --------------------------------------------------
 # Gap Analysis
 # --------------------------------------------------
