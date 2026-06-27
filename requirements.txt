@@ -10,3 +10,4 @@ markdown
 jinja2
 python-docx
 PyPDF2
+openpyxl
