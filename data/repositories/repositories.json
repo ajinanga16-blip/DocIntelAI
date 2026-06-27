@@ -48,5 +48,25 @@
         "status": "Building",
         "article_count": 0,
         "last_updated": ""
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "c585aa01-f172-449d-834b-99436d628f5e",
+        "repository_name": "Swiggy",
+        "base_url": "https://www.swiggy.com/support/issues/faq",
+        "folder": "data/repositories\\swiggy",
+        "status": "Ready",
+        "article_count": 0,
+        "last_updated": "2026-06-27 15:44"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "92c75338-1915-439d-969c-313be0cba69f",
+        "repository_name": "Savant_new",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant_new",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-06-27 15:56"
     }
 ]

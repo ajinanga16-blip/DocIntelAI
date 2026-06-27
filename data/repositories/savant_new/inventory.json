@@ -1,0 +1,2339 @@
+[
+    {
+        "title": "Operators | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245717-operators",
+        "description": "List of operators for use in Edit and Filter expressions.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AWS Athena Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245797-aws-athena-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Amazon Redshift Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245801-amazon-redshift-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Drive Connection Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245806-google-drive-connection-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Sheets Connection Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245809-google-sheets-connection-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Hubspot Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245810-hubspot-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MariaDB Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245819-mariadb-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Slack Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245821-slack-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Snowflake Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245824-snowflake-connector-setup",
+        "description": "Connector Setup for Snowflake",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SSH Tunnel Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6245827-ssh-tunnel-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Sales Lead-to-Account Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6271020-sales-lead-to-account-analytics",
+        "description": "If you have access to Salesforce, you can test your Savant skills with this practical Lead to Account Matching exercise",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Pendo Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6313955-pendo-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Zendesk Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6319201-zendesk-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Greenhouse Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6319607-greenhouse-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Shopify Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6322706-shopify-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Salesforce Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6322755-salesforce-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Dropbox Connection Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6322911-dropbox-connection-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AWS S3 Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6398804-aws-s3-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MySQL Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6558726-mysql-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "PostgreSQL Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6565208-postgresql-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Airtable Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6666081-airtable-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Marketo Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6666851-marketo-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Databricks Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6739092-databricks-connector-setup",
+        "description": "Guide to connecting Databricks",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Tableau Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6801919-tableau-connector-setup",
+        "description": "Guide to connecting Tableau Cloud",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Power BI Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6809525-power-bi-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SQL Server Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6946059-sql-server-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "December 2022 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6978912-december-2022-updates",
+        "description": "Google Sheets write anywhere, Data lineage, Time zones, New functions and Stripe connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "January 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6978924-january-2023-updates",
+        "description": "Multi-row calculations, Folders, Time Series decades, CSV sort, Facebook Ads and API pagination",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Facebook Ads Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6980604-facebook-ads-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Ads Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/6988751-google-ads-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "February 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7017261-february-2023-updates",
+        "description": "Sample tool, Transform from canvas, Custom time series windows, Google Ads and Power BI",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Generic API Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7030173-generic-api-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Functions | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7048857-functions",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google BigQuery Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7097388-google-bigquery-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "March 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7104711-march-2023-updates",
+        "description": "Stitch files, Adapter tool, In-DB SQL, dbt orchestration, Faster JSON, Slack quick nav and Microsoft Exchange",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Baby Names Analytics: Exercise #1 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7104716-baby-names-analytics-exercise-1",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Baby Names Analytics: Exercise #2 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7104718-baby-names-analytics-exercise-2",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Baby Names Analytics: Exercise #3 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7104723-baby-names-analytics-exercise-3",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Custom SSO Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7118955-custom-sso-setup",
+        "description": "Guide to Configuring SAML/Single Sign-On (SSO) for Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Analytics 4 Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7183605-google-analytics-4-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "JIRA Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7184858-jira-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Exchange Connector | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7203648-microsoft-exchange-connector",
+        "description": "Guide to connecting Microsoft Exchange",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Excel 365 Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7203983-microsoft-excel-365-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Oracle DB Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7211531-oracle-db-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Stripe Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7211781-stripe-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "April 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7438086-april-2023-updates",
+        "description": "Multi-tab files, Transform tool, New functions, JQL, Skip Rows, NetSuite, Oracle DB and OneDrive",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Opportunity Pipeline Change Report | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7879712-opportunity-pipeline-change-report",
+        "description": "🏷️Tags: Sales 🔬Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SDR Productivity Kit: Meetings Preprocess | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7934416-sdr-productivity-kit-meetings-preprocess",
+        "description": "🏷️Tags: Sales 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Asset and Liability Reconciliation | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7937058-asset-and-liability-reconciliation",
+        "description": "🏷️ Tags: Finance 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Sales and Use Tax (Current Year) | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7937143-sales-and-use-tax-current-year",
+        "description": "🏷️Tags: Finance 🔬Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SDR Productivity Kit: Outbound Touches Preprocess | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7939082-sdr-productivity-kit-outbound-touches-preprocess",
+        "description": "🏷️Tags: Sales 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SDR Productivity Kit: SDR Activity | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7943470-sdr-productivity-kit-sdr-activity",
+        "description": "🏷️Tags: Sales 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Download US Census Data into a Database | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7943691-download-us-census-data-into-a-database",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adapter Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7943792-adapter-agent",
+        "description": "Verify that the input data matches the expected output, guaranteeing the correct column names and data types.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Lead Funnel Metrics Report | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7946422-lead-funnel-metrics-report",
+        "description": "🏷️Tags: Sales, Marketing 🔬Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Match Leads to Accounts | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7946546-match-leads-to-accounts",
+        "description": "🏷️Tags: Sales, Marketing 🔬Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Update Database from Spreadsheet Input with Email Alert | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7947227-update-database-from-spreadsheet-input-with-email-alert",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Web Activity Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7947680-web-activity-analytics",
+        "description": "🏷️Tags: Sales, Marketing 🔬Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How to Create Your Analysis | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7968213-how-to-create-your-analysis",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Connecting Data | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7970970-connecting-data",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "May 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/7974618-may-2023-updates",
+        "description": "Savant copilot, Node descriptions, Operational alerts, Custom file delivery & upload, Autofill, Ad connectors and more!",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "The Tool Menu | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8001513-the-tool-menu",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Publishing Data | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8001531-publishing-data",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adding a Template to Your Workspace | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8002579-adding-a-template-to-your-workspace",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "The Canvas | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8002884-the-canvas",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adding Tools to Your Analysis | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8003136-adding-tools-to-your-analysis",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Tool Configuration | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8007739-tool-configuration",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Renaming and Annotating Tools | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8007780-renaming-and-annotating-tools",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Deleting Tools and Connectors | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8007801-deleting-tools-and-connectors",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Runs Overview | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8007838-runs-overview",
+        "description": "All about running workflows and understanding Tests vs. Runs in Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Enrich Leads with a Database | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8017347-enrich-leads-with-a-database",
+        "description": "🏷️ Tags: Sales, Marketing 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Rolling 30 Day Usage Report | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8017430-rolling-30-day-usage-report",
+        "description": "🏷️ Tags: Analytics 🔬Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Market Penetration by US Geo | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8020936-market-penetration-by-us-geo",
+        "description": "🏷️Tags: Sales, Marketing 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Update Database with Spreadsheet Input | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8021054-update-database-with-spreadsheet-input",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Send Report from Database | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8021451-send-report-from-database",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Schedules | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8032714-schedules",
+        "description": "Learn how to create bots in Savant to automate and schedule your analyses to run.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "June 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8105301-june-2023-updates",
+        "description": "SFDC Reports, No Email Option, Destination Auto-map, Sharepoint & Teams Connectors",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Connecting Tools Together | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8125318-connecting-tools-together",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Transform Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8168220-transform-agent",
+        "description": "The Transform agent is used to format, arrange and calculate data, just like you would in a spreadsheet.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Unpivot Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8173466-unpivot-agent",
+        "description": "Convert wide datasets into a long format.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Pivot Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8174094-pivot-agent",
+        "description": "Summarize and transform your data by grouping and aggregating values with the Pivot agent.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Split Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8174198-split-agent",
+        "description": "Use the Split agent to divide text fields into separate columns or rows based on a specified delimiter.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Stack Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8174584-stack-agent",
+        "description": "Combine multiple datasets by stacking rows to consolidate similar data into one output.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Sample Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8179000-sample-agent",
+        "description": "The Sample agent extracts specific data portions: first N rows, every Nth row, or a percentage.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "July 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8180037-july-2023-updates",
+        "description": "Change data types, Transform existing columns, Headerless files, and Pivot aggregations",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Summarize Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8182173-summarize-agent",
+        "description": "Summarize agent groups, sorts, and aggregates data with functions like SUM, COUNT, AVG. Configure windows for detailed analysis.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Filter Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8202204-filter-agent",
+        "description": "Use the Filter agent to isolate records based on conditions in your dataset, utilizing either the Builder or Expression options.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "JSON Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8202398-json-agent",
+        "description": "Parse and transform JSON data into a structured format for analysis.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "User Roles and Permissions | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8202461-user-roles-and-permissions",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Time Series Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8207851-time-series-agent",
+        "description": "Perform complex aggregations on time series data without the need for extensive data parsing or extraction.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Analyses Overview | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8207944-analyses-overview",
+        "description": "Learn about the Analyses page from the Savant home screen.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Data Overview | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8215107-data-overview",
+        "description": "Learn about the Data page from the Savant home screen.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Admin Overview | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8218751-admin-overview",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Project Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8218903-microsoft-project-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Systems | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230037-systems",
+        "description": "Introduction to Systems in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adding Systems | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230045-adding-systems",
+        "description": "Learn how to add, configure, and authenticate systems in Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "System Management | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230096-system-management",
+        "description": "Organizing and managing systems in your Savant workspace and analyses.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Creating Datasets | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230465-creating-datasets",
+        "description": "Create and manage datasets from authenticated systems in Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Using Datasets in Analyses | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230484-using-datasets-in-analyses",
+        "description": "How to add datasets to your analyses.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Managing Datasets | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8230487-managing-datasets",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "API Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8232926-api-agent",
+        "description": "Make API calls and retrieve data from external APIs.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Infer Agent ✨ | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8238614-infer-agent",
+        "description": "Enrich, classify, and label data with AI – directly inside your analysis.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Xero Connector Guide | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8252733-xero-connector-guide",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Workday Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8252759-workday-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Automate Your Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8258224-automate-your-analytics",
+        "description": "Quickly create schedules to automate when your analysis executes/runs.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "What Is Savant? | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8264720-what-is-savant",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How to Sign Up for Savant | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8264759-how-to-sign-up-for-savant",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Your First 30 Days with Savant | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8264763-your-first-30-days-with-savant",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How to Get Help | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8264768-how-to-get-help",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Connecting to Data Sources and Data Destinations | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8265331-connecting-to-data-sources-and-data-destinations",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Your All-in-One Home for Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8282882-your-all-in-one-home-for-analytics",
+        "description": "300+ No-Code, Low-Code, Drag-and-Drop Tools to Create Analytic Workflows",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "August 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8295540-august-2023-updates",
+        "description": "Gen AI tool, Canvas layouts, Dedupe tool, Bulk actions and Xero connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SFTP/FTP Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8295960-sftp-ftp-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Gmail Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8295961-google-gmail-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Search Ads 360 Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8295964-google-search-ads-360-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Quickbooks Online Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8295967-quickbooks-online-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Flight Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8302536-flight-analytics",
+        "description": "In this exercise, you'll learn how to use Savant to analyze flight data from the New York area.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Cashflow Forecasting | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8360931-cashflow-forecasting",
+        "description": "🏷️ Tags: Finance 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Finance KPI Analysis | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8361008-finance-kpi-analysis",
+        "description": "🏷️ Tags: Finance 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "International Currencies and Tax Calculations | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8361027-international-currencies-and-tax-calculations",
+        "description": "🏷️ Tags: Finance 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Sales Tax Variance | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8361031-sales-tax-variance",
+        "description": "🏷️ Tags: Finance 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Recursion Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8391773-recursion-agent",
+        "description": "The Recursion agent recursively calculates data across levels in a parent-child tree.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "September 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8443976-september-2023-updates",
+        "description": "Drag and drop, Run now, Name runs, Regex, XLSB and Airtable",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Dedupe Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8561199-dedupe-agent",
+        "description": "Combine datasets based on matching fields, with the flexibility to handle different join types.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "November 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8568538-november-2023-updates",
+        "description": "Bot Alerts, Include New Fields, Recursion Tool, Fill Down, Box Connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DATE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8709258-date",
+        "description": "Creates a date based on the provided year, month, and day values",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DATE_ADD | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8709266-date_add",
+        "description": "Adds a specified offset of time (e.g., seconds, minutes, hours) to a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DATE_DIFF | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8709278-date_diff",
+        "description": "Calculates the difference in days, weeks, months, quarters, or years between two dates",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DATETIME | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8709299-datetime",
+        "description": "Creates a datetime based on the provided year, month, day, hour, minute, and second values",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DAY | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712542-day",
+        "description": "Retrieves the day of the month from a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DAY_OF_WEEK | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712602-day_of_week",
+        "description": "Determines the day of the week for a given date or datetime, where Monday is 1, Tuesday is 2, and so on",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DAY_OF_YEAR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712607-day_of_year",
+        "description": "Calculates the day of the year for a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DAYS_IN_MONTH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712616-days_in_month",
+        "description": "Calculates the number of days in the month for a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "DAYS_IN_YEAR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712627-days_in_year",
+        "description": "Calculates the number of days in a year for a given date or datetime, considering leap years",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "HOUR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712674-hour",
+        "description": "Extracts the hour component from a given datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "INTERVAL (Date) | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712681-interval-date",
+        "description": "Adds a specified number of days, weeks, months, quarters, or years to a date",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "INTERVAL (DateTime) | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712684-interval-datetime",
+        "description": "Adds a specified number of seconds, minutes, or hours to a datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MINUTE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712690-minute",
+        "description": "Extracts the minute component from a given datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MONTH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712694-month",
+        "description": "Retrieves the month component from a given date",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "NOW | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712699-now",
+        "description": "Retrieves the current date and time",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "QUARTER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712703-quarter",
+        "description": "Retrieves the quarter of the year from a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SECOND | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712851-second",
+        "description": "Extracts the second component from a given datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TIME_PERIOD | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712855-time_period",
+        "description": "Returns a standard time period (e.g., day, week, month, quarter, year) for a given date or datetime field",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TIME_PERIOD_OFFSET | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8712892-time_period_offset",
+        "description": "Calculates the number of time periods between a given date and the current period",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TODAY | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713060-today",
+        "description": "Retrieves the current date",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "WEEK/WEEK_OF_YEAR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713063-week-week_of_year",
+        "description": "Determines the week number of the year for a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "YEAR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713065-year",
+        "description": "Retrieves the year component from a given date or datetime",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_BOOLEAN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713067-to_boolean",
+        "description": "Converts a value to a boolean (true/false) format",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_DATE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713074-to_date",
+        "description": "Converts text to a date format",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_DATETIME | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713078-to_datetime",
+        "description": "Converts text to a datetime format",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_INTEGER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8713083-to_integer",
+        "description": "Converts a value to an integer",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_NUMBER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718579-to_number",
+        "description": "Converts a value to a numerical format",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TO_TEXT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718607-to_text",
+        "description": "Converts a value, whether it's a datetime or any other data type, to a text format",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ABS | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718632-abs",
+        "description": "Returns the absolute value of a number, ignoring its sign (+/-)",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CEILING | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718641-ceiling",
+        "description": "Rounds a number up to the nearest integer",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "FLOOR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718661-floor",
+        "description": "Rounds a number down to the nearest integer",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GREATEST | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718690-greatest",
+        "description": "Returns the greatest value among the given columns (i.e., arguments)",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LEAST | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718807-least",
+        "description": "Returns the smallest value among the given columns (i.e., arguments)",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LOG | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718815-log",
+        "description": "Calculates the logarithm of a number to a specified base",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MOD | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718824-mod",
+        "description": "Returns the remainder of a division operation",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "POWER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718831-power",
+        "description": "Raises a number to the power of another number",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "RANDOM | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718838-random",
+        "description": "Generates a random decimal value between 0 and 1",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ROUND | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718841-round",
+        "description": "Rounds a number to a specified number of decimal places",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ROUNDDOWN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718846-rounddown",
+        "description": "Rounds a number down to the nearest integer",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ROUNDUP | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718864-roundup",
+        "description": "Rounds a number up to the nearest integer",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "COALESCE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718875-coalesce",
+        "description": "Returns the first non-null value from a list of options.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "FIRST_NOT_EMPTY | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718879-first_not_empty",
+        "description": "Returns the first non-empty value from a list of options.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "IF | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718884-if",
+        "description": "Returns one value if a condition is true and another if false.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "IFS | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8718888-ifs",
+        "description": "Returns a value corresponding to the first true condition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "IS_EMPTY | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719001-is_empty",
+        "description": "Checks if a value or field is empty",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "JSON_FIELD | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719014-json_field",
+        "description": "Extracts a specific field from JSON data",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "JSON_SET | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719019-json_set",
+        "description": "Sets a value for a specific field in JSON data",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CONCAT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719024-concat",
+        "description": "Concatenates multiple text values into a single value",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "HASH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719042-hash",
+        "description": "Computes the hash value of a text using a specified algorithm (MD5 or SHA-1)",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "HTML_ESCAPE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719059-html_escape",
+        "description": "Escapes HTML special characters in a text string",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LENGTH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719088-length",
+        "description": "Computes the length (number of characters) of a text string",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LEVENSHTEIN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719098-levenshtein",
+        "description": "Measures the edit distance (Levenshtein distance) between two text strings",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LOWER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719269-lower",
+        "description": "Converts text to all lowercase characters",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "PROPER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719275-proper",
+        "description": "Capitalizes the first letter of each word in a text string",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REGEX_EXTRACT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719282-regex_extract",
+        "description": "Extracts text that matches a regular expression pattern",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REGEX_MATCH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719290-regex_match",
+        "description": "Checks if a text string matches a specified regular expression pattern",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REGEX_REPLACE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719298-regex_replace",
+        "description": "Replaces text that matches a regular expression pattern with a specified replacement",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REGEX_SEARCH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8719305-regex_search",
+        "description": "Returns the index of the first character of the first matching substring based on a regular expression pattern",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REPLACE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8723471-replace",
+        "description": "Replaces all occurrences of a specified search string with a replacement string",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REVERSE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8723482-reverse",
+        "description": "Reverses the order of characters in a text string",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SEARCH | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8724784-search",
+        "description": "Searches for a specific search string within a text and returns the index of the first occurrence",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SOUNDEX | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8724793-soundex",
+        "description": "Converts text to a SOUNDEX code for phonetic matching",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SPLIT_PART | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8724797-split_part",
+        "description": "Extracts a specific part of a text string using a delimiter",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "UNESCAPE_HTML | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8728613-unescape_html",
+        "description": "Converts HTML escape sequences in text back to their original characters",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "UPPER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8728627-upper",
+        "description": "Converts text to all uppercase characters",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "IN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8732468-in",
+        "description": "Checks if a value exists within a specified set of values",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CASE ... WHEN ... | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8732470-case-when",
+        "description": "Evaluates conditions and returns a value based on the first true condition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "January 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8780469-january-2024-updates",
+        "description": "Prebuilt Solutions, Sticky Notes, Triggers and more!",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft OneDrive Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8862661-microsoft-onedrive-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adobe Analytics Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8872399-adobe-analytics-connector-setup",
+        "description": "Guide to connecting Adobe Analytics",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Box Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8887379-box-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "February 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8931999-february-2024-updates",
+        "description": "Multi-path outputs, Blend tool, Filter multi-path, Template variables, Formatted JSON, Dynamic functions and Tableau upgrade",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "December 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8932200-december-2023-updates",
+        "description": "Blobs, Avatars, Logos, Run History and Time differences",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "October 2023 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/8932494-october-2023-updates",
+        "description": "Pretty PDFs, Copilot upgrade, Case-insensitive dedupe, Tons of functions and Gmail connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "March 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9048833-march-2024-updates",
+        "description": "Email triggers, Webhook triggers, Flexible file stitching, Hourly scheduling windows, Community, Group replace, LinkedIn sign up",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "dbt Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9074580-dbt-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "April 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9190017-april-2024-updates",
+        "description": "Copy paste and cut, File drop, Analysis import and export",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "X Ads (Twitter) Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9298547-x-ads-twitter-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "May 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9319942-may-2024-updates",
+        "description": "Data previews toggles, New Transform, Square brackets, Join with contains, Variables in Filter, Encoding, and Synapse and Twitter connectors",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "June 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9508445-june-2024-updates",
+        "description": "Format tool, Upload 50MB files, Zipped files, PUT/PATCH/DELETE, Spreadsheet update and Excel Macros",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Format Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9509980-format-agent",
+        "description": "Use the Format agent to modify and format your dataset by dynamically changing field names, data types, and other schema properties.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AWS FSx Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9541129-aws-fsx-connector-setup",
+        "description": "Seamlessly and securely connect Savant to your AWS FSx drive for protected file management.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "IP Whitelisting Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9578820-ip-whitelisting-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "July 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9596956-july-2024-updates",
+        "description": "Flexible multi-stack, Multi-tab selection, Fast dataset creation, Smartsheet connector, X Search (Twitter) connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "REPEAT() | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9650328-repeat",
+        "description": "Repeats a specified string a given number of times.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Sharepoint Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9682338-microsoft-sharepoint-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "X Search (Twitter) Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9682647-x-search-twitter-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "NetSuite Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9715906-netsuite-connector-setup",
+        "description": "Guide to Connecting NetSuite to Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Azure Synapse Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9731251-azure-synapse-setup",
+        "description": "Guide to connecting Azure Synapse Analytics",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Adding Users to Workspaces | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9757487-adding-users-to-workspaces",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "August 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9829198-august-2024-updates",
+        "description": "Unpivot all fields, Huge SQL queries, Concat with line breaks, Parquet files, Azure Synapse boost, Snowflake with OAuth",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Network Share Drive Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9830936-network-share-drive-connector-setup",
+        "description": "Seamlessly and securely connect Savant to your network share drive for protected file management.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "September 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9958964-september-2024-updates",
+        "description": "SQL pushdown, Dynamic workbooks in Google Drive, File encoding, and GREATEST() & LEAST() function updates",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Contact Us | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9967033-contact-us",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Blend Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9971999-blend-agent",
+        "description": "Combine multiple datasets by stacking rows to consolidate similar data into one output.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Removing Users from Workspaces | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9972030-removing-users-from-workspaces",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Importing a Savant Analysis | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9981091-importing-a-savant-analysis",
+        "description": "Export and import Savant analysis JSON files.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "October 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/9999411-october-2024-updates",
+        "description": "Data dupes, Run duration, Entra ID OAuth, New SFDC objects and New functions",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Smartsheet Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10011008-smartsheet-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Triggers | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10064959-triggers",
+        "description": "Run your analyses automatically with Email or Webhook triggers.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Re-authenticate a System | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10067903-re-authenticate-a-system",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "PAD_LEFT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10202686-pad_left",
+        "description": "Pads the left-side of text with a specified character to ensure a minimum text length",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "PAD_RIGHT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10203157-pad_right",
+        "description": "Pads the right-side of text with a specified character to ensure a minimum text length",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LEFT_PART | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10203195-left_part",
+        "description": "Retrieves the leftmost characters from a text string.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "RIGHT_PART | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10203214-right_part",
+        "description": "Retrieves the rightmost characters from a text string.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "November 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10207266-november-2024-updates",
+        "description": "Sample groups, Sample top N and Salesforce connector enhancements",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CONTAINS | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10222841-contains",
+        "description": "Checks if text contains specified subtext.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Klaviyo Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10244994-klaviyo-connector-setup",
+        "description": "Guide to connecting Klaviyo",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MID | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10245054-mid",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AVG | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10247408-avg",
+        "description": "Calculates the average value of a specified numeric field across a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CONCAT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250725-concat",
+        "description": "Combines unique text values from multiple rows in a specified field into a single text value",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CONCAT DISTINCT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250740-concat-distinct",
+        "description": "Combines unique text values from multiple rows in a specified field into a single text value",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "COUNT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250749-count",
+        "description": "Counts the number of rows within a specified range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "COUNT DISTINCT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250760-count-distinct",
+        "description": "Counts the number of unique values in a specified field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "CUMULATIVE SUM | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250797-cumulative-sum",
+        "description": "Calculates the cumulative sum of a specified numeric field across a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "FILL | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250804-fill",
+        "description": "Populates missing values in a specified field using a defined strategy, such as forward fill or backward fill",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "FIRST | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250816-first",
+        "description": "Get the first value of a specified field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LAG | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250827-lag",
+        "description": "Get the value of a specified field from a previous row in the dataset",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LAST | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250829-last",
+        "description": "Get the last value of a specified field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LEAD | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250837-lead",
+        "description": "Get the value of a specified field from a subsequent row in the dataset.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MAX | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250840-max",
+        "description": "Get the maximum value of a specified field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MEDIAN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250846-median",
+        "description": "Get the median value of a specified numeric field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "MIN | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250871-min",
+        "description": "Get the minimum value of a specified field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "NTILE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250994-ntile",
+        "description": "Assigns a bucket number to each row in a partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "RANK | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10250999-rank",
+        "description": "Assigns a rank to each row within a partition of the dataset, with ties receiving the same rank",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ROW NUMBER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10251003-row-number",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "STDDEV | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10251009-stddev",
+        "description": "Calculates the standard deviation of a specified numeric field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SUM | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10251013-sum",
+        "description": "Calculates the total sum of a specified numeric field within a range or partition",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "VAR | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10251017-var",
+        "description": "Calculates the variance of a specified numeric field within a range or partition.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Run History | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10270513-run-history",
+        "description": "Use Run History in Savant to track, review, and troubleshoot your runs.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Flat File Datasets | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10279829-flat-file-datasets",
+        "description": "Learn how to connect to flat file systems like S3, OneDrive, and SharePoint or upload flat files for quick, static data analyses",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Audit Run Changes | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10291995-audit-run-changes",
+        "description": "Learn how to generate Audit Change Reports to compare tool configuration changes between historical runs in Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "December 2024 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10309607-december-2024-updates",
+        "description": "Work hour scheduling, Customizable week start calculations and Supercharged Tableau connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "January 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10486733-january-2025-updates",
+        "description": "Formatted emails, File encoding, Password-protected Excels, Formatted reports for Google Drive and Jira Service Management connector",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "JWT_ENCODE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10517511-jwt_encode",
+        "description": "Encodes a JSON Web Token for usage with APIs",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "February 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10731243-february-2025-updates",
+        "description": "Explode tool, Keyboard shortcuts and OneDrive & SharePoint connector updates for subfolders, password-protected Excel and read-as-stored",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Explode Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10732209-explode-agent",
+        "description": "Cross joins between datasets with zero configuration, making it effortless to combine every row from one dataset with every row from another.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "March 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/10861298-march-2025-updates",
+        "description": "Advanced agent scheduler, Auto-pause failing bots, Improved Date_Add() for months",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Oracle Fusion Cloud Financials Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11066100-oracle-fusion-cloud-financials-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "XML Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11170724-xml-agent",
+        "description": "Parse and transform XML data into a structured format for analysis.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Notes Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11172618-notes-agent",
+        "description": "Add quick, free-form annotations to your canvas for context, collaboration, or reminders.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft OneDrive/Sharepoint Connector | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11383444-microsoft-onedrive-sharepoint-connector",
+        "description": "Guide to setup OneDrive/Sharepoint  for Savant Integration",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "April 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11431908-april-2025-updates",
+        "description": "Read Excel as stored or formatted, Advanced scheduling, Gen AI tool big boost, BigQuery pushdown and Google Sheets long names",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "May 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11432133-may-2025-updates",
+        "description": "Copy from run history to live canvas, Text aggregation in pivots, PDF upload enabled, and Frictionless OneDrive/Sharepoint connections.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How OAuth Authentication works in Savant | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11462281-how-oauth-authentication-works-in-savant",
+        "description": "Describes an OAuth authentication flow for sample OneDrive connection",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "OpenAI Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11463773-openai-connector-setup",
+        "description": "Guide to Configuring OpenAI as an AI Provider in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "ADP Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11557030-adp-connector-setup",
+        "description": "Guide to Connecting ADP to Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "TRIM | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11586103-trim",
+        "description": "Removes leading and trailing spaces from text",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "June 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11670067-june-2025-updates",
+        "description": "Bringing more power and flexibility to you by vastly higher prompt character limits and increased row processing power with GenAI tools.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Sprinklr Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11692808-sprinklr-connector-setup",
+        "description": "Guide to connecting Sprinklr",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "July 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11898824-july-2025-updates",
+        "description": "Bigger Excel uploads, Empty field automation, Geo Distance calculations, Sprinklr reports and Advanced Shopify queries.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_DISTANCE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11909862-geo_distance",
+        "description": "Calculates the distance between two points",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Geocoding | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11914633-geocoding",
+        "description": "🏷️ Tags: Geospatial 🔬 Analysis Level: Beginner",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Distance & Drive Time Analytics | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11914651-distance-drive-time-analytics",
+        "description": "🏷️ Tags: Geospatial 🔬 Analysis Level: Intermediate",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Proximity Joins & Service Areas | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11914670-proximity-joins-service-areas",
+        "description": "🏷️ Tags: Geospatial 🔬 Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Nearest Neighbor & Clustering | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/11914680-nearest-neighbor-clustering",
+        "description": "🏷️ Tags: Geospatial 🔬 Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "August 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12043257-august-2025-updates",
+        "description": "Presentation tools, Email hyperlinks, Authorization provider, Microsoft Fabric Connector and Sync Zendesk & Sprinklr data.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AI Agent for Messy Files | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12068343-ai-agent-for-messy-files",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "SAP HANA Database Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12110205-sap-hana-database-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Fabric Warehouse Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12132607-microsoft-fabric-warehouse-connector-setup",
+        "description": "Guide to connecting MS Fabric",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Automating Hierarchies: Iterative Logic Meets the Recursion Tool | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12142624-automating-hierarchies-iterative-logic-meets-the-recursion-tool",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "September 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12167020-september-2025-updates",
+        "description": "Oracle fusion reports, Explode tool update, Decode base64 and SSO enhancements",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "AI Categorization & Smart Tagging Agent | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12220150-ai-categorization-smart-tagging-agent",
+        "description": "🏷️Tags: Analytics 🔬Analysis Level: Advanced",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Azure APIM Authentication Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12498487-azure-apim-authentication-setup",
+        "description": "Azure API Management (APIM) supports OAuth 2.0 for secure client authentication and authorization.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Anaplan Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12541031-anaplan-connector-setup",
+        "description": "Guide to connecting to Anaplan",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "October 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12573680-october-2025-updates",
+        "description": "Smarter Agents. Sharper Functions. Smoother Flows.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "November 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12745509-november-2025-updates",
+        "description": "Control your inputs and clean up your outputs with SFTP Subfolders & smoother text output.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "LIST_TO_TEXT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12805365-list_to_text",
+        "description": "Concatenates list of text values into text",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Theobald Xtract Universal for SAP Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/12986835-theobald-xtract-universal-for-sap-connector-setup",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "December 2025 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13014599-december-2025-updates",
+        "description": "Easily navigate between runs",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Advanced Audit & Activity Logs | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13217686-advanced-audit-activity-logs",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Google Gemini Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13440871-google-gemini-connector-setup",
+        "description": "Guide to connecting Google Gemini",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How Slack OAuth Authentication works in Savant | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13488962-how-slack-oauth-authentication-works-in-savant",
+        "description": "Describes the OAuth authentication flow for a Slack connection (Slack Workspace authorization + token lifecycle + how Savant uses Slack APIs)",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "January 2026 Updates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13600951-january-2026-updates",
+        "description": "More Choice, More Power: Google Gemini Joins Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Savant Logs Guide | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13654453-savant-logs-guide",
+        "description": "Automate SOX audits, observability and usage tracking with built-in logging",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Write to SAP S/4HANA using the API Tool | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13853911-write-to-sap-s-4hana-using-the-api-tool",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Microsoft Fabric Lakehouse Connector Setup | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/13972818-microsoft-fabric-lakehouse-connector-setup",
+        "description": "Guide to connecting MS Fabric Lakehouse",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "February 2026 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14006555-february-2026",
+        "description": "New Connector Capabilities, Vault Enhancements, and Simpler Agent Workflows",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Vision Agent ✨ | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14094408-vision-agent",
+        "description": "Turn documents, images, and handwritten files into structured, analysis-ready data.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Fuse Agent ✨ | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14094437-fuse-agent",
+        "description": "Match messy records across systems – even when the keys do not line up.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Spatial Match Agent 🌎 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14461037-spatial-match-agent",
+        "description": "Compare and match data using geometry relationships",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Spatial Summarize Agent 🌎 | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14461320-spatial-summarize-agent",
+        "description": "Group and summarize geospatial records",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_SPATIAL_DISTANCE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14462645-geo_spatial_distance",
+        "description": "Calculates the distance between two points",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_POINT | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14462789-geo_point",
+        "description": "Creates a point geometry from longitude and latitude",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_TYPE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14462975-geo_type",
+        "description": "Returns the geometry type",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_AREA | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14463085-geo_area",
+        "description": "Calculates the area of a polygon",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_CENTROID | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14463134-geo_centroid",
+        "description": "Returns the geometric center of a geometry",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_DIFFERENCE | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464039-geo_difference",
+        "description": "Returns the non-overlapping portion of a geometry",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_UNION | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464058-geo_union",
+        "description": "Combines two geometries into one",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_INTERSECTION | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464084-geo_intersection",
+        "description": "Returns the overlapping portion of two geometries",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_BUFFER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464101-geo_buffer",
+        "description": "Creates a buffer around a geometry",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_TRADE_AREA | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464361-geo_trade_area",
+        "description": "Creates a radius-based trade area around a point",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_PERIMETER | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464408-geo_perimeter",
+        "description": "Calculates the perimeter of a polygon",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "GEO_ISVALID | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14464460-geo_isvalid",
+        "description": "Checks whether a geometry is valid",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Files Overview | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14780016-files-overview",
+        "description": "Working with files in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Flat Files and Text Blobs | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14780483-flat-files-and-text-blobs",
+        "description": "Reading and writing delimited and unstructured text files in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Spreadsheets (Excel + Google Sheets) | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14780656-spreadsheets-excel-google-sheets",
+        "description": "Reading and writing Excel workbooks and Google Sheets in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "PDF | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14885454-pdf",
+        "description": "Reading and writing PDF files in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Parquet | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14886167-parquet",
+        "description": "Reading and writing Parquet files for large-scale data workloads in Savant",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How can I resolve column ordering issues in the Pivot Tool? | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14961446-how-can-i-resolve-column-ordering-issues-in-the-pivot-tool",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "How can I troubleshoot workflow analysis errors in Savant? | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/articles/14961608-how-can-i-troubleshoot-workflow-analysis-errors-in-savant",
+        "description": "",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "What's New | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/3850665-what-s-new",
+        "description": "Get the latest news about what's new in the Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Getting Started | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/4065910-getting-started",
+        "description": "Savant's onboarding journey: from login and onboarding to expertise, with help resources & personalized support. 🚀",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Product Walkthrough | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/3345890-product-walkthrough",
+        "description": "Explore detailed documentation covering every aspect of Savant's functionalities to become a Savant power user.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Agents and Functions | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/4065822-agents-and-functions",
+        "description": "Discover the array of agents and functions at your disposal within Savant.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Connectors and Files | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/3480481-connectors-and-files",
+        "description": "Step-by-step instructions how to configure Savant's wide range of connectors for reading and writing data to third party databases, file storage systems, and cloud technologies.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Templates | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/3642171-templates",
+        "description": "Experience faster business outcomes with Savant analytics automation solution templates. Accelerate analytics across Finance, Marketing, Sales and more by simply selecting a solution template and connecting the workflow to your data sources!",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "Contact Us | Savant Labs, Inc. Help Center",
+        "url": "https://help.savantlabs.io/en/collections/10591935-contact-us",
+        "description": "We're here to help! If you have any questions, issues, or feedback, don’t hesitate to reach out. Our support team is available and ready to assist you.",
+        "discovered_by": "sitemap",
+        "content_fetched": false
+    },
+    {
+        "title": "",
+        "url": "https://help.savantlabs.io/en/collections/3979532-tips-tricks",
+        "description": "",
+        "discovered_by": "sitemap"
+    }
+]

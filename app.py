@@ -1,3 +1,6 @@
+from pages.job_manager_page import (
+    show_page as show_job_manager
+)
 from pages.repository_dashboard_page import (
     show_page as show_repository_dashboard
 )
@@ -72,6 +75,7 @@ page = st.sidebar.radio(
         "Screenshot Intelligence",
         "🔗 Connect Documentation",
         "🗂 Repository Dashboard",
+        "⚙ Job Manager",
         "Gap Analysis",
         "Impact Analysis",
         "Publishing",
@@ -95,6 +99,14 @@ elif page == "Generate Docs":
 
     render_generate_docs()
 
+# --------------------------------------------------
+# Job Manager
+# --------------------------------------------------
+
+elif page == "⚙ Job Manager":
+
+    show_job_manager()
+    
 # --------------------------------------------------
 # Gap Analysis
 # --------------------------------------------------
