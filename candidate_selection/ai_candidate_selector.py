@@ -102,4 +102,25 @@ Articles:
         .strip()
     )
 
-    return json.loads(result)
+    try:
+        return json.loads(result)
+
+    except json.JSONDecodeError:
+
+        response = client.chat.completions.create(
+
+        model="gpt-4o",
+
+        response_format={"type": "json_object"},
+
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+    )
+
+    return json.loads(
+        response.choices[0].message.content
+    )

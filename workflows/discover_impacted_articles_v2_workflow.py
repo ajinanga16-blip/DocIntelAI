@@ -1,3 +1,6 @@
+from documentation_intelligence.documentation_intelligence_engine import (
+    discover_candidate_articles
+)
 from repositories.repository_loader import (
     load_repository_inventory
 )
@@ -77,56 +80,9 @@ def discover_impacted_articles_v2(
     #
     # Step 2
     #
-
-    candidates = ai_candidate_search(
+    ranked = discover_candidate_articles(
         screenshot_context,
         inventory
-    )
-
-    #
-    # Step 3
-    #
-
-    content_articles = fetch_candidate_content(
-        candidates["matched_articles"],
-        max_articles=len(
-            candidates["matched_articles"]
-        )
-    )
-
-    #
-    # Step 4
-    #
-
-    queries = []
-
-    queries.extend(
-        screenshot_context.get(
-            "keywords",
-            []
-        )
-    )
-
-    queries.extend(
-        screenshot_context.get(
-            "ui_elements",
-            []
-        )
-    )
-
-    if screenshot_context.get(
-        "page_title"
-    ):
-
-        queries.append(
-            screenshot_context[
-                "page_title"
-            ]
-        )
-
-    ranked = rank_articles(
-        queries,
-        content_articles
     )
 
     return {
