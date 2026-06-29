@@ -4,9 +4,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-JIRA_URL = os.getenv("JIRA_URL")
+JIRA_URL = (
+    os.getenv("JIRA_URL")
+    or os.getenv("JIRA_BASE_URL")
+)
+
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")
-JIRA_TOKEN = os.getenv("JIRA_TOKEN")
+
+JIRA_TOKEN = (
+    os.getenv("JIRA_TOKEN")
+    or os.getenv("JIRA_API_TOKEN")
+)
 
 
 def extract_text_from_adf(node):
