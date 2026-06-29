@@ -4,6 +4,10 @@ from workflows.screenshot_analysis_workflow import (
     analyze_screenshot_workflow
 )
 
+from repositories.repository_list import (
+    get_repository_names
+)
+
 from workflows.discover_impacted_articles_workflow import (
     discover_impacted_articles
 )
@@ -58,8 +62,13 @@ def render_help_site_impact():
 
     )
 
-    help_site_url = st.text_input(
-        "Help Site URL"
+    repositories = get_repository_names()
+
+    repository_name = st.selectbox(
+        "Repository",
+        repositories,
+        index=None,
+        placeholder="Select a repository..."
     )
 
     if screenshot_file:
@@ -69,7 +78,7 @@ def render_help_site_impact():
             use_container_width=True
         )
 
-    if screenshot_file and help_site_url:
+    if screenshot_file and repository_name:
 
         if st.button(
             "🔍 Discover Impacted Articles"
@@ -92,14 +101,14 @@ def render_help_site_impact():
                 if search_engine == "Classic Search (V1)":
 
                     results = discover_impacted_articles(
-                        help_site_url,
+                        repository_name,
                         screenshot_context
                     )
 
                 else:
 
                     results = discover_impacted_articles_v2(
-                        help_site_url,
+                        repository_name,
                         screenshot_context
                     )
 

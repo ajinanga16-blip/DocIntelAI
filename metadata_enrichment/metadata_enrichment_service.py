@@ -10,9 +10,16 @@ def enrich_article(article, repository_name):
 
     enriched_article["repository"] = repository_name
 
-    enriched_article["word_count"] = 0
+    content = article.get("content", "")
 
-    enriched_article["reading_time_minutes"] = 0
+    word_count = len(content.split())
+
+    enriched_article["word_count"] = word_count
+
+    enriched_article["reading_time_minutes"] = max(
+        1,
+        round(word_count / 200)
+    )
 
     enriched_article["domain"] = urlparse(
         article["url"]

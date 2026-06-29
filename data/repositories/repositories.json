@@ -118,5 +118,15 @@
         "status": "Ready",
         "article_count": 0,
         "last_updated": "2026-06-27 17:59"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "4add7f37-1165-43d0-82c1-2e2a626511aa",
+        "repository_name": "MetadataTest",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\metadatatest",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-06-27 20:10"
     }
 ]

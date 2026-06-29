@@ -1,8 +1,8 @@
-from agents.help_site_discovery_workflow import (
-    discover_help_site_articles
+from repositories.repository_loader import (
+    load_repository_inventory
 )
 
-from search_engines.ai_candidate_search_engine import (
+from candidate_selection.ai_candidate_selector import (
     ai_candidate_search
 )
 
@@ -37,7 +37,7 @@ def discover_impacted_articles_v2(
     # Step 1
     #
 
-    inventory = discover_help_site_articles(
+    inventory = load_repository_inventory(
         help_site_url
     )
 
