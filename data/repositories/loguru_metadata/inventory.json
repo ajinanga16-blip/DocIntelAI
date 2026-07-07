@@ -1,0 +1,618 @@
+[
+    {
+        "title": "Table of Contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/latest/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Easy configuration",
+            "Useful functionalities",
+            "Supports switching from standard logging"
+        ],
+        "tasks": [
+            "Install Loguru",
+            "Use Loguru logger"
+        ],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [
+            "Frequently Asked Questions",
+            "Troubleshooting Tips"
+        ],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of Contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/stable/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the logging process and provides useful functionalities to enhance the logging experience.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simple to use",
+            "Enhanced functionalities over standard loggers",
+            "Facilitates debugging",
+            "Automatic logging integration"
+        ],
+        "tasks": [
+            "Importing logger",
+            "Configuring logger",
+            "Using logger in applications"
+        ],
+        "keywords": [
+            "loguru",
+            "logging",
+            "Python",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [
+            "Common logging errors",
+            "Configuration issues"
+        ],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of Contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.7.3/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging configuration",
+            "Enhanced functionalities over standard loggers",
+            "Ease of debugging",
+            "Type hints for logger",
+            "Automated logging practices"
+        ],
+        "tasks": [
+            "Importing logger from loguru",
+            "Switching from standard logging to Loguru",
+            "Using Loguru for debugging",
+            "Creating code snippets and recipes for logging"
+        ],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging",
+            "API reference",
+            "installation",
+            "features",
+            "troubleshooting"
+        ],
+        "ui_elements": [],
+        "error_topics": [
+            "Common issues and troubleshooting tips"
+        ],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.7.2/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the logging process, making it less painful by providing useful functionalities that address common issues found in standard loggers.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging configuration",
+            "Automatic logging formatting",
+            "Error handling and message capturing",
+            "Integration with standard logging",
+            "Customizable loggers"
+        ],
+        "tasks": [
+            "Install Loguru",
+            "Import Loguru logger",
+            "Log messages with different severity levels",
+            "Catch and log exceptions",
+            "Rotate logs"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging",
+            "error handling"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.7.1/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "",
+        "features": [
+            "Simplified logging configuration",
+            "Enhanced logging functionalities",
+            "Ease of use with a simple import"
+        ],
+        "tasks": [
+            "Setting up logging",
+            "Switching from standard logging to Loguru",
+            "Utilizing various logging features"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.7.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Easy configuration",
+            "Enhanced functionalities over standard loggers",
+            "Supports automatic logging"
+        ],
+        "tasks": [
+            "Import logger",
+            "Switch from standard logging to Loguru",
+            "Use code snippets and recipes for logging"
+        ],
+        "keywords": [
+            "Loguru",
+            "Python",
+            "Logging",
+            "Debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.6.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging configuration",
+            "Helpful functionalities for standard loggers"
+        ],
+        "tasks": [],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.5.3/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging setup",
+            "Powerful and flexible configuration",
+            "Automatic exception logging",
+            "Advanced logging functionalities"
+        ],
+        "tasks": [
+            "Install Loguru",
+            "Use Loguru for basic logging",
+            "Switch from standard logging to Loguru",
+            "Explore API Reference and Documentation"
+        ],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.5.2/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Ease of use",
+            "Powerful functionalities",
+            "Type hints"
+        ],
+        "tasks": [
+            "Installation",
+            "Using loguru.logger",
+            "Switching from standard logging to loguru"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging",
+            "configuration"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.5.1/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging setup",
+            "Enhanced functionalities over standard loggers",
+            "Ease of use with a simple import statement"
+        ],
+        "tasks": [
+            "Configuration of logger",
+            "Debugging with logging",
+            "Creating and managing log messages"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.5.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. Did you ever feel lazy about configuring a logger and used print() instead? Logging is fundamental to every application and eases the process of debugging. Using Loguru you have no excuse not to use logging from the start. This library is intended to make Python logging less painful by adding useful functionalities that solve caveats of the standard loggers.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logging configuration",
+            "Error handling and logging",
+            "Automatic log formatting",
+            "Asynchronous logging support"
+        ],
+        "tasks": [
+            "Setting up Loguru in your project",
+            "Creating log messages",
+            "Configuring log levels",
+            "Handling exceptions with logging"
+        ],
+        "keywords": [
+            "Loguru",
+            "Python logging",
+            "debugging",
+            "logger"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.4.1/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the process of configuring a logger and enhances the functionality of standard loggers to ease debugging.",
+        "discovered_by": "sitemap",
+        "category": "Logging Library",
+        "features": [
+            "Easy logging setup",
+            "Enhanced functionality over standard loggers",
+            "Type hints",
+            "Code snippets and recipes",
+            "Help guides for switching from standard logging"
+        ],
+        "tasks": [
+            "Importing logger",
+            "Using logs in applications",
+            "Configuring logging settings",
+            "Accessing API reference"
+        ],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging",
+            "logger"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.4.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the logging process and adds useful functionalities that improve upon standard loggers.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "User-friendly logging setup",
+            "Automatic logging configuration",
+            "Customizable logging levels",
+            "Easy integration with existing code",
+            "Rich formatting options"
+        ],
+        "tasks": [
+            "Importing the logger",
+            "Logging messages of different severity levels",
+            "Configuring log output",
+            "Handling exceptions with logging",
+            "Creating custom log handlers"
+        ],
+        "keywords": [
+            "Loguru",
+            "Python logging",
+            "debugging",
+            "library",
+            "logger",
+            "logging configuration"
+        ],
+        "ui_elements": [],
+        "error_topics": [
+            "Common logging errors",
+            "Configuration issues",
+            "Dependency problems"
+        ],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.3.2/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies logging configuration and enhances logging functionalities.",
+        "discovered_by": "sitemap",
+        "category": "Logging Library",
+        "features": [
+            "Simple logging setup",
+            "Enhanced logging functionalities",
+            "Automated logging",
+            "User-friendly interface"
+        ],
+        "tasks": [
+            "Install Loguru",
+            "Import the logger",
+            "Log messages using the logger",
+            "Customize logging behavior"
+        ],
+        "keywords": [
+            "Loguru",
+            "Python Logging",
+            "Logging Configuration",
+            "Debugging",
+            "Log Functionality"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.3.1/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. Did you ever feel lazy about configuring a logger and used print() instead? I did, yet logging is fundamental to every application and eases the process of debugging. Using Loguru you have no excuse not to use logging from the start, this is as simple as from loguru import logger. Also, this library is intended to make Python logging less painful by adding a bunch of useful functionalities that solve caveats of the standard loggers. Using logs in your application should be an automatism, Loguru tries to make it both pleasant and powerful.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplifies logging configuration",
+            "Provides an enjoyable logging experience",
+            "Adds useful functionalities to standard loggers",
+            "Promotes automatic use of logging in applications"
+        ],
+        "tasks": [],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "logger",
+            "debugging",
+            "configuration"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.3.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplifies logger configuration",
+            "Reduces use of print() for debugging",
+            "Adds useful functionalities to standard logging",
+            "Encourages automatic use of logging in applications"
+        ],
+        "tasks": [],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging",
+            "logger"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.5/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the logging process, making it pleasant and powerful.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplified logger configuration",
+            "Enhanced logging functionalities",
+            "Easy to use API"
+        ],
+        "tasks": [],
+        "keywords": [
+            "logging",
+            "Python",
+            "API",
+            "loguru"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.4/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simple logging setup",
+            "User-friendly API",
+            "Additional functionalities for standard loggers"
+        ],
+        "tasks": [
+            "Configure a logger",
+            "Use logging in applications"
+        ],
+        "keywords": [
+            "loguru",
+            "logging",
+            "Python",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.3/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplifies logger configuration",
+            "Provides useful functionalities for logging",
+            "Makes logging in applications more automatic and pleasant"
+        ],
+        "tasks": [],
+        "keywords": [
+            "Python",
+            "logging",
+            "Loguru"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.2/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simple import",
+            "Enhanced features over standard loggers",
+            "Ease of use for logging"
+        ],
+        "tasks": [
+            "Configure a logger",
+            "Use logging in applications"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.1/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. Did you ever feel lazy about configuring a logger and used print() instead?… I did, yet logging is fundamental to every application and eases the process of debugging. Using Loguru you have no excuse not to use logging from the start, this is as simple as from loguru import logger. Also, this library is intended to make Python logging less painful by adding a bunch of useful functionalities that solve caveats of the standard loggers. Using logs in your application should be an automatism, Loguru tries to make it both pleasant and powerful.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Easy to use",
+            "Functionalities that solve caveats of standard loggers",
+            "Automated logging"
+        ],
+        "tasks": [],
+        "keywords": [
+            "Python",
+            "Logging",
+            "Loguru"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.2.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python. It simplifies the process of logging and debugging in applications.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Easy to use",
+            "Useful functionalities",
+            "Simplifies logging configuration",
+            "Powerful logging capabilities"
+        ],
+        "tasks": [],
+        "keywords": [
+            "Loguru",
+            "logging",
+            "Python",
+            "debugging"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false
+    },
+    {
+        "title": "Table of contents — loguru  documentation",
+        "url": "https://loguru.readthedocs.io/en/0.1.0/",
+        "description": "Loguru is a library which aims to bring enjoyable logging in Python.",
+        "discovered_by": "sitemap",
+        "category": "Logging",
+        "features": [
+            "Simplifies logger configuration",
+            "Provides useful functionalities",
+            "Automatic logging integration"
+        ],
+        "tasks": [
+            "Installing Loguru",
+            "Using Loguru for logging",
+            "Configuration of loggers"
+        ],
+        "keywords": [
+            "logging",
+            "Python",
+            "Loguru",
+            "debugging",
+            "logger"
+        ],
+        "ui_elements": [],
+        "error_topics": [],
+        "content_fetched": false,
+        "repository": "Loguru_Metadata",
+        "domain": "loguru.readthedocs.io"
+    }
+]

@@ -128,5 +128,115 @@
         "status": "Ready",
         "article_count": 23,
         "last_updated": "2026-06-27 20:10"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "137eb0ec-d901-4800-803a-f197c0dda992",
+        "repository_name": "Savant Retest",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant_retest",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-07-01 11:25"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "20610c41-410c-46ee-9c28-0daa6adc96ce",
+        "repository_name": "Testing_Savant_Repo_Metadata",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\testing_savant_repo_metadata",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-07-01 15:13"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "d52576b0-e502-4e85-a68a-8721b11a06b9",
+        "repository_name": "Savant_Metadata_Retest",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant_metadata_retest",
+        "status": "Building",
+        "article_count": 0,
+        "last_updated": ""
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "ac89ebec-eacb-4908-b775-3cda42079c13",
+        "repository_name": "Savant_Full_Metadata_Test",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant_full_metadata_test",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-07-01 17:15"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "7359606a-2776-448f-ab99-3b61f1f2cc30",
+        "repository_name": "Log_Metadata_Test",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\log_metadata_test",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-07-01 19:50"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "6be24a29-505a-440a-bf6b-09d8a1253a76",
+        "repository_name": "LogCheck_Metadata",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\logcheck_metadata",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-07-01 20:37"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "1380bec0-479a-4204-a5a9-95b8375a6dfe",
+        "repository_name": "Loguru_RETEST",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\loguru_retest",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-07-01 20:53"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "3b291a5c-67c5-4efb-b4bb-b57607f34609",
+        "repository_name": "Loguru_Metadata",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\loguru_metadata",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-07-01 21:27"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "14129941-b5c4-49e7-bf73-066a786e6d93",
+        "repository_name": "LOGURU_METADATA_FINAL",
+        "base_url": "https://loguru.readthedocs.io/en/stable/",
+        "folder": "data/repositories\\loguru_metadata_final",
+        "status": "Ready",
+        "article_count": 23,
+        "last_updated": "2026-07-01 22:31"
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "18a61ea7-29b3-466a-9f6f-befadb733008",
+        "repository_name": "SAVANT_GAP_TEST_V1",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\savant_gap_test_v1",
+        "status": "Building",
+        "article_count": 0,
+        "last_updated": ""
+    },
+    {
+        "organization_id": "local-dev",
+        "repository_id": "063c2db8-f68a-4238-b30e-44ef67f54e57",
+        "repository_name": "GapAnalysis_Savnt",
+        "base_url": "https://help.savantlabs.io/en/",
+        "folder": "data/repositories\\gapanalysis_savnt",
+        "status": "Ready",
+        "article_count": 334,
+        "last_updated": "2026-07-02 14:52"
     }
 ]

@@ -29,6 +29,13 @@ class JobManager:
             "status": "Queued",
             "message": "Job created",
             "progress": 0,
+
+            # New fields
+            "current_step": 0,
+            "total_steps": 0,
+            "current_item": "",
+            "current_phase": "",
+
             "created_at": datetime.now().isoformat(),
             "updated_at": datetime.now().isoformat()
         }
@@ -47,7 +54,16 @@ class JobManager:
         with open(job_file, "r", encoding="utf-8") as file:
             return json.load(file)
 
-    def update_progress(self, job_id, progress, message="Running"):
+    def update_progress(
+        self,
+        job_id,
+        progress,
+        message="Running",
+        current_step=None,
+        total_steps=None,
+        current_item=None,
+        current_phase=None
+    ):
 
         job = self.get_job(job_id)
 
@@ -57,13 +73,32 @@ class JobManager:
         job["status"] = "Running"
         job["progress"] = progress
         job["message"] = message
+
+        if current_step is not None:
+            job["current_step"] = current_step
+
+        if total_steps is not None:
+            job["total_steps"] = total_steps
+
+        if current_item is not None:
+            job["current_item"] = current_item
+
+        if current_phase is not None:
+            job["current_phase"] = current_phase
+
         job["updated_at"] = datetime.now().isoformat()
 
         self._save_job(job)
 
         return job
 
-    def complete_job(self, job_id, message="Job completed"):
+    def complete_job(
+        self,
+        job_id,
+        message="Job completed",
+        result_type=None,
+        result_id=None
+    ):
 
         job = self.get_job(job_id)
 
@@ -73,13 +108,28 @@ class JobManager:
         job["status"] = "Completed"
         job["progress"] = 100
         job["message"] = message
+
+        #
+        # Result Information
+        #
+
+        job["result_available"] = result_type is not None
+
+        job["result_type"] = result_type
+
+        job["result_id"] = result_id
+
         job["updated_at"] = datetime.now().isoformat()
 
         self._save_job(job)
 
         return job
 
-    def fail_job(self, job_id, message="Job failed"):
+    def fail_job(
+        self,
+        job_id,
+        message="Job failed"
+    ):
 
         job = self.get_job(job_id)
 

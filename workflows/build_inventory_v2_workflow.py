@@ -1,12 +1,13 @@
-from metadata_enrichment.metadata_enrichment_service import (
-    enrich_article
-)
+from urllib.parse import urlparse
+
 from notifications.email_service import (
     send_email
 )
+
 from notifications.notification_service import (
     create_notification
 )
+
 from documentation_discovery.inventory_builder_v2 import (
     build_inventory_v2
 )
@@ -44,6 +45,10 @@ def build_inventory_workflow_v2(
 
     try:
 
+        #
+        # Create Repository
+        #
+
         job_manager.update_progress(
             job["job_id"],
             10,
@@ -55,32 +60,118 @@ def build_inventory_workflow_v2(
             documentation_url
         )
 
+        #
+        # Discovery
+        #
+
         job_manager.update_progress(
             job["job_id"],
             40,
             "Discovering documentation..."
         )
 
+        def progress_callback(
+            current,
+            total,
+            title
+        ):
+
+            progress = 40 + int(
+                (current / total) * 35
+            )
+
+            job_manager.update_progress(
+
+                job["job_id"],
+
+                progress=progress,
+
+                message=f"[{current}/{total}]",
+
+                current_step=current,
+
+                total_steps=total,
+
+                current_phase="Building Knowledge Index",
+
+                current_item=title
+
+            )
+
         inventory = build_inventory_v2(
-            documentation_url
+
+            documentation_url,
+
+            progress_callback=progress_callback
+
         )
 
-        enriched_inventory = []
+        #
+        # Final Repository Metadata
+        #
 
-        for article in inventory:
+        total_articles = len(inventory)
 
-            enriched_inventory.append(
-                enrich_article(
-                    article,
-                    repository_name
+        for index, article in enumerate(inventory):
+
+            progress = 75 + int(
+                ((index + 1) / total_articles) * 15
+            )
+
+            job_manager.update_progress(
+
+                job["job_id"],
+
+                progress=progress,
+
+                message=f"[{index+1}/{total_articles}] Finalizing",
+
+                current_step=index + 1,
+
+                total_steps=total_articles,
+
+                current_phase="Finalizing Repository",
+
+                current_item=article.get(
+                    "title",
+                    ""
+                )
+
+            )
+
+            article["repository"] = repository_name
+
+            article["domain"] = urlparse(
+                article["url"]
+            ).netloc
+
+            #
+            # Lightweight statistics
+            #
+
+            description = article.get(
+                "description",
+                ""
+            )
+
+            article["word_count"] = len(
+                description.split()
+            )
+
+            article["reading_time_minutes"] = max(
+                1,
+                round(
+                    len(description.split()) / 200
                 )
             )
 
-        inventory = enriched_inventory
+        #
+        # Save Inventory
+        #
 
         job_manager.update_progress(
             job["job_id"],
-            75,
+            95,
             "Saving inventory..."
         )
 
@@ -89,17 +180,19 @@ def build_inventory_workflow_v2(
             inventory
         )
 
-        job_manager.update_progress(
-            job["job_id"],
-            90,
-            "Updating repository status..."
-        )
+        #
+        # Update Repository
+        #
 
         update_repository_status(
             repository_name,
             "Ready",
             len(inventory)
         )
+
+        #
+        # Complete
+        #
 
         job_manager.complete_job(
             job["job_id"],

@@ -1,0 +1,217 @@
+{
+    "job_id": "fff3faa0-4116-418f-b490-4887687716c6",
+    "result_type": "Documentation Action Plan",
+    "repository": "gapanalysis_savnt",
+    "data": [
+        {
+            "work_item": {
+                "ticket_id": "SAV-3001",
+                "summary": "Unable to configure connector",
+                "description": "Customer reported issue while working with templates. They followed the public documentation but could not complete the task successfully.",
+                "resolution": "Customer completed setup after receiving an internal KB.",
+                "root_cause": "Support identified a missing service account prerequisite.",
+                "severity": "Medium",
+                "status": "Closed",
+                "module": "Templates",
+                "linked_help_article": "Using Templates",
+                "source": "CSV"
+            },
+            "overall_action": "Update Existing Documentation",
+            "estimated_effort": "Medium",
+            "impacted_articles": [
+                {
+                    "title": "JIRA Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/7184858-jira-connector-setup",
+                    "coverage": "0.8",
+                    "required_change": "Add troubleshooting tips for scenarios where authentication does not succeed, such as checking token validity or network connectivity.",
+                    "gap": "The article does not provide troubleshooting steps if the authentication fails.",
+                    "generate": false
+                },
+                {
+                    "title": "Theobald Xtract Universal for SAP Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/12986835-theobald-xtract-universal-for-sap-connector-setup",
+                    "coverage": "low",
+                    "required_change": "Add troubleshooting steps for common errors or misconfigurations during the API Connector Tool setup in Step 5.",
+                    "gap": "Lack of specific troubleshooting steps or common issues faced during the connector configuration process.",
+                    "generate": false
+                },
+                {
+                    "title": "Google Analytics 4 Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/7183605-google-analytics-4-connector-setup",
+                    "coverage": "Low",
+                    "required_change": "Add a troubleshooting guide for common errors encountered during authentication and connector setup.",
+                    "gap": "The article does not provide a troubleshooting section for common configuration issues.",
+                    "generate": false
+                }
+            ]
+        },
+        {
+            "work_item": {
+                "ticket_id": "SAV-3002",
+                "summary": "Analysis creation failed",
+                "description": "Customer reported issue while working with templates. They followed the public documentation but could not complete the task successfully.",
+                "resolution": "Support shared workaround.",
+                "root_cause": "Mandatory field wasn't documented.",
+                "severity": "Low",
+                "status": "Closed",
+                "module": "Templates",
+                "linked_help_article": "Using Templates",
+                "source": "CSV"
+            },
+            "overall_action": "Update Existing Documentation",
+            "estimated_effort": "Medium",
+            "impacted_articles": [
+                {
+                    "title": "How can I troubleshoot workflow analysis errors in Savant? | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/14961608-how-can-i-troubleshoot-workflow-analysis-errors-in-savant",
+                    "coverage": "0.8",
+                    "required_change": "Include additional reasons for analysis creation failure and their respective troubleshooting steps.",
+                    "gap": "The article does not provide information on other possible causes of analysis creation failure beyond unsupported conditions.",
+                    "generate": false
+                },
+                {
+                    "title": "Importing a Savant Analysis | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/9981091-importing-a-savant-analysis",
+                    "coverage": "Low",
+                    "required_change": "Include a troubleshooting section addressing common issues and solutions when the analysis creation fails during the import process.",
+                    "gap": "Lack of troubleshooting steps for failed analysis import.",
+                    "generate": false
+                },
+                {
+                    "title": "Templates | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/collections/3642171-templates",
+                    "coverage": "",
+                    "required_change": "",
+                    "gap": "Additional validation required",
+                    "generate": false
+                }
+            ]
+        },
+        {
+            "work_item": {
+                "ticket_id": "SAV-3003",
+                "summary": "Permission denied",
+                "description": "Customer reported issue while working with connectors. They followed the public documentation but could not complete the task successfully.",
+                "resolution": "Support explained required role.",
+                "root_cause": "User lacked Workspace Admin role.",
+                "severity": "High",
+                "status": "Closed",
+                "module": "Connectors",
+                "linked_help_article": "Salesforce Connector",
+                "source": "CSV"
+            },
+            "overall_action": "Update Existing Documentation",
+            "estimated_effort": "Medium",
+            "impacted_articles": [
+                {
+                    "title": "Deleting Tools and Connectors | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/8007801-deleting-tools-and-connectors",
+                    "coverage": "incomplete",
+                    "required_change": "Include information on permission settings and common errors like 'Permission denied' that might occur during deletion processes in the article. This would help users understand prerequisites and troubleshooting steps.",
+                    "gap": "The article titled 'Deleting Tools and Connectors' primarily provides instructions on how to delete tools and connections in Savant Labs, Inc. It mentions that deleted tools cannot be recovered and warns users to double-check before proceeding. However, there is no information available about permission settings or potential errors like 'Permission denied'.",
+                    "generate": false
+                },
+                {
+                    "title": "Microsoft OneDrive Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/8862661-microsoft-onedrive-connector-setup",
+                    "coverage": "4/5",
+                    "required_change": "Additional validation required.",
+                    "gap": "No evident information indicating a gap in the current article.",
+                    "generate": false
+                },
+                {
+                    "title": "Microsoft Exchange Connector | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/7203648-microsoft-exchange-connector",
+                    "coverage": "0.8",
+                    "required_change": "Enhance the 'Troubleshooting Authentication Issues' section with more detailed steps or a checklist to verify API permissions.",
+                    "gap": "The ticket issue 'Permission denied' suggests a potential gap in troubleshooting steps or user understanding for permission settings in the Azure portal.",
+                    "generate": false
+                }
+            ]
+        },
+        {
+            "work_item": {
+                "ticket_id": "SAV-3004",
+                "summary": "Connector authentication failed",
+                "description": "Customer reported issue while working with automation. They followed the public documentation but could not complete the task successfully.",
+                "resolution": "Support shared correct callback URL.",
+                "root_cause": "OAuth callback URL missing.",
+                "severity": "Low",
+                "status": "Closed",
+                "module": "Automation",
+                "linked_help_article": "Schedules & Triggers",
+                "source": "CSV"
+            },
+            "overall_action": "Update Existing Documentation",
+            "estimated_effort": "Medium",
+            "impacted_articles": [
+                {
+                    "title": "Anaplan Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/12541031-anaplan-connector-setup",
+                    "coverage": "60%",
+                    "required_change": "Add specific troubleshooting steps for token-based authentication failures, such as verifying the Client ID, checking the Certificate Name, ensuring the Private Key format is correct, and confirming with Anaplan admin if necessary.",
+                    "gap": "The article doesn't provide explicit solutions or steps for resolving failed connector authentications specifically related to token-based authentication.",
+                    "generate": false
+                },
+                {
+                    "title": "SAP HANA Database Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/12110205-sap-hana-database-connector-setup",
+                    "coverage": "medium",
+                    "required_change": "Add more detailed troubleshooting steps for persistent authentication failures, possibly including logs review or checking HANA-specific configurations not mentioned.",
+                    "gap": "The troubleshooting section does not specify detailed instructions or variations if authentication issues persist beyond basic checks.",
+                    "generate": false
+                },
+                {
+                    "title": "NetSuite Connector Setup | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/9715906-netsuite-connector-setup",
+                    "coverage": "3",
+                    "required_change": "Gather further information from the ticket about which specific authentication method was used and the exact error message. This will help in pinpointing the issue more accurately and providing targeted solutions.",
+                    "gap": "The ticket does not provide detailed information on which authentication method failed, whether it was during SuiteAnalytics Connect or Token-Based Authentication setup, nor does it specify what the authentication error message was.",
+                    "generate": false
+                }
+            ]
+        },
+        {
+            "work_item": {
+                "ticket_id": "SAV-3005",
+                "summary": "Template import failed",
+                "description": "Customer reported issue while working with analyses. They followed the public documentation but could not complete the task successfully.",
+                "resolution": "Support provided compatible template.",
+                "root_cause": "Template version incompatible.",
+                "severity": "High",
+                "status": "Closed",
+                "module": "Analyses",
+                "linked_help_article": "Creating an Analysis",
+                "source": "CSV"
+            },
+            "overall_action": "Update Existing Documentation",
+            "estimated_effort": "Medium",
+            "impacted_articles": [
+                {
+                    "title": "Adding a Template to Your Workspace | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/8002579-adding-a-template-to-your-workspace",
+                    "coverage": "0",
+                    "required_change": "Include common errors and troubleshooting steps in the article to assist users encountering issues during the template import process.",
+                    "gap": "The article lacks information on troubleshooting steps or errors that could occur during the template import process.",
+                    "generate": false
+                },
+                {
+                    "title": "Analyses Overview | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/8207944-analyses-overview",
+                    "coverage": "0",
+                    "required_change": "Additional validation required.",
+                    "gap": "Ticket or article content does not explicitly address template import functionality.",
+                    "generate": false
+                },
+                {
+                    "title": "Importing a Savant Analysis | Savant Labs, Inc. Help Center",
+                    "url": "https://help.savantlabs.io/en/articles/9981091-importing-a-savant-analysis",
+                    "coverage": "0.8",
+                    "required_change": "Add a troubleshooting section that addresses common import fails such as ensuring datasets and systems are present, file format verification, and checking for any file corruption.",
+                    "gap": "The steps to troubleshoot a failed import are not detailed within the article.",
+                    "generate": false
+                }
+            ]
+        }
+    ]
+}

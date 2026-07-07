@@ -4,13 +4,11 @@ from documentation_discovery.inventory_builder import (
 
 
 def build_inventory_v2(
-    documentation_url
+    documentation_url,
+    progress_callback=None
 ):
-    """
-    Temporary wrapper to maintain
-    backward compatibility.
-    """
-
+    
     return build_inventory(
-        documentation_url
+        documentation_url,
+        progress_callback
     )

@@ -2,6 +2,10 @@ from agents.article_content_fetcher import (
     fetch_article_content
 )
 
+from agents.article_metadata_extractor import (
+    extract_article_metadata
+)
+
 
 def build_article_inventory(
     articles
@@ -15,10 +19,75 @@ def build_article_inventory(
             article["url"]
         )
 
-        if content:
+        if not content:
+            continue
 
-            inventory.append(
-                content
+        metadata = extract_article_metadata(
+
+            title=content.get(
+                "title",
+                article.get("title", "")
+            ),
+
+            url=content.get(
+                "url",
+                article["url"]
+            ),
+
+            content=content.get(
+                "content",
+                ""
             )
+
+        )
+
+        inventory.append({
+
+            "title": content.get(
+                "title",
+                article.get("title", "")
+            ),
+
+            "url": content.get(
+                "url",
+                article["url"]
+            ),
+
+            "description": metadata.get(
+                "description",
+                ""
+            ),
+
+            "category": metadata.get(
+                "category",
+                ""
+            ),
+
+            "features": metadata.get(
+                "features",
+                []
+            ),
+
+            "tasks": metadata.get(
+                "tasks",
+                []
+            ),
+
+            "ui_elements": metadata.get(
+                "ui_elements",
+                []
+            ),
+
+            "error_topics": metadata.get(
+                "error_topics",
+                []
+            ),
+
+            "keywords": metadata.get(
+                "keywords",
+                []
+            )
+
+        })
 
     return inventory

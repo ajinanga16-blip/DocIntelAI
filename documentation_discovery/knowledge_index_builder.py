@@ -4,7 +4,8 @@ from documentation_discovery.article_metadata_enricher import (
 
 
 def build_knowledge_index(
-    inventory
+    inventory,
+    progress_callback=None
 ):
     """
     Creates a lightweight Knowledge Index
@@ -24,10 +25,31 @@ def build_knowledge_index(
             f"{article.get('title', article.get('url'))}"
         )
 
+        #
+        # Report Progress
+        #
+
+        if progress_callback:
+
+            progress_callback(
+
+                index + 1,
+
+                total,
+
+                article.get(
+                    "title",
+                    ""
+                )
+
+            )
+
         enriched_inventory.append(
+
             enrich_article(
                 article
             )
+
         )
 
     return enriched_inventory

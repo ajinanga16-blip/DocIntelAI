@@ -20,7 +20,8 @@ from documentation_discovery.knowledge_index_builder import (
 
 
 def build_inventory(
-    documentation_url
+    documentation_url,
+    progress_callback=None
 ):
     """
     Universal Documentation Discovery Engine.
@@ -80,8 +81,15 @@ def build_inventory(
     #
 
     inventory = build_knowledge_index(
-        inventory
+        inventory,
+        progress_callback=progress_callback
+        
     )
+
+    print("=" * 60)
+    print("AFTER build_knowledge_index")
+    print(inventory[0])
+    print("=" * 60)
 
     print(
         f"Inventory Size: {len(inventory)}"

@@ -1,16 +1,8 @@
-import streamlit as st
+from gap_analysis.gap_analysis_ui import (
+    render_gap_analysis
+)
 
 
-def render_gap_analysis():
+def show_page():
 
-    st.title(
-        "🔍 Knowledge Gap Analysis"
-    )
-
-    st.file_uploader(
-        "Upload Support Ticket CSV"
-    )
-
-    st.button(
-        "Analyze"
-    )
+    render_gap_analysis()

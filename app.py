@@ -1,3 +1,10 @@
+from pages.job_result_page import (
+    show_page as show_job_result
+)
+from pages.developer_tools_page import (
+    show_page as show_developer_tools
+)
+
 from pages.notification_page import (
     show_page as show_notifications
 )
@@ -23,7 +30,7 @@ from pages.impact_analysis_page import (
     render_impact_analysis
 )
 from pages.gap_analysis_page import (
-    render_gap_analysis
+    show_page as show_gap_analysis
 )
 from pages.generate_docs_page import (
     render_generate_docs
@@ -32,7 +39,7 @@ from pages.dashboard_page import (
     render_dashboard
 )
 from pages.screenshot_intelligence_page import (
-    show_page
+    show_page as show_screenshot_intelligence
 )
 from agents.content_agent import generate_documentation
 
@@ -81,19 +88,43 @@ navigation_options = [
     "Gap Analysis",
     "Impact Analysis",
     "Publishing",
-    "Settings"
+    "🛠 Developer Tools",
+    "Settings",
 ]
 
 if "selected_page" not in st.session_state:
+
     st.session_state.selected_page = "Dashboard"
 
+default_page = st.session_state.selected_page
+
+#
+# Job Result is a hidden page.
+#
+
+if default_page == "Job Result":
+
+    default_page = "⚙ Job Manager"
+
 page = st.sidebar.radio(
+
     "Navigation",
+
     navigation_options,
-    index=navigation_options.index(st.session_state.selected_page)
+
+    index=navigation_options.index(default_page)
+
 )
 
-st.session_state.selected_page = page
+#
+# Allow programmatic navigation.
+#
+
+if st.session_state.selected_page != "Job Result":
+
+    st.session_state.selected_page = page
+
+page = st.session_state.selected_page
 # --------------------------------------------------
 # Dashboard
 # --------------------------------------------------
@@ -131,7 +162,7 @@ elif page == "🔔 Notifications":
 
 elif page == "Gap Analysis":
 
-    render_gap_analysis()
+    show_gap_analysis()
 # --------------------------------------------------
 # Impact Analysis
 # --------------------------------------------------
@@ -169,7 +200,7 @@ elif page == "Template Management":
 
 elif page == "Screenshot Intelligence":
 
-    show_page()
+    show_screenshot_intelligence()
 
 # --------------------------------------------------
 # Documentation Inventory
@@ -186,3 +217,28 @@ elif page == "🔗 Connect Documentation":
 elif page == "🗂 Repository Dashboard":
 
     show_repository_dashboard()
+
+# --------------------------------------------------
+# Developer Tools
+# --------------------------------------------------
+elif page == "🛠 Developer Tools":
+
+    show_developer_tools()
+
+# --------------------------------------------------
+# Job Result
+# --------------------------------------------------
+
+elif page == "Job Result":
+
+    show_job_result(
+
+        st.session_state.get(
+
+            "selected_job_id",
+
+            ""
+
+        )
+
+    )
