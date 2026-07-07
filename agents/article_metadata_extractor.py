@@ -1,7 +1,5 @@
 import json
 import os
-from turtle import title
-
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -57,7 +55,7 @@ Article
     print(title)
     print(f"Content Length: {len(content)}")
     print("=" * 60)
-    
+
     response = client.chat.completions.create(
 
         model="gpt-4o-mini",
