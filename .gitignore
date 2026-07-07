@@ -24,3 +24,6 @@ data/notifications/
 
 # Logs
 *.log
+
+job_engine/job_results/*.json
+data/jobs/*.json
