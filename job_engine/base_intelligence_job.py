@@ -7,7 +7,12 @@ class BaseIntelligenceJob:
     Base class for all Documentation Intelligence jobs.
     """
 
-    def __init__(self, job_type, repository_name, notification_email=""):
+    def __init__(
+        self,
+        job_type,
+        repository_name,
+        notification_email=""
+    ):
 
         self.job_manager = JobManager()
 
@@ -23,7 +28,8 @@ class BaseIntelligenceJob:
 
     def start(self):
         """
-        Reserved for future initialization logic.
+        Standard job lifecycle entry point.
+        Reserved for future initialization.
         """
         return self.job_id
 
@@ -74,9 +80,25 @@ class BaseIntelligenceJob:
             result_id=self.job_id
         )
 
+        self.cleanup()
+
     def fail(self, error):
 
         self.job_manager.fail_job(
             job_id=self.job_id,
             message=str(error)
         )
+
+        self.cleanup()
+
+    def log(self, message):
+        """
+        Reserved for centralized logging.
+        """
+        print(f"[{self.job_id}] {message}")
+
+    def cleanup(self):
+        """
+        Reserved for future resource cleanup.
+        """
+        pass
