@@ -1,3 +1,5 @@
+from job_engine.base_intelligence_job import IntelligenceJob
+
 from job_engine.job_manager import (
     JobManager
 )
