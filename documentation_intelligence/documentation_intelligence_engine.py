@@ -1,3 +1,5 @@
+from streamlit import context
+
 from documentation_intelligence.knowledge_search_engine import (
     search_repository
 )
@@ -12,6 +14,10 @@ from agents.candidate_article_content_fetcher import (
 
 from ranking.hybrid_ranker import (
     rank_articles
+)
+
+from documentation_intelligence.screen_context_builder import (
+    build_screen_context
 )
 
 
@@ -29,7 +35,18 @@ def discover_candidate_articles(
     • Impact Analysis
     • Future Intelligence Modules
     """
+    #
+    # Normalize Screenshot Context
+    #
 
+    if "page_title" in context or "screen_name" in context:
+
+        context = build_screen_context(context)
+    
+    print("=" * 60)
+    print("NORMALIZED SCREEN CONTEXT")
+    print(context)
+    print("=" * 60)
     #
     # Stage 1
     # Fast Repository Search
@@ -112,7 +129,10 @@ def discover_candidate_articles(
         "title",
         "description",
         "acceptance_criteria",
-        "page_title"
+        "primary_screen",
+        "primary_action",
+        "user_intent"
+        
 
     ]:
 
@@ -124,14 +144,14 @@ def discover_candidate_articles(
 
     queries.extend(
         context.get(
-         "keywords",
+         "important_keywords",
             []
         )
     )
 
     queries.extend(
         context.get(
-         "ui_elements",
+         "ui_context",
             []
         )
     )
