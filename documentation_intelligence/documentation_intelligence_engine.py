@@ -4,7 +4,7 @@ from documentation_intelligence.knowledge_search_engine import (
     search_repository
 )
 
-from candidate_selection.ai_candidate_selector import (
+from documentation_intelligence.ai_candidate_selector import (
     ai_candidate_search
 )
 
