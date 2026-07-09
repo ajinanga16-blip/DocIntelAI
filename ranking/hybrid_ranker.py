@@ -71,7 +71,7 @@ def rank_articles(
                 ""
             )
         )
-
+        
         content = normalize(
             article.get(
                 "content",
@@ -83,10 +83,13 @@ def rank_articles(
 
         content_tokens = tokenize(content)
 
+        
         title_matches = (
             expanded_queries &
             title_tokens
         )
+
+        
 
         content_matches = (
             expanded_queries &
@@ -104,6 +107,33 @@ def rank_articles(
         }
 
         matched_on = []
+
+        #
+        # Action Intent Bonus
+        #
+
+        action_words = {
+
+            "add",
+            "adding",
+            "create",
+            "creating",
+            "configure",
+            "setup",
+            "set",
+            "install",
+            "using",
+            "manage"
+
+        }
+
+        query_actions = expanded_queries & action_words
+
+        title_actions = title_tokens & action_words
+
+        if query_actions and title_actions:
+
+            scores["title"] += 0.50
 
         #
         # Title
@@ -153,6 +183,31 @@ def rank_articles(
                 "Keywords"
             )
 
+        #
+        # Document Type Bonus
+        #
+
+        title_lower = title.lower()
+
+        if (
+            "adding" in title_lower
+            or "create" in title_lower
+            or "creating" in title_lower
+            or "configure" in title_lower
+            or "setup" in title_lower
+            or "set up" in title_lower
+            or "using" in title_lower
+        ):
+
+            scores["page"] += 0.60
+
+        elif (
+            "overview" in title_lower
+            or "introduction" in title_lower
+            or "what is" in title_lower
+        ):
+
+            scores["page"] -= 0.35
         confidence = calculate_confidence(
             scores
         )

@@ -20,6 +20,10 @@ from documentation_intelligence.screen_context_builder import (
     build_screen_context
 )
 
+from documentation_intelligence.intent_resolver import (
+    resolve_user_intent
+)
+
 
 def discover_candidate_articles(
     repository_name,
@@ -46,6 +50,22 @@ def discover_candidate_articles(
     print("=" * 60)
     print("NORMALIZED SCREEN CONTEXT")
     print(context)
+    print("=" * 60)
+    #
+    # Resolve User Intent
+    #
+
+    intent = resolve_user_intent(
+        context
+    )
+
+    context["primary_intent"] = intent["primary_intent"]
+
+    context["workflow"] = intent["workflow"]
+
+    print("=" * 60)
+    print("RESOLVED USER INTENT")
+    print(intent)
     print("=" * 60)
     #
     # Stage 1
@@ -77,41 +97,23 @@ def discover_candidate_articles(
 
     #
     # Stage 2
-    # AI Candidate Selection
-    #
-
-    candidates = ai_candidate_search(
-
-        context,
-
-        inventory
-
-    )
-
-    print("=" * 60)
-    print("STAGE 2 - AI Candidate Selection")
-    print(f"Matched: {len(candidates.get('matched_articles', []))}")
-    print("=" * 60)
-
-    #
-    # Stage 3
-    # Fetch Candidate Content
+    # Fetch ALL Repository Matches
     #
 
     content_articles = fetch_candidate_content(
 
-        candidates["matched_articles"],
+        inventory,
 
-        max_articles=len(
-            candidates["matched_articles"]
-        )
+        max_articles=len(inventory)
 
     )
+
     print("=" * 60)
-    print("STAGE 3 - Content Fetch")
+    print("STAGE 2 - Content Fetch")
     print(f"Fetched: {len(content_articles)}")
     print("=" * 60)
 
+  
     #
     # Stage 4
     # Hybrid Ranking
@@ -131,6 +133,8 @@ def discover_candidate_articles(
         "acceptance_criteria",
         "primary_screen",
         "primary_action",
+        "primary_intent",
+        "workflow",
         "user_intent"
         
 

@@ -12,6 +12,10 @@ from screenshot_intelligence.documentation_impact_ui import (
     render_documentation_impact
 )
 
+from screenshot_intelligence.workflow_studio.workflow_studio_ui import (
+    render_workflow_studio
+)
+
 from screenshot_intelligence.help_site_impact_ui import (
     render_help_site_impact
 )
@@ -30,7 +34,8 @@ def show_page():
             "Analyze Screenshot",
             "Compare Screenshots",
             "Documentation Impact",
-            "Help Site Impact"
+            "Help Site Impact",
+            "Workflow Studio"
         ]
     )
 
@@ -50,3 +55,6 @@ def show_page():
 
         render_help_site_impact()
 
+    elif analysis_type == "Workflow Studio":
+
+        render_workflow_studio()

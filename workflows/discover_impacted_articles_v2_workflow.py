@@ -36,6 +36,8 @@ def discover_impacted_articles_v2(
 
         "inventory": inventory,
 
-        "matched_articles": ranked[:10]
+        "recommended_articles": ranked[:5],
+
+        "all_matches": ranked
 
     }

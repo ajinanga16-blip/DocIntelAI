@@ -35,18 +35,7 @@ def render_help_site_impact():
         "Help Site Impact Analysis"
     )
 
-    search_engine = st.radio(
-
-        "Search Engine",
-
-        [
-            "Classic Search (V1)",
-            "AI Candidate Search (V2)"
-        ],
-
-        horizontal=True
-
-    )
+    
 
     screenshot_file = st.file_uploader(
 
@@ -94,24 +83,27 @@ def render_help_site_impact():
                     )
                 )
 
-            with st.spinner(
-                "Searching Help Site..."
-            ):
+            progress = st.progress(0)
 
-                if search_engine == "Classic Search (V1)":
+            status = st.empty()
 
-                    results = discover_impacted_articles(
-                        repository_name,
-                        screenshot_context
-                    )
+            status.write("Stage 1/4 - Repository Search")
 
-                else:
+            progress.progress(25)
 
-                    results = discover_impacted_articles_v2(
-                        repository_name,
-                        screenshot_context
-                    )
+            results = discover_impacted_articles_v2(
+                repository_name,
+                screenshot_context
+            )
 
+            progress.progress(100)
+
+            status.write("Completed")
+
+            results = discover_impacted_articles_v2(
+                repository_name,
+                screenshot_context
+            )  
             #
             # Save inventory if workflow returns it
             #
@@ -124,9 +116,16 @@ def render_help_site_impact():
             )
 
             st.session_state[
-                "matched_articles"
+                "recommended_articles"
             ] = results.get(
-                "matched_articles",
+                "recommended_articles",
+                []
+            )
+
+            st.session_state[
+                "all_matches"
+            ] = results.get(
+                "all_matches",
                 []
             )
 
@@ -169,13 +168,33 @@ def render_help_site_impact():
     # Review Articles
     #
 
-    if "matched_articles" in st.session_state:
+    if "recommended_articles" in st.session_state:
+
+        st.subheader("🎯 Top Recommended Articles")
 
         selected_articles = render_discovery_results(
 
             st.session_state[
-                "matched_articles"
-            ]
+                "recommended_articles"
+            ],
+            
+            section="recommended"
+
+        )
+
+        with st.expander(
+
+            f"Show all ranked matches ({len(st.session_state['all_matches'])})"
+
+        ):
+
+            render_discovery_results(
+
+                st.session_state[
+                    "all_matches"
+                ],
+                
+                section="all_matches"
 
         )
 

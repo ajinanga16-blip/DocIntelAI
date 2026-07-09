@@ -6,7 +6,8 @@ from utils.excel_exporter import (
 
 
 def render_discovery_results(
-    matched_articles
+    matched_articles,
+    section="recommended"
 ):
 
     if not matched_articles:
@@ -41,7 +42,9 @@ def render_discovery_results(
 
         file_name="matched_articles.xlsx",
 
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+
+        key=f"download_{section}"
 
     )
 
@@ -50,7 +53,8 @@ def render_discovery_results(
     with col1:
 
         if st.button(
-            "✅ Select All"
+            "✅ Select All",
+            key=f"select_all_{section}"
         ):
 
             st.session_state[
@@ -63,7 +67,8 @@ def render_discovery_results(
     with col2:
 
         if st.button(
-            "❌ Clear Selection"
+            "❌ Clear Selection",
+            key=f"clear_selection_{section}"
         ):
 
             st.session_state[
@@ -103,7 +108,7 @@ def render_discovery_results(
                     []
                 ),
 
-                key=article["url"]
+                key=f"{section}_{article['url']}"
 
             )
 
