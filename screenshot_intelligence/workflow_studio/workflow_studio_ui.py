@@ -1,5 +1,8 @@
 import streamlit as st
 
+from shared.export_center.export_center import (
+    render_export_center
+)
 from screenshot_intelligence.workflow_studio.workflow_step_extractor import (
     extract_workflow_steps
 )
@@ -233,37 +236,27 @@ def render_workflow_studio():
 
         )
 
-        st.download_button(
-
-            "⬇ Download Text",
-
-            data=st.session_state[
-                "generated_workflow"
-            ],
-
-            file_name="workflow.txt",
-
-            mime="text/plain",
-
-            width="stretch"
-
-        )
+        #
+        # Workflow Preview
+        #
 
         st.divider()
 
-        st.subheader("🎬 Workflow GIF")
+        st.subheader("🎬 Workflow Preview")
 
         st.image(
 
             st.session_state[
                 "generated_gif"
-            ]
+            ],
+
+            width="stretch"
 
         )
 
         st.download_button(
 
-            "⬇ Download GIF",
+            label="⬇ Download Workflow GIF",
 
             data=st.session_state[
                 "generated_gif"
@@ -273,7 +266,22 @@ def render_workflow_studio():
 
             mime="image/gif",
 
-            width="stretch"
+            width="stretch",
+
+            key="workflow_gif_download"
 
         )
-    
+
+        #
+        # Export Center
+        #
+
+        render_export_center(
+
+            workflow_name,
+
+            st.session_state[
+                "generated_workflow"
+            ]
+
+        )
