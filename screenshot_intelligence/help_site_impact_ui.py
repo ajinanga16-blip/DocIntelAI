@@ -1,5 +1,9 @@
 import streamlit as st
 
+from shared.export_center.export_center import (
+    render_export_center
+)
+
 from workflows.screenshot_analysis_workflow import (
     analyze_screenshot_workflow
 )

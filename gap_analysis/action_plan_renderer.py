@@ -1,5 +1,8 @@
 import streamlit as st
 
+from shared.export_center.export_center import (
+    render_export_center
+)
 
 def render_action_plan(results):
 
@@ -134,10 +137,71 @@ def render_action_plan(results):
 
                         )
 
-            st.button(
+            if st.button(
 
-                "Generate Selected Documentation",
+                "📄 Generate Selected Documentation",
 
                 key=f"generate_{work_item.get('ticket_id')}"
 
-            )
+            ):
+
+                export_text = f"""
+            Work Item:
+            {work_item.get('ticket_id')}
+
+            Summary:
+            {work_item.get('summary')}
+
+            Overall Action:
+            {result['overall_action']}
+
+            Estimated Effort:
+            {result['estimated_effort']}
+            """
+
+                for article in impacted_articles:
+
+                    if article.get("generate"):
+
+                        export_text += f"""
+
+            Article:
+            {article.get('title')}
+
+            Coverage:
+            {article.get('coverage')}
+
+            Required Change:
+            {article.get('required_change')}
+
+            Gap:
+            {article.get('gap')}
+            """
+
+                st.success(
+                    "Documentation package prepared."
+                )
+
+                st.divider()
+
+                st.subheader("📄 Documentation Preview")
+
+                st.text_area(
+
+                    "Generated Documentation",
+
+                    value=export_text,
+
+                    height=350,
+
+                    disabled=True
+
+                )
+
+                render_export_center(
+
+                    f"{work_item.get('ticket_id')}_Action_Plan",
+
+                    export_text
+
+                )

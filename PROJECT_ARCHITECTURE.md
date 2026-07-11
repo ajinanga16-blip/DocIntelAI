@@ -1,35 +1,349 @@
-# DocIntel AI - Project Architecture
+# DocIntel AI – Project Architecture
+Version: 2.0
 
-## Vision
+---
 
-DocIntel AI is a Documentation Intelligence Platform.
+# Vision
+
+DocIntel AI is an AI-powered Documentation Intelligence Platform.
 
 It is NOT an AI documentation generator.
 
-Core capabilities:
+The platform helps organizations understand, maintain, improve, analyze and publish documentation throughout the software development lifecycle.
 
-- Documentation Intelligence
+The long-term vision is to become a Documentation Operations Platform that combines AI, Documentation Intelligence, Repository Intelligence, Publishing and Governance into one enterprise solution.
+
+---
+
+# Core Product Pillars
+
+The platform is organized around the following intelligence pillars.
+
+## Repository Intelligence
+
+Responsible for understanding documentation repositories.
+
+Capabilities
+
+- Repository Build
+- Repository Discovery
+- Repository Refresh
+- Metadata Extraction
+- Repository Inventory
+- Repository Dashboard
+- Repository Summary
+- Knowledge Search
+
+---
+
+## Documentation Intelligence
+
+The central intelligence engine of the platform.
+
+Responsible for
+
+- Context Building
+- Repository Search
+- Candidate Discovery
+- Hybrid Ranking
+- Semantic Search
+- Documentation Discovery
+- Documentation Impact
+- Coverage Intelligence
+- Knowledge Intelligence
+
+Every module that needs repository intelligence must use this engine.
+
+---
+
+## Screenshot Intelligence
+
+Responsible for understanding software screens.
+
+Modules
+
+- Screenshot Analysis
+- Compare Screenshots
+- Documentation Impact
+- Help Site Impact
+- Workflow Studio
+
+Future
+
+- Video Intelligence
+
+---
+
+## Workflow Intelligence
+
+Transforms screenshots into intelligent documentation workflows.
+
+Pipeline
+
+Screenshots
+
+↓
+
+Context Extraction
+
+↓
+
+Workflow Detection
+
+↓
+
+Procedure Generation
+
+↓
+
+Workflow Preview
+
+↓
+
+Export
+
+---
+
+## Gap Analysis
+
+Responsible for identifying documentation gaps between product changes and existing documentation.
+
+Pipeline
+
+Input
+
+↓
+
+Repository Intelligence
+
+↓
+
+Gap Detection
+
+↓
+
+Documentation Action Plan
+
+↓
+
+Documentation Generation
+
+↓
+
+Export
+
+---
+
+## Impact Analysis
+
+Responsible for identifying documentation impacted by product changes.
+
+Inputs
+
+- JIRA
+- Screenshots
+- Release Notes
+- Product Changes
+
+Outputs
+
+- Impacted Articles
+- Documentation Risk
+- Documentation Recommendations
+- Documentation Effort
+
+---
+
+## Documentation Generation
+
+Central document generation capability.
+
+Supported Inputs
+
+- Manual
+- JIRA
+- JQL
+- Sprint
+- Epic
+- PRD
+- Transcript
+- Figma
+- Workflow Studio
 - Gap Analysis
+- Impact Analysis
+
+Supported Outputs
+
+- User Guide
+- FAQ
+- KB Article
+- Release Notes
+- Solution Article
+
+---
+
+## Style Intelligence
+
+Responsible for documentation quality.
+
+Supports
+
+Built-in
+
+- Microsoft Style Guide
+- Google Style Guide
+- IBM Style Guide
+
+Custom
+
+- DOCX
+- PDF
+- URL
+
+Future
+
+- UX Writing Intelligence
+- Template Learning
+- Compliance Engine
+
+---
+
+# Shared Platform Components
+
+The platform is built around reusable shared services.
+
+---
+
+## Export Center
+
+Purpose
+
+Reusable documentation export framework.
+
+Supported Formats
+
+- DOCX
+- PDF
+- HTML
+- Markdown
+- TXT
+- XML
+- DITA XML
+
+Future
+
+Publish Center
+
+- Confluence
+- SharePoint
+- GitHub Pages
+- MkDocs
+- Zendesk
+- Salesforce
+
+---
+
+## Procedure Renderer
+
+Reusable renderer used by all modules generating procedures.
+
+Current Usage
+
+- Workflow Studio
+
+Future
+
+- Documentation Generator
+- Impact Analyzer
+- Gap Analysis
+
+---
+
+## Notification Framework
+
+Current
+
+- Email Notifications
+
+Future
+
+- In-App Notifications
+- Toast Notifications
+- Banner Notifications
+- Notification Preferences
+
+---
+
+## Background Job Framework
+
+Purpose
+
+Standardize all long-running AI operations.
+
+Current Usage
+
+- Repository Build
+- Gap Analysis
+
+Future
+
 - Screenshot Intelligence
 - Impact Analysis
-- Style Intelligence
 - Documentation Generation
-- Knowledge Intelligence
+
+---
+
+## Job Result Framework
+
+Purpose
+
+Reusable framework for displaying AI results.
+
+Supports
+
+- Documentation Action Plan
+
+Future
+
+- Repository Summary
+- Screenshot Intelligence
+- Impact Analysis
+- Generated Documentation
 
 ---
 
 # Architecture Principles
 
-1. One responsibility per module.
-2. No duplicate logic.
-3. Workflows orchestrate only.
-4. Pages contain UI only.
-5. Agents perform AI tasks only.
-6. Documentation Intelligence owns search and matching.
-7. Job Engine owns execution.
-8. Runtime data never mixes with source code.
-9. Old code moves to ARCHIVE, never deleted.
-10. Every major change is committed before the next one.
+1. Pages contain UI only.
+
+2. Workflows orchestrate business logic.
+
+3. Agents perform individual AI tasks.
+
+4. Documentation Intelligence owns repository intelligence.
+
+5. Repository metadata is stored separately from repository content.
+
+6. Repository content is fetched on demand.
+
+7. Shared functionality belongs in shared/.
+
+8. Export functionality is centralized.
+
+9. Procedure rendering is centralized.
+
+10. Analysis pages do not export documentation.
+
+11. Only final deliverables expose
+
+- Generate Documentation
+- Export Center
+
+12. Duplicate business logic is never allowed.
+
+13. Complete file replacements are preferred over partial edits.
+
+14. Every major milestone is committed before the next.
 
 ---
 
@@ -43,71 +357,54 @@ Application entry point.
 
 ## pages/
 
-Responsible only for Streamlit UI.
+User interface only.
 
-Never:
+Never
 
 - Call OpenAI directly
-- Search repositories
-- Perform business logic
-
-Pages call Workflows only.
+- Perform repository search
+- Execute business logic
 
 ---
 
 ## workflows/
 
-Business orchestration layer.
+Business orchestration.
 
-Responsible for:
+Responsible for coordinating
 
-- Calling Agents
-- Calling Documentation Intelligence
-- Calling Job Engine
-
-Never contains AI prompts.
+- Agents
+- Documentation Intelligence
+- Job Framework
 
 ---
 
 ## agents/
 
-AI Specialists.
+AI specialists.
 
-Examples:
+Examples
 
 - Screenshot Analyzer
 - Metadata Extractor
 - Style Checker
 - JIRA Parser
 
-Agents perform ONE AI task only.
+Each agent performs a single AI task.
 
 ---
 
 ## documentation_intelligence/
 
-Central Intelligence Engine.
+Platform intelligence engine.
 
-Owns:
+Responsible for
 
-- Context Building
-- Repository Search
-- Candidate Selection
-- Live Article Retrieval
+- Search
+- Matching
 - Ranking
-- Documentation Impact Discovery
-
-All modules use this engine.
-
----
-
-## gap_analysis/
-
-Gap-specific logic only.
-
-No repository search.
-
-No ranking.
+- Context
+- Repository Intelligence
 
 ---
 
@@ -115,53 +412,68 @@ No ranking.
 
 Repository management.
 
-Responsible for:
+Responsible for
 
-- Crawl
+- Build
 - Refresh
+- Metadata
 - Inventory
-- Repository Metadata
-
----
-
-## job_engine/
-
-Responsible for:
-
-- Jobs
-- Progress
-- Status
-- Notifications
-- Results
-
-All long-running processes use BaseIntelligenceJob.
-
----
-
-## connectors/
-
-External integrations.
-
-Examples:
-
-- JIRA
-- Zendesk
-- GitHub
-- Confluence
 
 ---
 
 ## ranking/
 
-Ranking algorithms.
+Hybrid ranking algorithms.
 
-Long term this becomes part of Documentation Intelligence.
+Future
+
+Merged into Documentation Intelligence.
+
+---
+
+## gap_analysis/
+
+Gap-specific logic.
+
+Responsible only for gap analysis.
+
+---
+
+## screenshot_intelligence/
+
+Screenshot-specific intelligence.
+
+Responsible only for screenshot workflows.
+
+---
+
+## job_engine/
+
+Background execution.
+
+Responsible for
+
+- Jobs
+- Progress
+- Results
+- Notifications
+
+---
+
+## shared/
+
+Reusable platform capabilities.
+
+Examples
+
+- Export Center
+- Procedure Renderer
 
 ---
 
 ## utils/
 
-Generic reusable helpers.
+Generic helper functions.
 
 No business logic.
 
@@ -171,11 +483,10 @@ No business logic.
 
 Runtime storage.
 
-Contains:
+Contains
 
 - repositories
 - jobs
-- job_results
 - logs
 - cache
 - exports
@@ -184,17 +495,15 @@ Contains:
 
 ## ARCHIVE/
 
-Legacy code.
-
-Never referenced by production code.
+Legacy implementations.
 
 Never imported.
 
-Only retained for historical purposes.
-
 ---
 
-# Execution Flow
+# Execution Pattern
+
+Every module follows the same architecture.
 
 User
 
@@ -208,10 +517,6 @@ Workflow
 
 ↓
 
-Job Engine
-
-↓
-
 Agent
 
 ↓
@@ -220,68 +525,128 @@ Documentation Intelligence
 
 ↓
 
-Repository
+Job Framework
 
 ↓
 
-AI Ranking
+Result Framework
 
 ↓
 
-Job Result
+Generate Documentation
 
 ↓
 
-Page
+Export
 
 ---
 
-# Documentation Intelligence Pipeline
+# Development Standards
 
-Input
+Every new feature must
 
-↓
+✓ Reuse existing shared components
 
-Context Builder
+✓ Avoid duplicate logic
 
-↓
+✓ Follow the Job Framework
 
-Repository Search
+✓ Follow the Result Framework
 
-↓
+✓ Follow Export Center
 
-Candidate Selection
+✓ Follow Procedure Renderer
 
-↓
-
-Live Content Retrieval
-
-↓
-
-AI Ranking
-
-↓
-
-Impact Detection
-
-↓
-
-Results
+✓ Maintain modular architecture
 
 ---
 
-# Development Rules
+# Architecture Decision Records (ADR)
 
-- Always prefer complete file replacements.
-- Avoid partial code snippets.
-- Minimize duplicate logic.
-- Reuse existing modules.
-- Build once.
-- Refactor only when necessary.
-- Commit after every completed milestone.
+Major architectural decisions
+
+ADR-001
+
+Documentation Intelligence is the single repository intelligence engine.
+
+ADR-002
+
+Repository stores metadata only.
+
+Repository content is fetched dynamically.
+
+ADR-003
+
+Export Center is shared across all modules.
+
+ADR-004
+
+Procedure Renderer is shared across all modules.
+
+ADR-005
+
+Analysis pages never export documentation.
+
+Only final deliverables expose Export Center.
+
+ADR-006
+
+Workflow Studio is the reference implementation for AI-assisted documentation workflows.
+
+ADR-007
+
+Knowledge Map is intentionally deferred until the platform foundation is complete.
 
 ---
 
-# Future Goal
+# Engineering Quality Gates
 
-A new developer or ChatGPT conversation should understand the project within 5 minutes by reading this document.
+Before every major release
+
+- All long-running operations use the Background Job Framework.
+- All results use reusable renderers.
+- Export functionality uses the shared Export Center.
+- AI outputs are normalized.
+- Repository validation completed using real repositories.
+- End-to-end testing completed.
+- Git checkpoint created.
+
+---
+
+# Future Architecture
+
+The platform will evolve in the following order.
+
+Platform Foundation
+
+↓
+
+Documentation Intelligence
+
+↓
+
+Workflow Intelligence
+
+↓
+
+Impact Intelligence
+
+↓
+
+Style Intelligence
+
+↓
+
+Content Operations
+
+↓
+
+Publishing
+
+↓
+
+Enterprise Collaboration
+
+↓
+
+Documentation Operations Platform
