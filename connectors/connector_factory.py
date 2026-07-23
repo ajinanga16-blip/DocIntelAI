@@ -7,7 +7,7 @@ from connectors.excel_connector import (
 )
 
 from connectors.jira_connector import (
-    import_jira_ticket
+    import_jira
 )
 
 
@@ -17,7 +17,17 @@ def import_tickets(
 
     uploaded_file=None,
 
-    ticket_ids=None
+    ticket_ids=None,
+
+    jql=None,
+
+    sprint=None,
+
+    epic=None,
+
+    release_notes=None,
+
+    manual_input=None
 
 ):
 
@@ -35,12 +45,46 @@ def import_tickets(
 
     if source == "JIRA":
 
-        return import_jira_ticket(
-            ticket_ids
+        return import_jira(
+            ticket_ids=ticket_ids,
+            jql=jql,
+            sprint=sprint,
+            epic=epic
         )
 
+    if source in ["Release Notes", "Manual Input"]:
+
+        text = (
+            release_notes
+            if source == "Release Notes"
+            else manual_input
+        ).strip()
+
+        return [{
+
+            "ticket_id": "TEXT-001",
+
+            "summary": source,
+
+            "description": text,
+
+            "resolution": "",
+
+            "root_cause": "",
+
+            "severity": "",
+
+            "status": "",
+
+            "module": "",
+
+            "linked_help_article": "",
+
+            "comments": "",
+
+            "source": source
+
+        }]
     raise Exception(
-
         f"Unsupported source: {source}"
-
     )

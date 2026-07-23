@@ -1,61 +1,92 @@
 from agents.jira_agent import (
-    fetch_jira_ticket
+    fetch_jira_ticket,
+    search_jira_issues
 )
 
 
-def import_jira_ticket(
-    ticket_ids
+def _build_ticket(ticket_id):
+
+    jira = fetch_jira_ticket(
+        ticket_id.strip()
+    )
+
+    return {
+
+        "ticket_id": ticket_id,
+
+        "summary": jira.get(
+            "summary",
+            ""
+        ),
+
+        "description": jira.get(
+            "description",
+            ""
+        ),
+
+        "resolution": "",
+
+        "root_cause": "",
+
+        "severity": "",
+
+        "status": "",
+
+        "module": "",
+
+        "linked_help_article": "",
+
+        "comments": "\n".join(
+            jira.get(
+                "comments",
+                []
+            )
+        ),
+
+        "source": "JIRA"
+
+    }
+
+
+def import_jira(
+    ticket_ids=None,
+    jql=None,
+    sprint=None,
+    epic=None
 ):
-    """
-    Import one or more JIRA tickets
-    into the common ticket model.
-    """
 
     tickets = []
 
-    for ticket_id in ticket_ids:
+    #
+    # Convert Sprint/Epic into JQL
+    #
 
-        jira = fetch_jira_ticket(
-            ticket_id.strip()
+    if sprint:
+        jql = f'Sprint = "{sprint}"'
+
+    elif epic:
+        jql = f'"Epic Link" = "{epic}"'
+
+    #
+    # Run JQL search
+    #
+
+    if jql:
+
+        ticket_ids = search_jira_issues(
+            jql
         )
 
-        tickets.append({
+    #
+    # Import tickets
+    #
 
-            "ticket_id": ticket_id,
+    if ticket_ids:
 
-            "summary": jira.get(
-                "summary",
-                ""
-            ),
+        for ticket_id in ticket_ids:
 
-            "description": jira.get(
-                "description",
-                ""
-            ),
-
-            "resolution": "",
-
-            "root_cause": "",
-
-            "severity": "",
-
-            "status": "",
-
-            "module": "",
-
-            "linked_help_article": "",
-
-            "comments": "\n".join(
-
-                jira.get(
-                    "comments",
-                    []
-                )
-
-            ),
-
-            "source": "JIRA"
-
-        })
+            tickets.append(
+                _build_ticket(ticket_id)
+            )
 
     return tickets

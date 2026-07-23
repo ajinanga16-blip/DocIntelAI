@@ -60,6 +60,7 @@ def fetch_jira_ticket(ticket_id):
     fields = data["fields"]
 
     summary = fields.get("summary", "")
+    
 
     # Description
     description = ""
@@ -118,3 +119,40 @@ def fetch_jira_ticket(ticket_id):
         "linked_tickets": linked_tickets,
         "attachments": attachments
     }
+
+def search_jira_issues(jql, max_results=100):
+    """
+    Execute a JQL query and return a list of issue keys.
+    """
+
+    url = f"{JIRA_URL}/rest/api/3/search/jql"
+
+    response = requests.get(
+        url,
+        auth=(JIRA_EMAIL, JIRA_TOKEN),
+        headers={
+            "Accept": "application/json"
+        },
+        params={
+            "jql": jql,
+            "maxResults": max_results,
+            "fields": "summary"
+        }
+    )
+
+    if response.status_code != 200:
+        raise Exception(
+            f"JQL search failed. Status Code: {response.status_code}"
+        )
+
+    data = response.json()
+
+    issue_keys = []
+
+    for issue in data.get("issues", []):
+
+        issue_keys.append(
+            issue["key"]
+        )
+
+    return issue_keys

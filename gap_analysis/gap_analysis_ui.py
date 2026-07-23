@@ -4,8 +4,12 @@ from repositories.repository_list import (
     get_repository_names
 )
 
-from gap_analysis.work_item_loader import (
-    render_work_item_loader
+from shared.change_source_loader import (
+    render_change_source_loader
+)
+
+from shared.work_item_service import (
+    load_work_items
 )
 
 from workflows.gap_analysis_job import (
@@ -39,7 +43,13 @@ def render_gap_analysis():
 
     )
 
-    tickets = render_work_item_loader()
+    #
+    # Shared Change Source Loader
+    #
+
+    source = render_change_source_loader()
+
+    tickets = load_work_items(source)
 
     if not tickets:
 
