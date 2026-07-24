@@ -8,11 +8,11 @@ Unlike the engineering changelog, this document focuses on customer-facing capab
 
 # Current Version
 
-Platform Foundation V1
+Version 1 Development Build
 
 Status
 
-Current Development Build
+Core Product Completion
 
 ---
 
@@ -261,35 +261,84 @@ The current platform now provides:
 
 The following enhancements are planned for future releases.
 
-- Impact Analyzer
-- Coverage Intelligence V2
-- Documentation Intelligence V2
-- Style Intelligence
-- UX Writing Intelligence
-- Publish Center
+- Impact Analysis (Final V1 Completion)
+- Documentation Generation Integration
+- Publishing
+- UX Intelligence
+- AI Workspace
 - Analytics Dashboard
-- Content Operations
-- Video Intelligence
-- Knowledge Gap Analyzer
+- Authentication
+- Product Stabilization
 
-These items are tracked in the Master Product Backlog.
+The remaining enterprise capabilities are planned for Version 2 and later releases.
 
 ---
 
 # Next Planned Release
 
-## Impact Analyzer
+# Version 1 Roadmap
 
-The next release will introduce AI-powered documentation impact analysis.
+The remaining Version 1 work focuses on completing the end-to-end Documentation Intelligence workflow.
 
-Planned capabilities include:
+## Remaining Capabilities
 
-- Documentation Risk Analysis
-- Documentation Effort Estimation
-- Impact Recommendations
-- Documentation Preview
-- Documentation Intelligence integration
-- Export Center integration
+### Impact Analysis
+
+- Multi-source Change Context
+- Documentation Discovery
+- Impact Analysis
+- Documentation Recommendations
+- Documentation Generation
+- Export
+
+### Documentation Generation
+
+Generate:
+
+- User Guide
+- FAQ
+- KB Article
+- Release Notes
+- Solution Article
+
+### Publishing
+
+Initial publishing targets:
+
+- MkDocs
+- GitHub Pages
+
+### UX Intelligence
+
+- UX Writing Review
+- Screenshot Review
+- Accessibility Suggestions
+- Style Guide Compliance
+
+### AI Workspace
+
+- Documentation Generation
+- Documentation Analysis
+- Documentation Q&A
+- Content Summarization
+
+### Analytics Dashboard
+
+- Repository Metrics
+- Documentation Metrics
+- AI Activity
+- Recent Operations
+
+### Authentication
+
+Basic application authentication.
+
+### Product Stabilization
+
+- Testing
+- Bug Fixes
+- Performance Improvements
+- UX Polish
 
 ---
 
@@ -297,16 +346,32 @@ Planned capabilities include:
 
 Current Stage
 
-Platform Foundation Complete
+Version 1 Product Completion
 
 Overall Progress
 
-Approximately 45–50%
+Approximately 65%
 
 Current Focus
 
-Impact Analyzer
+Delivering the complete Version 1 Documentation Intelligence experience.
 
 Long-Term Vision
 
 DocIntel AI will evolve into a complete AI-powered Documentation Operations Platform capable of managing the entire documentation lifecycle—from discovery and analysis through generation, review, publishing, governance and continuous optimization.
+
+---
+
+# Version 1 Product Vision
+
+Version 1 delivers a complete Documentation Intelligence workflow that enables documentation teams to:
+
+- Analyze product changes
+- Discover impacted documentation
+- Identify documentation gaps
+- Generate documentation
+- Review UX and documentation quality
+- Publish documentation
+- Monitor activity through analytics
+
+Future releases will expand the platform with enterprise collaboration, advanced AI intelligence and enterprise-scale architecture.

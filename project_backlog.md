@@ -368,6 +368,9 @@ Export
 ---
 
 # P2 – AI Intelligence
+Note
+
+The capabilities in this phase are planned for Version 2 and beyond after the Version 1 product release.
 
 ---
 
@@ -375,7 +378,7 @@ Export
 
 Status
 
-⚪ Planned
+⚪ Deferred
 
 Need
 
@@ -405,7 +408,7 @@ Missing Coverage
 
 Status
 
-⚪ Planned
+⚪ Deferred
 
 Replace
 
@@ -1053,35 +1056,37 @@ Multi Tenant
 
 ---
 
-# Immediate Execution Order
+# Version 1 Execution Order
+
+The primary objective is to deliver a complete and production-ready Version 1 of DocIntel AI.
 
 1.
 
-Impact Analyzer
+Complete Impact Analysis
 
 ↓
 
 2.
 
-Coverage Intelligence V2
+Documentation Generation
 
 ↓
 
 3.
 
-Documentation Intelligence V2
+Publishing
 
 ↓
 
 4.
 
-Documentation Generator Integration
+UX Intelligence
 
 ↓
 
 5.
 
-Style Intelligence
+AI Workspace
 
 ↓
 
@@ -1093,34 +1098,80 @@ Analytics Dashboard
 
 7.
 
-Content Operations
+UX Refresh
 
 ↓
 
 8.
 
-Publish Center
+Authentication
 
 ↓
 
 9.
 
-Enterprise Platform
+Product Stabilization
+
+↓
+
+10.
+
+Version 1 Release
+---
+# Version 1 Product Goals
+
+The Version 1 release of DocIntel AI focuses on delivering a complete Documentation Intelligence workflow.
+
+## Core Capabilities
+
+- Repository Intelligence
+- Documentation Intelligence
+- Screenshot Intelligence
+- Workflow Studio
+- Gap Analysis
+- Impact Analysis
+- Documentation Generation
+- Publishing
+- UX Intelligence
+- AI Workspace
+- Analytics Dashboard
+- Authentication
+
+## Version 1 Success Criteria
+
+A documentation team should be able to:
+
+1. Ingest product changes from multiple sources.
+2. Discover impacted documentation.
+3. Identify documentation gaps.
+4. Generate documentation recommendations.
+5. Generate production-ready documentation.
+6. Review documentation quality and UX.
+7. Publish documentation.
+8. Track platform activity through analytics.
+
+Version 1 intentionally prioritizes delivering a complete documentation workflow over enterprise-scale capabilities.
 
 ---
 
 # Current Freeze List
 
-Do NOT modify unless bug fixes.
-
-✅ Workflow Studio V1
-
-✅ Shared Export Center
-
-✅ Procedure Renderer
+The following modules are considered Version 1 complete and should only receive bug fixes or stability improvements.
 
 ✅ Repository Intelligence
 
-Focus all new development on:
+✅ Documentation Intelligence
 
-Impact Analyzer
+✅ Screenshot Intelligence
+
+✅ Workflow Studio
+
+✅ Gap Analysis
+
+✅ Shared Export Center
+
+✅ Shared Procedure Renderer
+
+✅ Documentation Action Plan
+
+New development should focus on completing the Version 1 roadmap rather than expanding completed modules.

@@ -11,7 +11,9 @@ It is NOT an AI documentation generator.
 
 The platform helps organizations understand, maintain, improve, analyze and publish documentation throughout the software development lifecycle.
 
-The long-term vision is to become a Documentation Operations Platform that combines AI, Documentation Intelligence, Repository Intelligence, Publishing and Governance into one enterprise solution.
+Version 1 delivers a complete AI-powered Documentation Intelligence Platform focused on documentation analysis, generation, quality review and publishing.
+
+The long-term vision is to evolve into a Documentation Operations Platform that combines AI, Documentation Intelligence, Repository Intelligence, Publishing, Governance and Enterprise Collaboration into one unified solution.
 
 ---
 
@@ -136,21 +138,29 @@ Export
 
 ## Impact Analysis
 
-Responsible for identifying documentation impacted by product changes.
+Responsible for identifying documentation impacted by product changes using a shared Change Context model.
 
-Inputs
+Supported Inputs
 
+- Manual Input
+- CSV
+- Excel
 - JIRA
-- Screenshots
 - Release Notes
-- Product Changes
+
+Future Inputs
+
+- PRD
+- Meeting Transcript
+- Figma
 
 Outputs
 
 - Impacted Articles
-- Documentation Risk
 - Documentation Recommendations
-- Documentation Effort
+- Documentation Action Plan
+- Generated Documentation
+- Export
 
 ---
 
@@ -205,6 +215,53 @@ Future
 - UX Writing Intelligence
 - Template Learning
 - Compliance Engine
+
+---
+
+## UX Intelligence
+
+Builds on Screenshot Intelligence and Style Intelligence to evaluate the usability and quality of product interfaces.
+
+Capabilities
+
+- UX Writing Review
+- Button Label Review
+- Terminology Validation
+- Accessibility Suggestions
+- Screenshot-based UX Analysis
+- Style Guide Compliance
+
+---
+
+## AI Workspace
+
+Provides a centralized AI experience for documentation teams.
+
+Capabilities
+
+- Documentation Generation
+- Documentation Analysis
+- Documentation Summarization
+- Documentation Rewriting
+- Release Notes Generation
+- FAQ Generation
+- AI-assisted Documentation Q&A
+
+---
+
+## Analytics Dashboard
+
+Provides operational visibility into platform usage.
+
+Metrics
+
+- Repository Statistics
+- Documentation Metrics
+- Gap Analysis Activity
+- Impact Analysis Activity
+- Documentation Generation Activity
+- Export Activity
+- Recent AI Operations
 
 ---
 
@@ -284,12 +341,12 @@ Current Usage
 
 - Repository Build
 - Gap Analysis
+- Impact Analysis
 
 Future
 
-- Screenshot Intelligence
-- Impact Analysis
 - Documentation Generation
+- Additional AI Modules
 
 ---
 
@@ -302,13 +359,13 @@ Reusable framework for displaying AI results.
 Supports
 
 - Documentation Action Plan
+- Impact Analysis
 
 Future
 
 - Repository Summary
-- Screenshot Intelligence
-- Impact Analysis
 - Generated Documentation
+- Additional AI Modules
 
 ---
 
@@ -613,11 +670,11 @@ Before every major release
 
 ---
 
-# Future Architecture
+# Version 1 Product Architecture
 
-The platform will evolve in the following order.
+The Version 1 platform delivers an end-to-end documentation workflow built on reusable platform services.
 
-Platform Foundation
+Repository Intelligence
 
 ↓
 
@@ -625,19 +682,15 @@ Documentation Intelligence
 
 ↓
 
-Workflow Intelligence
+Gap Analysis / Impact Analysis
 
 ↓
 
-Impact Intelligence
+Documentation Generation
 
 ↓
 
-Style Intelligence
-
-↓
-
-Content Operations
+UX Intelligence
 
 ↓
 
@@ -645,8 +698,14 @@ Publishing
 
 ↓
 
-Enterprise Collaboration
+Analytics Dashboard
 
 ↓
 
-Documentation Operations Platform
+Authentication
+
+↓
+
+Version 1 Release
+
+Future versions will extend this architecture with enterprise collaboration, advanced AI intelligence and enterprise deployment capabilities while continuing to reuse the shared platform foundation.
