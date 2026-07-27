@@ -36,6 +36,24 @@ def show_page(job_id):
 
     st.title(result_type)
 
+    #
+    # Back to Job Manager
+    #
+
+    if st.button(
+    "← Back to Job Manager",
+    type="primary"
+    ):
+
+        st.session_state["selected_page"] = "⚙ Job Manager"
+
+        st.session_state.pop(
+            "selected_job_id",
+            None
+        )
+
+        st.rerun()
+
     st.caption(
         f"Repository: {result.get('repository','')}"
     )
@@ -63,10 +81,29 @@ def show_page(job_id):
 
         )
 
+    else:
+    
+            st.json(result)
+
+    st.divider()
+
+    if st.button(
+        "← Back to Job Manager",
+        key="back_bottom",
+        type="primary"
+    ):
+
+        st.session_state["selected_page"] = "⚙ Job Manager"
+
+        st.session_state.pop(
+            "selected_job_id",
+            None
+        )
+
+        st.rerun()
+
     #
     # Fallback
     #
 
-    else:
-
-        st.json(result)
+    

@@ -120,7 +120,16 @@ page = st.sidebar.radio(
 # Allow programmatic navigation.
 #
 
-if st.session_state.selected_page != "Job Result":
+if (
+    st.session_state.selected_page == "Job Result"
+    and page != "⚙ Job Manager"
+):
+    # User clicked another page in the sidebar.
+    # Exit Job Result mode.
+    st.session_state.selected_page = page
+    st.session_state.pop("selected_job_id", None)
+
+elif st.session_state.selected_page != "Job Result":
 
     st.session_state.selected_page = page
 
