@@ -15,28 +15,39 @@ def export_pdf(
     content
 ):
     """
-    Export PDF.
+    Export PDF while preserving
+    basic Markdown structure.
     """
 
     output = BytesIO()
 
-    doc = SimpleDocTemplate(output)
+    doc = SimpleDocTemplate(
+        output
+    )
 
     styles = getSampleStyleSheet()
 
     story = []
 
+    #
+    # Document Title
+    #
+
     story.append(
 
         Paragraph(
 
-            f"<b>{title}</b>",
+            title,
 
-            styles["Heading1"]
+            styles["Title"]
 
         )
 
     )
+
+    #
+    # Process Markdown
+    #
 
     for line in content.splitlines():
 
@@ -45,16 +56,180 @@ def export_pdf(
         if not line:
             continue
 
-        if line.startswith("#"):
+        #
+        # Heading 5
+        #
+
+        if line.startswith("##### "):
+
+            story.append(
+
+                Paragraph(
+
+                    line[6:].strip(),
+
+                    styles["Heading3"]
+
+                )
+
+            )
+
             continue
 
-        line = line.replace("**", "")
+        #
+        # Heading 4
+        #
+
+        if line.startswith("#### "):
+
+            story.append(
+
+                Paragraph(
+
+                    line[5:].strip(),
+
+                    styles["Heading3"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Heading 3
+        #
+
+        if line.startswith("### "):
+
+            story.append(
+
+                Paragraph(
+
+                    line[4:].strip(),
+
+                    styles["Heading3"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Heading 2
+        #
+
+        if line.startswith("## "):
+
+            story.append(
+
+                Paragraph(
+
+                    line[3:].strip(),
+
+                    styles["Heading2"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Heading 1
+        #
+
+        if line.startswith("# "):
+
+            story.append(
+
+                Paragraph(
+
+                    line[2:].strip(),
+
+                    styles["Heading1"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Bullet List
+        #
+
+        if line.startswith("- "):
+
+            story.append(
+
+                Paragraph(
+
+                    "• " + line[2:].strip(),
+
+                    styles["BodyText"]
+
+                )
+
+            )
+
+            continue
+
+        if line.startswith("* "):
+
+            story.append(
+
+                Paragraph(
+
+                    "• " + line[2:].strip(),
+
+                    styles["BodyText"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Numbered List
+        #
+
+        if (
+            len(line) > 3
+            and line[0].isdigit()
+            and line[1:3] == ". "
+        ):
+
+            story.append(
+
+                Paragraph(
+
+                    line,
+
+                    styles["BodyText"]
+
+                )
+
+            )
+
+            continue
+
+        #
+        # Normal Paragraph
+        #
+
+        clean_line = line.replace(
+            "**",
+            ""
+        )
 
         story.append(
 
             Paragraph(
 
-                line,
+                clean_line,
 
                 styles["BodyText"]
 
@@ -62,8 +237,12 @@ def export_pdf(
 
         )
 
-    doc.build(story)
+    doc.build(
+        story
+    )
 
-    output.seek(0)
+    output.seek(
+        0
+    )
 
     return output

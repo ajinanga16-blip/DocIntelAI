@@ -1,3 +1,6 @@
+from style_intelligence.suggestion_generator import (
+    SuggestionGenerator
+)
 from style_intelligence.style_auto_fixer import (
     StyleAutoFixer
 )
@@ -94,6 +97,15 @@ class DocumentComplianceService:
 
         result["corrected_violations"] = (
             corrected_result["violations"]
+        )
+        suggestion_generator = (
+            SuggestionGenerator()
+        )
+
+        result["suggestions"] = (
+            suggestion_generator.build_suggestions(
+                result
+            )
         )
 
         return result
