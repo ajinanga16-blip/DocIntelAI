@@ -1,0 +1,250 @@
+[
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure clarity and precision in instructions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Anticipate user errors and provide guidance to prevent them.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Validate steps against potential user errors.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use descriptive headings that clearly indicate the content of the section.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Capitalize the first letter of each major word in headings.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Authenticate & Confirm",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "SAP HANA Database Connector",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Google Analytics 4 Connector",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "None specified.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use \"Authentication Failed\" for error indications.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use active voice to make instructions direct and clear.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use second-person pronouns to directly address the user.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Keep sentences concise to enhance readability.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use for listing troubleshooting steps or common pitfalls.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use for sequential steps in procedures.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Include detailed examples and common pitfalls.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Validate steps against potential user errors.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Provide clear, sequential instructions for task completion.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use exact button labels as they appear in the interface.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Refer to menu items as they are labeled in the interface.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Clearly describe dialog options and expected user actions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Provide guidance on interpreting and resolving error messages.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use language that is inclusive and respectful to all users.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Avoid language that could be perceived as biased or discriminatory.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure all images have descriptive alt text for accessibility.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Use notes to provide additional context or tips.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Highlight warnings to prevent user errors.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Provide code examples where applicable to illustrate solutions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Ensure links are descriptive and lead to relevant content.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Include examples to illustrate common pitfalls and solutions.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    },
+    {
+        "category": "",
+        "subcategory": "",
+        "rule": "Document any exceptions to standard procedures or terminology.",
+        "example": "",
+        "source": "",
+        "status": "pending"
+    }
+]

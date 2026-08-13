@@ -1,6 +1,14 @@
+import streamlit as st
+
+
 from pages.job_result_page import (
     show_page as show_job_result
 )
+
+from pages.ux_intelligence_page import (
+    show_page as show_ux_intelligence
+)
+
 from pages.developer_tools_page import (
     show_page as show_developer_tools
 )
@@ -8,42 +16,59 @@ from pages.developer_tools_page import (
 from pages.notification_page import (
     show_page as show_notifications
 )
+
 from pages.job_manager_page import (
     show_page as show_job_manager
 )
+
 from pages.repository_dashboard_page import (
     show_page as show_repository_dashboard
 )
+
 from pages.inventory_builder_page import (
     show_page as show_inventory_builder
 )
+
 from pages.template_management_page import (
     render_template_management
 )
+
 from pages.settings_page import (
     render_settings
 )
+
 from pages.publishing_page import (
     render_publishing
 )
+
 from pages.impact_analysis_page import (
     render_impact_analysis
 )
+
 from pages.gap_analysis_page import (
     show_page as show_gap_analysis
 )
+
 from pages.generate_docs_page import (
     render_generate_docs
 )
+
 from pages.dashboard_page import (
     render_dashboard
 )
+
 from pages.screenshot_intelligence_page import (
     show_page as show_screenshot_intelligence
 )
-from agents.content_agent import generate_documentation
 
-from agents.jira_agent import fetch_jira_ticket
+
+from agents.content_agent import (
+    generate_documentation
+)
+
+from agents.jira_agent import (
+    fetch_jira_ticket
+)
 
 from agents.jira_intelligence_agent import (
     build_structured_requirements
@@ -53,6 +78,7 @@ from agents.documentation_agent import (
     generate_documentation_from_requirements
 )
 
+
 from style_intelligence.document_compliance_service import (
     DocumentComplianceService
 )
@@ -61,8 +87,10 @@ from style_intelligence.style_selector import (
     StyleSelector
 )
 
-import streamlit as st
 
+# --------------------------------------------------
+# Page Configuration
+# --------------------------------------------------
 
 st.set_page_config(
     page_title="DocIntel AI",
@@ -70,184 +98,214 @@ st.set_page_config(
     layout="wide"
 )
 
+
 # --------------------------------------------------
-# Sidebar
+# Application Branding
 # --------------------------------------------------
 
-st.sidebar.title("📚 DocIntel AI")
+#st.sidebar.title(
+#    #"📚 DocIntel AI"
+#)
 
-navigation_options = [
-    "Dashboard",
-    "Generate Docs",
-    "Template Management",
-    "Screenshot Intelligence",
-    "🔗 Connect Documentation",
-    "🗂 Repository Dashboard",
-    "⚙ Job Manager",
-    "🔔 Notifications",
-    "Gap Analysis",
-    "Impact Analysis",
-    "Publishing",
-    "🛠 Developer Tools",
-    "Settings",
-]
 
-if "selected_page" not in st.session_state:
+# --------------------------------------------------
+# Application Navigation
+# --------------------------------------------------
 
-    st.session_state.selected_page = "Dashboard"
+dashboard_page = st.Page(
 
-default_page = st.session_state.selected_page
+    render_dashboard,
 
-#
-# Job Result is a hidden page.
-#
+    title="Dashboard",
 
-if default_page == "Job Result":
+    icon="🏠",
 
-    default_page = "⚙ Job Manager"
+    url_path="dashboard",
 
-page = st.sidebar.radio(
-
-    "Navigation",
-
-    navigation_options,
-
-    index=navigation_options.index(default_page)
+    default=True
 
 )
 
+
+generate_docs_page = st.Page(
+
+    render_generate_docs,
+
+    title="Create Docs",
+
+    icon="📄",
+
+    url_path="create-docs"
+
+)
+
+
+styles_templates_page = st.Page(
+
+    render_template_management,
+
+    title="Styles & Templates Management",
+
+    icon="🎨",
+
+    url_path="styles-templates"
+
+)
+
+
+screenshot_intelligence_page = st.Page(
+
+    show_screenshot_intelligence,
+
+    title="Screenshot Intelligence",
+
+    icon="🖼️",
+
+    url_path="screenshot-intelligence"
+
+)
+
+
+ux_intelligence_page = st.Page(
+
+    show_ux_intelligence,
+
+    title="UX Intelligence",
+
+    icon="✍️",
+
+    url_path="ux-intelligence"
+
+)
+
+
+connect_documentation_page = st.Page(
+
+    show_inventory_builder,
+
+    title="Connect Documentation",
+
+    icon="🔗",
+
+    url_path="connect-documentation"
+
+)
+
+
+repository_dashboard_page = st.Page(
+
+    show_repository_dashboard,
+
+    title="Repository Dashboard",
+
+    icon="🗂️",
+
+    url_path="repository-dashboard"
+
+)
+
+
+job_manager_page = st.Page(
+
+    show_job_manager,
+
+    title="Job Manager",
+
+    icon="⚙️",
+
+    url_path="job-manager"
+
+)
+
+
+notifications_page = st.Page(
+
+    show_notifications,
+
+    title="Notifications",
+
+    icon="🔔",
+
+    url_path="notifications"
+
+)
+
+
+gap_analysis_page = st.Page(
+
+    show_gap_analysis,
+
+    title="Gap Analysis",
+
+    icon="🔎",
+
+    url_path="gap-analysis"
+
+)
+
+
+impact_analysis_page = st.Page(
+
+    render_impact_analysis,
+
+    title="Impact Analysis",
+
+    icon="📊",
+
+    url_path="impact-analysis"
+
+)
+
+
+# --------------------------------------------------
+# Visible Application Navigation
+# --------------------------------------------------
 #
-# Allow programmatic navigation.
+# IMPORTANT:
 #
-
-if (
-    st.session_state.selected_page == "Job Result"
-    and page != "⚙ Job Manager"
-):
-    # User clicked another page in the sidebar.
-    # Exit Job Result mode.
-    st.session_state.selected_page = page
-    st.session_state.pop("selected_job_id", None)
-
-elif st.session_state.selected_page != "Job Result":
-
-    st.session_state.selected_page = page
-
-page = st.session_state.selected_page
-# --------------------------------------------------
-# Dashboard
+# Only pages listed here are exposed in the
+# Streamlit navigation.
+#
+# The other files inside /pages are intentionally
+# left in the project but are NOT exposed here.
+#
 # --------------------------------------------------
 
-if page == "Dashboard":
+pg = st.navigation(
 
-    render_dashboard()
+    [
 
-# --------------------------------------------------
-# Generate Docs
-# --------------------------------------------------
+        dashboard_page,
 
-elif page == "Generate Docs":
+        generate_docs_page,
 
-    render_generate_docs()
+        styles_templates_page,
 
-# --------------------------------------------------
-# Job Manager
-# --------------------------------------------------
+        screenshot_intelligence_page,
 
-elif page == "⚙ Job Manager":
+        ux_intelligence_page,
 
-    show_job_manager()
-    
-# --------------------------------------------------
-# Notifications
-# --------------------------------------------------
+        connect_documentation_page,
 
-elif page == "🔔 Notifications":
+        repository_dashboard_page,
 
-    show_notifications()
-# --------------------------------------------------
-# Gap Analysis
-# --------------------------------------------------
+        job_manager_page,
 
-elif page == "Gap Analysis":
+        notifications_page,
 
-    show_gap_analysis()
-# --------------------------------------------------
-# Impact Analysis
-# --------------------------------------------------
+        gap_analysis_page,
 
-elif page == "Impact Analysis":
+        impact_analysis_page
 
-    render_impact_analysis()
+    ],
+
+    position="sidebar"
+
+)
+
 
 # --------------------------------------------------
-# Publishing
+# Run Selected Page
 # --------------------------------------------------
 
-elif page == "Publishing":
-
-    render_publishing()
-
-# --------------------------------------------------
-# Settings
-# --------------------------------------------------
-
-elif page == "Settings":
-
-    render_settings()
-
-# --------------------------------------------------
-# Template Management
-# --------------------------------------------------
-elif page == "Template Management":
-
-    render_template_management()
-
-# --------------------------------------------------
-# Screenshot Intelligence
-# --------------------------------------------------
-
-elif page == "Screenshot Intelligence":
-
-    show_screenshot_intelligence()
-
-# --------------------------------------------------
-# Documentation Inventory
-# --------------------------------------------------
-
-elif page == "🔗 Connect Documentation":
-
-    show_inventory_builder()
-
-# --------------------------------------------------
-# Repository Dashboard
-# --------------------------------------------------
-
-elif page == "🗂 Repository Dashboard":
-
-    show_repository_dashboard()
-
-# --------------------------------------------------
-# Developer Tools
-# --------------------------------------------------
-elif page == "🛠 Developer Tools":
-
-    show_developer_tools()
-
-# --------------------------------------------------
-# Job Result
-# --------------------------------------------------
-
-elif page == "Job Result":
-
-    show_job_result(
-
-        st.session_state.get(
-
-            "selected_job_id",
-
-            ""
-
-        )
-
-    )
+pg.run()

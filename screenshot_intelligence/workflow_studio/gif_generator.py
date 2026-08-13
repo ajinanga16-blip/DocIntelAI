@@ -17,33 +17,60 @@ def generate_workflow_gif(
 
         from PIL import ImageDraw, ImageFont
 
-        image = Image.open(screenshot).convert("RGB")
+        image = Image.open(
+            screenshot
+        ).convert("RGB")
 
-        draw = ImageDraw.Draw(image)
+        draw = ImageDraw.Draw(
+            image
+        )
+
+        #
+        # Small Step Label
+        #
 
         try:
+
             font = ImageFont.truetype(
                 "arial.ttf",
-                32
+                18
             )
+
         except:
+
             font = ImageFont.load_default()
+
+        #
+        # Small black rounded box
+        #
 
         draw.rounded_rectangle(
 
-            (20, 20, 220, 70),
+            (
+                12,
+                12,
+                115,
+                42
+            ),
 
-            radius=10,
+            radius=6,
 
             fill="black"
 
         )
 
+        #
+        # Step text
+        #
+
         draw.text(
 
-            (35, 32),
+            (
+                22,
+                18
+            ),
 
-            f"Step {len(frames)+1}",
+            f"Step {len(frames) + 1}",
 
             fill="white",
 
@@ -51,7 +78,13 @@ def generate_workflow_gif(
 
         )
 
-        frames.append(image)
+        frames.append(
+            image
+        )
+
+    #
+    # Create GIF
+    #
 
     output = BytesIO()
 
